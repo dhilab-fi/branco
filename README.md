@@ -1,3 +1,3 @@
 # EMOwl
 
-Repository hosting the OWL Ontology describing cultural site and reconstruction through [Extended Matrix](https://www.extendedmatrix.org/)
+Repository hosting the OWL Ontology describing cultural site reconstruction through [Extended Matrix](https://www.extendedmatrix.org/)
