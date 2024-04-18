@@ -174,7 +174,7 @@
           <y:Geometry height="44.0" width="255.42524989150854" x="-293.80774662152675" y="3063.419514407956"/>
           <y:Fill color="#FFFF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.09375" x="93.16574994575427" xml:space="preserve" y="10.578125">Property</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.796875" x="83.31418744575427" xml:space="preserve" y="10.578125">USProperty</y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
       </data>
@@ -364,16 +364,16 @@
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="159.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="185.892578125" x="8.752305394651444" xml:space="preserve" y="6.03335787724518">ObjectProperty: hasMaterial
- SuvPropertyOf: hasProperty
+ SuvPropertyOf: hasUSProperty
 
 ObjectProperty: hasDimension
- SuvPropertyOf: hasProperty
+ SuvPropertyOf: hasUSProperty
 
 ObjectProperty: hasChronology
- SuvPropertyOf: hasProperty
+ SuvPropertyOf: hasUSProperty
 
 ObjectProperty: hasLocation
- SuvPropertyOf: hasProperty</y:NodeLabel>
+ SuvPropertyOf: hasUSProperty</y:NodeLabel>
         </y:UMLNoteNode>
       </data>
     </node>
@@ -761,7 +761,6 @@ ObjectProperty: hasLocation
     </edge>
     <edge id="e32" source="n28" target="n14">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="47.57979135762889" sy="-13.459518946303433" tx="114.81398580252221" ty="21.988504537328026">
@@ -775,7 +774,6 @@ ObjectProperty: hasLocation
     </edge>
     <edge id="e33" source="n16" target="n14">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="47.611596364749516" sy="-14.216886583841642" tx="97.72987179834638" ty="22.005860170796495">
@@ -789,7 +787,6 @@ ObjectProperty: hasLocation
     </edge>
     <edge id="e34" source="n27" target="n14">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="63.19500659668478" sy="-11.957048534440219" tx="1.258541478248702" ty="21.99494110465048">
@@ -827,7 +824,6 @@ ObjectProperty: hasLocation
     </edge>
     <edge id="e37" source="n15" target="n14">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-54.25369062564971" ty="22.046105817846637">
@@ -841,7 +837,6 @@ ObjectProperty: hasLocation
     </edge>
     <edge id="e38" source="n17" target="n14">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-120.65326829012747" ty="-18.239553337498364">
@@ -874,7 +869,7 @@ ObjectProperty: hasLocation
           </y:Path>
           <y:LineStyle color="#000080" type="line" width="1.0"/>
           <y:Arrows source="circle" target="delta"/>
-          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="22.84375" horizontalTextPosition="center" iconTextGap="4" modelName="centered" modelPosition="center" preferredPlacement="anywhere" ratio="0.5" textColor="#000080" verticalTextPosition="bottom" visible="true" width="96.015625" x="117.16467736767561" xml:space="preserve" y="-162.06510473266917">hasProperty<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" backgroundColor="#FFFFFF" distance="2.0" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasLineColor="false" height="22.84375" horizontalTextPosition="center" iconTextGap="4" modelName="centered" modelPosition="center" preferredPlacement="anywhere" ratio="0.5" textColor="#000080" verticalTextPosition="bottom" visible="true" width="115.71875" x="107.31311486767561" xml:space="preserve" y="-162.06510473266917">hasUSProperty<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
