@@ -1,6 +1,9 @@
-# EMOwl
+# Brancacci Chapel Ontology
 
-Repository hosting the OWL Ontology describing cultural site reconstruction through [Extended Matrix](https://www.extendedmatrix.org/)
+Repository hosting the OWL Ontology describing cultural site reconstruction through [Extended Matrix](https://www.extendedmatrix.org/) applied to the Brancacci Chapel.
+
+`PREFIX: https://w3id.org/cnr-ispc/ontology/branco`
+
 
 <img src="pre-samod/cm_draft/emowl-draft.png">
 
