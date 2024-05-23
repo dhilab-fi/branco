@@ -12,16 +12,15 @@ Physical objects may undergo and be modified by different events: for instance, 
 2. During the earthquake of 62 AD, on the Northern wall of the domus B the previous decoration was destroyed. A new decoration was hence added.
 
 
-*Competency Questions*
+*Competency Questions - Natural Language*
 
 1. Which are the USs associated with the Southern wall of domus B? Organise them chronologically starting with the most recent
 2. Which are the USs associated with the Northern wall domus B (both structural and cladding units)? Organise them chronologically starting with the most recent
 3. Which units refer to the earthquake of 62 AD?
 
+*Competency Questions - SPARQL Query*
 
-<details>
-    <summary>
-        SPARQL Queries
-    </summary>
-</details>
+1.
+2.
+3.
 

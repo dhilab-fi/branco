@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/cnr-ispc/ontology/branco"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/cnr-ispc/ontology/branco">
+    <Prefix name="" IRI="https://w3id.org/cnr-ispc/ontology/branco"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#DigitizationProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalThing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refersTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticNode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#digitized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StratigraphicUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconstruction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DataObject"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitizationProcess"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalThing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconstruction"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemanticNode"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StratigraphicUnit"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DataObject"/>
+        <Class IRI="#DigitizationProcess"/>
+        <Class IRI="#PhysicalThing"/>
+        <Class IRI="#Reconstruction"/>
+        <Class IRI="#SemanticNode"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataObject"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitizationProcess"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reconstruction"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#digitized"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCreated"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasComponent"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#digitized"/>
+        <Class IRI="#DigitizationProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Reconstruction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCreated"/>
+        <Class IRI="#DigitizationProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#DataObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refersTo"/>
+        <Class IRI="#Reconstruction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#digitized"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCreated"/>
+        <Class IRI="#DataObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#SemanticNode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVisualisedAs"/>
+        <Class IRI="#SemanticNode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refersTo"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
