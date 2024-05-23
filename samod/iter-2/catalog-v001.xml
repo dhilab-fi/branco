@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1716476635588" name="duplicate:https://w3id.org/cnr-ispc/ontology/branco" uri="modelet-1-examples.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1716476635588" name="duplicate:https://w3id.org/cnr-ispc/ontology/branco" uri="modelet-1-ontology.owl"/>
+    </group>
+</catalog>

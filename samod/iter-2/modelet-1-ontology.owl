@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/cnr-ispc/ontology/branco#"
+     xml:base="https://w3id.org/cnr-ispc/ontology/branco"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#added -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#added">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PartAddiction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#covers -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#covers">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#destroyed -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#destroyed">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Destruction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#documents -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#documents">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Document"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronology -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronology">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#isComposedOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#isComposedOf">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#models -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#models">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Destruction"/>
+                    <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#modified -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#modified">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#produced -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#produced">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Production"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#removed -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#removed">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PartRemoval"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Chronology -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Chronology">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUS -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Destruction -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Destruction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Document -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Document">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Event -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Event">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Modification -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Modification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#PartAddiction -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PartAddiction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#PartRemoval -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PartRemoval">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Production -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Production">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#StructuralUS -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Document"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PartAddiction"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PartRemoval"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Production"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
