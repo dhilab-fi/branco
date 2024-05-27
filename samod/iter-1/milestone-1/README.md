@@ -1,4 +1,4 @@
-The first modelet can be aligned with CIDOC-CRM (v. 7.1.3) and CRMDig (v. )
+The first modelet can be aligned with [CIDOC-CRM](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (v. 7.1.3) and [CRMDig](https://www.cidoc-crm.org/crmdig/ModelVersion/version-3.2.1) (v. 3.2.1)
 
 The resulting ontological model can be visualised as:
 
