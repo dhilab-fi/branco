@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/cnr-ispc/ontology/branco#"
+     xml:base="https://w3id.org/cnr-ispc/ontology/branco"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#assigns -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#assigns">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#assignsPropertyTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#assignsPropertyTo">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#cites -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#cites">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasDecoration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasDecoration">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Decoration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasDimension -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasDimension">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Dimension"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasIconography -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasIconography">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Decoration"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasInterpretationCriterion -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasInterpretationCriterion">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasLocation">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Placement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasMaterial -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasMaterial">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasSection -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasSection">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Placement"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasStyle -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasStyle">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Decoration"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Style"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasUSProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasUnit">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Dimension"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Unit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasIconDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasIconDescription">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasInterpretationDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasInterpretationDescription">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasStyleDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasStyleDescription">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Style"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasValue">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Dimension"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Decoration -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Decoration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Dimension -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Dimension">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Iconography -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Iconography">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Material -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Material">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Placement -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Placement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Style -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Style">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#USProperty -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#USProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#Unit -->
+
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Unit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#criterion-archivalsource -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#criterion-archivalsource">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#criterion-comparison -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#criterion-comparison">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#criterion-diagnosticdata -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#criterion-diagnosticdata">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#criterion-generalrule -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#criterion-generalrule">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Decoration"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Dimension"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Material"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Placement"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretationCriterion"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeAction"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Style"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#USProperty"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
