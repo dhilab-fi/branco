@@ -21,6 +21,8 @@ Every physical object can be digitised in a data object, which may contain diffe
 
 *Competency Questions - SPARQL Query*
 
+With: `PREFIX : <https://w3id.org/cnr-ispc/ontology/branco#> `
+
 1. `SELECT ?campaign WHERE {?campaign :digitized :domus-a}`
 2. `SELECT ?3dmodel WHERE {?campaign :digitized :domus-a. ?campaign :hasCreated ?3dmodel.}`
 3. `SELECT ?us WHERE {?reconstruction :refersTo :domus-a. ?reconstruction :hasComponent ?us.}`

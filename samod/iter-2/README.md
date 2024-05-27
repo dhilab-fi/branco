@@ -20,7 +20,8 @@ Physical objects may undergo and be modified by different events: for instance, 
 
 *Competency Questions - SPARQL Query*
 
-1.
-2.
-3.
+With `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>` and `PREFIX : <https://w3id.org/cnr-ispc/ontology/branco#>`
 
+1. `SELECT ?us ?description WHERE {?event ?p :domus-b-southern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?us :models ?event. ?us :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?us :hasUSDescription ?description} ORDER BY ?order`
+2. `SELECT ?us ?description WHERE { ?event ?p :domus-b-northern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?us :models ?event. ?us :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?us :hasUSDescription ?description} ORDER BY ?order`
+3. `SELECT ?us ?description WHERE { :event-earthquake-62ad :isCauseOf ?event. ?us :models ?event. ?us :hasUSDescription ?description}`
