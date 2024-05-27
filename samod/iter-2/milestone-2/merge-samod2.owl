@@ -1,0 +1,2160 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/cnr-ispc/ontology/branco"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/cnr-ispc/ontology/branco">
+    <Prefix name="" IRI="https://w3id.org/cnr-ispc/ontology/branco_"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-b-northern-wall-second-decoration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CladdingUS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D11_Digital_Measurement_Event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us1-domus-b-construction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us1-a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartAddition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitizationProcess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us2-d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalThing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us2-c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-redecoration-domus-b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChronology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us2-e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-partial-collapse-domus-b-southern-wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-destruction-domus-b-southern-wall"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuralUS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us1-domus-b-collapse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticNode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StratigraphicUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#letter-pliny-younger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us2-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-destruction-domus-b-northern-wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUSDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-decoration-domus-b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-destruction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-b-destruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconstruction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us2-b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCauseOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domus-b-northern-wall-first-decoration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D7_Digital_Machine_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartRemoval"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-earthquake-62ad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us1-b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-construction-domus-b-northern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-construction-domus-b-southern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-destruction-domus-b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#us1-domus-b-destruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chronology-us1-c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event-construction-domus-b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13i_was_destroyed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+        <Class IRI="#Modification"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <Class IRI="#Production"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <Class IRI="#PhysicalThing"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <Class IRI="#Document"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+        <Class IRI="#Event"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+        <Class IRI="#Destruction"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+        <Class IRI="#PartAddition"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+        <Class IRI="#PartRemoval"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
+        <Class IRI="#DigitizationProcess"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"/>
+        <Class IRI="#DataObject"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D11_Digital_Measurement_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronology"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CladdingUS"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataObject"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destruction"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitizationProcess"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modification"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartAddition"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartRemoval"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalThing"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconstruction"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemanticNode"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuralUS"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Chronology"/>
+        <Class IRI="#Document"/>
+        <Class IRI="#Event"/>
+        <Class IRI="#PhysicalThing"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CladdingUS"/>
+        <Class IRI="#StructuralUS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DataObject"/>
+        <Class IRI="#DigitizationProcess"/>
+        <Class IRI="#PhysicalThing"/>
+        <Class IRI="#Reconstruction"/>
+        <Class IRI="#SemanticNode"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Destruction"/>
+        <Class IRI="#Modification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PartAddition"/>
+        <Class IRI="#PartRemoval"/>
+        <Class IRI="#Production"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us1-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us1-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us1-c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us2-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us2-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us2-c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us2-d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chronology"/>
+        <NamedIndividual IRI="#chronology-us2-e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataObject"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitizationProcess"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reconstruction"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-first-decoration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-second-decoration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalThing"/>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Production"/>
+        <NamedIndividual IRI="#event-construction-domus-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Production"/>
+        <NamedIndividual IRI="#event-construction-domus-b-northern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Production"/>
+        <NamedIndividual IRI="#event-construction-domus-b-southern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PartAddition"/>
+        <NamedIndividual IRI="#event-decoration-domus-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PartRemoval"/>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Destruction"/>
+        <NamedIndividual IRI="#event-destruction-domus-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Destruction"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-northern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Destruction"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-southern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#event-earthquake-62ad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PartRemoval"/>
+        <NamedIndividual IRI="#event-partial-collapse-domus-b-southern-wall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PartAddition"/>
+        <NamedIndividual IRI="#event-redecoration-domus-b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Document"/>
+        <NamedIndividual IRI="#letter-pliny-younger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemanticNode"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralUS"/>
+        <NamedIndividual IRI="#us1-domus-b-collapse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralUS"/>
+        <NamedIndividual IRI="#us1-domus-b-construction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralUS"/>
+        <NamedIndividual IRI="#us1-domus-b-destruction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralUS"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CladdingUS"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CladdingUS"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-destruction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CladdingUS"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StructuralUS"/>
+        <NamedIndividual IRI="#us2-domus-b-destruction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StratigraphicUnit"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+        <NamedIndividual IRI="#domus-a-3d-model"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"/>
+        <NamedIndividual IRI="#domus-a-photogrammetry-campaign"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+        <NamedIndividual IRI="#domus-a-reconstruction"/>
+        <NamedIndividual IRI="#domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <NamedIndividual IRI="#domus-b"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <NamedIndividual IRI="#domus-b"/>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-first-decoration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-second-decoration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <NamedIndividual IRI="#event-construction-domus-b"/>
+        <NamedIndividual IRI="#domus-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <NamedIndividual IRI="#event-construction-domus-b-northern"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <NamedIndividual IRI="#event-construction-domus-b-southern"/>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <NamedIndividual IRI="#event-decoration-domus-b"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-first-decoration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <NamedIndividual IRI="#event-decoration-domus-b"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-first-decoration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <NamedIndividual IRI="#event-destruction-domus-b"/>
+        <NamedIndividual IRI="#domus-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-northern-wall"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-southern-wall"/>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <NamedIndividual IRI="#event-earthquake-62ad"/>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <NamedIndividual IRI="#event-earthquake-62ad"/>
+        <NamedIndividual IRI="#event-partial-collapse-domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <NamedIndividual IRI="#event-partial-collapse-domus-b-southern-wall"/>
+        <NamedIndividual IRI="#domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <NamedIndividual IRI="#event-redecoration-domus-b"/>
+        <NamedIndividual IRI="#domus-b-northern-wall-second-decoration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <NamedIndividual IRI="#event-redecoration-domus-b"/>
+        <NamedIndividual IRI="#domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+        <NamedIndividual IRI="#event-destruction-domus-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <NamedIndividual IRI="#letter-pliny-younger"/>
+        <NamedIndividual IRI="#event-vesuvius-eruption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#sem-node-1-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us1-domus-b-collapse"/>
+        <NamedIndividual IRI="#chronology-us1-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us1-domus-b-collapse"/>
+        <NamedIndividual IRI="#event-partial-collapse-domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us1-domus-b-construction"/>
+        <NamedIndividual IRI="#chronology-us1-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us1-domus-b-construction"/>
+        <NamedIndividual IRI="#event-construction-domus-b-southern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us1-domus-b-destruction"/>
+        <NamedIndividual IRI="#chronology-us1-c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us1-domus-b-destruction"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-southern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#sem-node-2-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+        <NamedIndividual IRI="#chronology-us2-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+        <NamedIndividual IRI="#event-construction-domus-b-northern"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+        <NamedIndividual IRI="#chronology-us2-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+        <NamedIndividual IRI="#event-decoration-domus-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-destruction"/>
+        <NamedIndividual IRI="#chronology-us2-c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-destruction"/>
+        <NamedIndividual IRI="#event-destruction-deco-domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+        <NamedIndividual IRI="#chronology-us2-d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+        <NamedIndividual IRI="#event-redecoration-domus-b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChronology"/>
+        <NamedIndividual IRI="#us2-domus-b-destruction"/>
+        <NamedIndividual IRI="#chronology-us2-e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#models"/>
+        <NamedIndividual IRI="#us2-domus-b-destruction"/>
+        <NamedIndividual IRI="#event-destruction-domus-b-northern-wall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#sem-node-3-domus-a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#sem-node-4-domus-a"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us1-a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us1-b"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us1-c"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us2-a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us2-b"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us2-c"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us2-d"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <NamedIndividual IRI="#chronology-us2-e"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us1-domus-b-collapse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Partial collapse of the Southern wall in domus B owing to an earthquake in 62 AD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us1-domus-b-construction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Construction of the site of domus B in 2nd century BCE.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us1-domus-b-destruction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us2-domus-b-construction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Construction of the site of domus B in 2nd century BCE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-creation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Northern Wall: First decorative campaign on the wall</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-i-destruction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the first decoration of the wall druing the earthquake of 62 AD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us2-domus-b-deco-ii"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Second decorative campaign on the wall</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUSDescription"/>
+        <NamedIndividual IRI="#us2-domus-b-destruction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13i_was_destroyed_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <Class IRI="#Production"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <Class IRI="#PartAddition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <Class IRI="#PartRemoval"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <Class IRI="#Destruction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <Class IRI="#Modification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D7_Digital_Machine_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#CladdingUS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChronology"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#DataObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#models"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P111_added"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P113_removed"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P70_documents"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"/>
+        <Class IRI="#PhysicalThing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
+        <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#StructuralUS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChronology"/>
+        <Class IRI="#Chronology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#SemanticNode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCauseOf"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#models"/>
+        <ObjectUnionOf>
+            <Class IRI="#Destruction"/>
+            <Class IRI="#Modification"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <Class IRI="#Chronology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUSDescription"/>
+        <Class IRI="#StratigraphicUnit"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasChronologicalOrder"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUSDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises instances of E7 Activity that are undertaken to create, alter or change instances of E24 Physical Human-Made Thing.
+This class includes the production of an item from raw materials and other so far undocumented objects. It also includes the conservation treatment of an object.
+Since the distinction between modification and production is not always clear, modification is regarded as the more generally applicable concept. This implies that some items may be consumed or destroyed in an instance of E11 Modification, and that others may be produced as a result of it. An event should also be documented using an instance of E81 Transformation if it results in the destruction of one or more objects and the simultaneous production of others using parts or material from the originals. In this case, the new items have separate identities.
+An activity undertaken on an object which was designed to alter it, but which, in fact, it did not in any seemingly significant way (such as the application of a solvent during conservation which failed to dissolve any part of the object), is still considered as an instance of E11 Modification. Typically, any such activity will leave at least forensic traces of evidence on the object.
+If the instance of E29 Design or Procedure utilized for the modification prescribes the use of specific materials, they should be documented using property P68 foresees use of (use foreseen by): E57 Material of E29 Design or Procedure, rather than via P126 employed (was employed in): E57 Material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bearbeitung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modificação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Τροποποίηση</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Событие Изменения</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E11_Modification</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">修改</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises activities that are designed to, and succeed in, creating one or more new items.
+It specializes the notion of modification into production. The decision as to whether or not an object is regarded as new is context sensitive. Normally, items are considered “new” if there is no obvious overall similarity between them and the consumed items and material used in their production. In other cases, an item is considered “new” because it becomes relevant to documentation by a modification. For example, the scribbling of a name on a potsherd may make it a voting token. The original potsherd may not be worth documenting, in contrast to the inscribed one.
+This entity can be collective: the printing of a thousand books, for example, would normally be considered a single event.
+An event should also be documented using an instance of E81 Transformation if it results in the destruction of one or more objects and the simultaneous production of others using parts or material from the originals. In this case, the new items have separate identities and matter is preserved, but identity is not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Herstellung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Produção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Παραγωγή</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Событие Производства</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E12_Production</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">生产</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises all persistent physical items with a relatively stable form, human-made or natural.
+Depending on the existence of natural boundaries of such things, the CIDOC CRM distinguishes the instances of E19 Physical Object from instances of E26 Physical Feature, such as holes, rivers, pieces of land, etc. Most instances of E19 Physical Object can be moved (if not too heavy), whereas features are integral to the surrounding matter.
+An instance of E18 Physical Thing occupies not only a particular geometric space at any instant of its existence, but in the course of its existence it also forms a trajectory through spacetime, which occupies a real, that is phenomenal, volume in spacetime. We include in the occupied space the space filled by the matter of the physical thing and all its inner spaces, such as the interior of a box. For the purpose of more detailed descriptions of the presence of an instance of E18 Physical Thing in space and time it can be associated with its specific instance of E92 Spacetime Volume by the property P196 defines (is defined by).
+The CIDOC CRM is generally not concerned with amounts of matter in fluid or gaseous states, as long as they are not confined in an identifiable way for an identifiable minimal time-span.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chose matérielle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Coisa Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materielles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Physical Thing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Υλικό Πράγμα</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Физическая Вещь</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">实物</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises identifiable immaterial items that make propositions about reality.
+These propositions may be expressed in text, graphics, images, audiograms, videograms, or by other similar means. Documentation databases are regarded as instances of E31 Document. This class should not be confused with the concept “document” in Information Technology, which is compatible with E73 Information Object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Documento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dokument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Τεκμήριο</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Документ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E31_Document</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">文献</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises distinct, delimited and coherent processes and interactions of a material nature, in cultural, social or physical systems, involving and affecting instances of E77 Persistent Item in a way characteristic of the kind of process. Typical examples are meetings, births, deaths, actions of decision taking, making or inventing things, but also more complex and extended ones such as conferences, elections, building of a castle, or battles.
+While the continuous growth of a tree lacks the limits characteristic of an event, its germination from a seed does qualify as an event. Similarly, the blowing of the wind lacks the distinctness and limits of an event, but a hurricane, flood or earthquake would qualify as an event. Mental processes are considered as events, in cases where they are connected with the material externalization of their results; for example, the creation of a poem, a performance or a change of intention that becomes obvious from subsequent actions or declarations.
+The effects of an instance of E5 Event may not lead to relevant permanent changes of properties or relations of the items involved in it, for example an unrecorded performance. Of course, in order to be documented, some kind of evidence for an event must exist, be it witnesses, traces or products of the event.
+While instances of E4 Period always require some form of coherence between its constituent phenomena, in addition, the essential constituents of instances of E5 Event should contribute to an overall effect; for example, the statements made during a meeting and the listening of the audience.
+Viewed at a coarse level of detail, an instance of E5 Event may appear as if it had an ‘instantaneous’ overall effect, but any process or interaction of material nature in reality have an extent in time and space. At a fine level, instances of E5 Event may be analysed into component phenomena and phases within a space and timeframe, and as such can be seen as a period, regardless of the size of the phenomena. The reverse is not necessarily the case: not all instances of E4 Period give rise to a noteworthy overall effect and are thus not instances of E5 Event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ereignis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Évènement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Συμβάν</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Событие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E5_Event</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">事件</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises events that destroy one or more instances of E18 Physical Thing, such that they lose their identity as the subjects of documentation.
+Some destruction events are intentional, while others are independent of human activity. Intentional destruction can be documented by classifying the event as both an instance of E6 Destruction and of E7 Activity.
+The decision to document an object as destroyed, transformed, or modified is context-sensitive:
+1. If the matter remaining from the destruction is not documented, the event is modelled solely as an instance of E6 Destruction.
+2. An event should also be documented using E81 Transformation if it results in the destruction of one or more objects and the simultaneous production of others using parts or material from the original. In this case, the new items have separate identities. Matter is preserved, but identity is not.
+3. When the initial identity of the changed instance of E18 Physical Thing is preserved, the event should be documented as an instance of E11 Modification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Destruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Destruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Destruição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Zerstörung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Καταστροφή</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Разрушение</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">破坏</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises activities that result in an instance of E18 Physical Thing being increased, enlarged, or augmented by the addition of a part.
+Typical scenarios include the attachment of an accessory, the integration of a component, the addition of an element to an aggregate object, or the accessioning of an object into a curated instance of E78 Curated Holding. Both the E18 Physical Thing being augmented and the E18 Physical Thing that is being added are treated as separate identifiable wholes prior to the instance of E79 Part Addition. Following the addition of parts, the resulting assemblages are treated objectively as single identifiable wholes, made up of constituent or component parts bound together either physically (for example the engine becoming a part of the car), or by sharing a common purpose (such as the 32 chess pieces that make up a chess set). This class of activities forms a basis for reasoning about the history and continuity of identity of objects that are integrated into other objects over time, such as precious gemstones being repeatedly incorporated into different items of jewellery, or cultural artefacts being added to different museum instances of E78 Curated Holding over their lifespan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Adição de Parte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ajout d&apos;élément</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Part Addition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teilhinzufügung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Προσθήκη Μερών</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Добавление Части</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">部分增加</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises the activities that result in an instance of E18 Physical Thing being decreased by the removal of a part.
+Typical scenarios include the detachment of an accessory, the removal of a component or part of a composite object, or the deaccessioning of an object from a curated collection, an instance of E78 Curated Holding. If the instance of E80 Part Removal results in the total decomposition of the original object into pieces, such that the whole ceases to exist, the activity should instead be modelled as an instance of E81 Transformation, i.e. a simultaneous destruction and production. In cases where the part removed has no discernible identity prior to its removal but does have an identity subsequent to its removal, the activity should be modelled as both an instance of E80 Part Removal and E12 Production. This class of activities forms a basis for reasoning about the history, and continuity of identity over time, of objects that are removed from other objects, such as precious gemstones being extracted from different items of jewellery, or cultural artifacts being deaccessioned from different museum collections over their lifespan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Part Removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Remoção de Parte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Retrait d&apos;élément</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teilentfernung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Αφαίρεση Μερών</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Удаление Части</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">部分去除</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises immaterial items, including but not limited to stories, plots, procedural prescriptions, algorithms, laws of physics or images that are, or represent in some sense, sets of propositions about real or imaginary things and that are documented as single units or serve as topic of discourse.
+This class also comprises items that are “about” something in the sense of a subject. In the wider sense, this class includes expressions of psychological value such as non-figural art and musical themes. However, conceptual items such as types and classes are not instances of E89 Propositional Object. This should not be confused with the definition of a type, which is indeed an instance of E89 Propositional Object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aussagenobjekt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Objet propositionnel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Propositional Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">命题对象</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property identifies the instance of E24 Physical Human-Made Thing that came into existence as a result of the instance of E12 Production.
+The identity of an instance of E24 Physical Human-Made Thing is not defined by its matter, but by its existence as a subject of documentation. An E12 Production can result in the creation of multiple instances of E24 Physical Human-Made Thing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a produit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has produced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hat hergestellt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produziu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">παρήγαγε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">произвел</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">已产生了</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property identifies the instance of E18 Physical Thing that is added during an instance of E79 Part Addition activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a ajouté</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">added</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">adicionou</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fügte hinzu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">προσέθεσε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">добавил</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P111_added</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">增加了</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property identifies the instance of E18 Physical Thing that is removed during an instance of E80 Part Removal activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a retiré</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">entfernte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">removed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">removeu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">αφαίρεσε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">удален</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P113_removed</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">去除了</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property links an instance of E6 Destruction to an instance of E18 Physical Thing that has been destroyed by it.
+Destruction implies the end of an item’s life as a subject of cultural documentation – the physical matter of which the item was composed may in fact continue to exist. An instance of E6 Destruction may be contiguous with an instance of E12 Production that brings into existence a derived object composed partly of matter from the destroyed object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a détruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">destroyed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">destruiu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zerstörte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">κατέστρεψε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">уничтожил</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">破坏了</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P148_has_component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property associates an instance of E89 Propositional Object with a structural part of it that is by itself an instance of E89 Propositional Object.
+This property is transitive. This property is asymmetric.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P148_has_component</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a pour composant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P148_has_component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P148_has_component</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hat Bestandteil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P148_has_component</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">有组件</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property identifies the instance of E18 Physical Thing modified in an instance of E11 Modification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a modifié</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has modified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modificou</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">veränderte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">τροποποίησε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">изменил</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">已更改</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property associates an instance of E18 Physical Thing with another instance of Physical Thing that forms part of it. The spatial extent of the composing part is included in the spatial extent of the whole.
+Component elements, since they are themselves instances of E18 Physical Thing, may be further analysed into sub-components, thereby creating a hierarchy of part decomposition. An instance of E18 Physical Thing may be shared between multiple wholes, for example two buildings may share a common wall. This property does not specify when and for how long a component element resided in the respective whole. If a component is not part of a whole from the beginning of existence or until the end of existence of the whole, the classes E79 Part Addition and E90 Part Removal can be used to document when a component became part of a particular whole and/or when it stopped being a part of it. For the time-span of being part of the respective whole, the component is completely contained in the place the whole occupies.
+This property is intended to describe specific components that are individually documented, rather than general aspects. Overall descriptions of the structure of an instance of E18 Physical Thing are captured by the P3 has note property.
+The instances of E57 Material of which an instance of E18 Physical Thing is composed should be documented using P45 consists of (is incorporated in).
+This property is transitive and asymmetric.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">est composé de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is composed of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ist zusammengesetzt aus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">é composto de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">αποτελείται από</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">составлен из</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">组成成分是</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property documents that an instance of E89 Propositional Object makes a statement about an instance of E1 CRM Entity. P67 refers to (is referred to by) has the P67.1 has type link to an instance of E55 Type. This is intended to allow a more detailed description of the type of reference. This differs from P129 is about (is subject of), which describes the primary subject or subjects of the instance of E89 Propositional Object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">referencia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">refers to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">renvoie à</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">verweist auf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">αναφέρεται σε</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ссылается на</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">涉及</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property describes the CRM Entities documented as instances of E31 Document.
+Documents may describe any conceivable entity, hence the link to the highest-level entity in the CIDOC CRM class hierarchy. This property is intended for cases where a reference is regarded as making a proposition about reality. This may be of a documentary character, in the scholarly or scientific sense, or a more general statement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">belegt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">documenta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="fr" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">documente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">documents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="el" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">τεκμηριώνει</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="ru" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">документирует</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.cidoc-crm.org/cidoc-crm/P70_documents</IRI>
+        <Literal xml:lang="zh" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">记录了</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises objects that make propositions about other artefacts. 
+	Instances of this class are not the attributes themselves, by which things are annotated, 
+	but represent the connection between the concepts related in a proposition, and the activities of creation, modification and deletion. 
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises events that result in the creation of instances of D9 Data Object that 
+	represent the appearance and/or form of an instance of E18 Physical Thing such as paper documents, statues, buildings, paintings, etc. 
+	A particular case is the analogue-to-digital conversion of audiovisual material.
+	This class represents the transition from a material thing to an immaterial representation of it. 
+	The characteristic subsequent processing steps on digital objects are regarded as instances of D3 Formal Derivation.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class comprises instances of D1 Digital Object that are the direct result of a digital 
+	measurement or a formal derivative of it, containing quantitative properties of some physical things or other constellations of matter.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ics.forth.gr/isl/CRMdig/L11_had_output</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property associates an instance of D7 Digital Machine Event with an instance of D1 Digital Object
+ which is the output of the activity.  
+This property is a specialisation of P94 has created (was created by).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ics.forth.gr/isl/CRMdig/L1_digitized</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property associates an instance of D2 Digitization Process with an instance of E18 Physical Thing which is a material thing.  
+This property is a specialisation of P39 measured (was measured by).
+</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
