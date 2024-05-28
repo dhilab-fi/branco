@@ -7,7 +7,7 @@
      xmlns:branco="https://w3id.org/cnr-ispc/ontology/branco#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco"/>
+    <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco_3"/>
     
 
 

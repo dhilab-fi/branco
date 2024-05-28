@@ -16,10 +16,10 @@ A stratigraphic unit has different kinds of properties. These are assigned in an
 
 *Competency Questions - Natural Language*
 
-1. Which is the criterion and the cited object in the reconstruction of the location of the Venus in domus B?
-2. Which are the sources and criterion for the reconstruction of the domus B described in this examples?
-3. How can we reconstruct the original decoration of the Western wall? 
-4. Which is the hypothesised height of the Western wall of the domus B?
+1. Which is the criterion and the cited object in the reconstruction of the location of the Venus in domus B? [Location, Object, Reference] [Atrium of domus B, By comparison, Venus in the Atrium of domus C]
+2. Which are the sources and criterion for the reconstruction of the domus B described in this examples? [Reconstruction description, Criterion, Reference objects] [Location of the Venus, comparison, domus C; Material of the decoration of Eastern wall, general rule, Vitruvius; Height of Western wall, general rule; Decoration of the Western wall, diagnostic data]
+3. How can we reconstruct the original decoration of the Western wall? [Reconstruction description, Criterion, Reference objects, Style, Iconography][Decoration of the Western wall, diagnostic data, Pompeian 1st style, NA]
+4. Which is the hypothesised height of the Western wall of the domus B? [Dimension and unit] [3,5 m]
 
 *Competency Questions - SPARQL Query*
 
