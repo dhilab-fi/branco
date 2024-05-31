@@ -16,8 +16,8 @@ Every physical object can be digitised in a data object, which may contain diffe
 
 1. When was the domus A digitised? [Event] [Photogrammetry campaign]
 2. Which are the 3D models of the domus? [DataObject] [3D Model]
-3. How many USs were identified for the domus? [no., USs]
-4. Are there semantic nodes on the 3D model? If yes, to which US do they correspond? [SN - US]
+3. How many USs were identified for the domus? [list of USs] [US1, US2, US3, US4]
+4. Are there semantic nodes on the 3D model? If yes, to which US do they correspond? [Semantic Node (SemN) and US] [US1, SemN1; US2, SemN2; US3, SemN3; US4, SemN4]
 
 *Competency Questions - SPARQL Query*
 
