@@ -31,7 +31,7 @@
         <NamedIndividual IRI="#sem-node-3-domus-a"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"/>
@@ -49,10 +49,10 @@
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
@@ -67,7 +67,7 @@
         <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D11_Digital_Measurement_Event"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
@@ -118,7 +118,7 @@
         <ObjectProperty IRI="#hasNode"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sem-node-2-domus-a"/>
@@ -183,7 +183,7 @@
         <Class IRI="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
         <Class IRI="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
     </SubClassOf>
     <DisjointClasses>
@@ -192,7 +192,7 @@
         <Class IRI="#PhysicalThing"/>
         <Class IRI="#Reconstruction"/>
         <Class IRI="#SemanticNode"/>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#PhysicalThing"/>
@@ -227,20 +227,20 @@
         <NamedIndividual IRI="#sem-node-4-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasNode"/>
@@ -275,22 +275,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
@@ -299,22 +299,22 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
         <NamedIndividual IRI="#sem-node-1-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
         <NamedIndividual IRI="#sem-node-2-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
         <NamedIndividual IRI="#sem-node-3-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
         <NamedIndividual IRI="#sem-node-4-domus-a"/>
     </ObjectPropertyAssertion>
     <InverseObjectProperties>

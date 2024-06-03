@@ -19,7 +19,7 @@
         <ObjectProperty IRI="#isVisualisedAs"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sem-node-3-domus-a"/>
@@ -37,7 +37,7 @@
         <NamedIndividual IRI="#sem-node-1-domus-a"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasCreated"/>
@@ -64,10 +64,10 @@
         <ObjectProperty IRI="#digitized"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Reconstruction"/>
@@ -76,7 +76,7 @@
         <ObjectProperty IRI="#hasNode"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sem-node-2-domus-a"/>
@@ -105,7 +105,7 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <DisjointClasses>
@@ -114,7 +114,7 @@
         <Class IRI="#PhysicalThing"/>
         <Class IRI="#Reconstruction"/>
         <Class IRI="#SemanticNode"/>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#PhysicalThing"/>
@@ -149,20 +149,20 @@
         <NamedIndividual IRI="#sem-node-4-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StratigraphicUnit"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <Class IRI="#InterpretativeUnit"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasNode"/>
@@ -197,22 +197,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasComponent"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasComponent"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasComponent"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasComponent"/>
         <NamedIndividual IRI="#domus-a-reconstruction"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
@@ -221,22 +221,22 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isVisualisedAs"/>
-        <NamedIndividual IRI="#us1-domus-a"/>
+        <NamedIndividual IRI="#intunit1-domus-a"/>
         <NamedIndividual IRI="#sem-node-1-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isVisualisedAs"/>
-        <NamedIndividual IRI="#us2-domus-a"/>
+        <NamedIndividual IRI="#intunit2-domus-a"/>
         <NamedIndividual IRI="#sem-node-2-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isVisualisedAs"/>
-        <NamedIndividual IRI="#us3-domus-a"/>
+        <NamedIndividual IRI="#intunit3-domus-a"/>
         <NamedIndividual IRI="#sem-node-3-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isVisualisedAs"/>
-        <NamedIndividual IRI="#us4-domus-a"/>
+        <NamedIndividual IRI="#intunit4-domus-a"/>
         <NamedIndividual IRI="#sem-node-4-domus-a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
@@ -257,7 +257,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isVisualisedAs"/>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#refersTo"/>
@@ -269,7 +269,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasComponent"/>
-        <Class IRI="#StratigraphicUnit"/>
+        <Class IRI="#InterpretativeUnit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCreated"/>

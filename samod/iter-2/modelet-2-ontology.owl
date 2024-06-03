@@ -33,8 +33,8 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#covers -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#covers">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
-        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
     </owl:ObjectProperty>
     
 
@@ -60,7 +60,7 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronology -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronology">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
     </owl:ObjectProperty>
     
@@ -87,7 +87,7 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#models -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#models">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -150,7 +150,7 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#hasUSDescription -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasUSDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -175,11 +175,11 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUS -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
     </owl:Class>
     
 
@@ -249,18 +249,18 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit">
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#StructuralUS -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
     </owl:Class>
     
 
@@ -280,7 +280,7 @@
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Document"/>
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

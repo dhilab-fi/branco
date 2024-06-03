@@ -14,14 +14,14 @@ Physical objects may undergo and be modified by different events: for instance, 
 
 *Competency Questions - Natural Language*
 
-1. Which are the USs associated with the Southern wall of domus B? Organise them chronologically starting with the most recent [List of USs and their description] [Construction, Partial collapse, Destruction]
-2. Which are the USs associated with the Northern wall domus B (both structural and cladding units)? Organise them chronologically starting with the most recent [List of USs and their description] [Construction, First decoration, Loss of the decoration, Second decoration, Destruction]
-3. Which units refer to the earthquake of 62 AD? [List of USs and their description] [Partial collaps on Southern Wall, Loss of the decoration in the Northern Wall]
+1. Which are the IntUnits associated with the Southern wall of domus B? Organise them chronologically starting with the most recent [List of IntUnits and their description] [Construction, Partial collapse, Destruction]
+2. Which are the IntUnits associated with the Northern wall domus B (both structural and cladding units)? Organise them chronologically starting with the most recent [List of IntUnits and their description] [Construction, First decoration, Loss of the decoration, Second decoration, Destruction]
+3. Which units refer to the earthquake of 62 AD? [List of IntUnits and their description] [Partial collaps on Southern Wall, Loss of the decoration in the Northern Wall]
 
 *Competency Questions - SPARQL Query*
 
 With `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>` and `PREFIX : <https://w3id.org/cnr-ispc/ontology/branco#>`
 
-1. `SELECT ?us ?description WHERE {?event ?p :domus-b-southern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?us :models ?event. ?us :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?us :hasUSDescription ?description} ORDER BY ?order`
-2. `SELECT ?us ?description WHERE { ?event ?p :domus-b-northern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?us :models ?event. ?us :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?us :hasUSDescription ?description} ORDER BY ?order`
-3. `SELECT ?us ?description WHERE { :event-earthquake-62ad :isCauseOf ?event. ?us :models ?event. ?us :hasUSDescription ?description}`
+1. `SELECT ?unit ?description WHERE {?event ?p :domus-b-southern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?unit :models ?event. ?unit :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?unit :hasDescription ?description} ORDER BY ?order`
+2. `SELECT ?unit ?description WHERE { ?event ?p :domus-b-northern-wall. ?event a ?event_class. ?event_class rdfs:subClassOf* :Event. ?unit :models ?event. ?unit :hasChronology ?chron. ?chron :hasChronologicalOrder ?order . ?unit :hasDescription ?description} ORDER BY ?order`
+3. `SELECT ?unit ?description WHERE { :event-earthquake-62ad :isCauseOf ?event. ?unit :models ?event. ?unit :hasDescription ?description}`

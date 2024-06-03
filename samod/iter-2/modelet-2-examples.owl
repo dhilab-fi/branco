@@ -33,8 +33,8 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#covers -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#covers">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
-        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
     </owl:ObjectProperty>
     
 
@@ -60,7 +60,7 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronology -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronology">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
     </owl:ObjectProperty>
     
@@ -87,7 +87,7 @@
     <!-- https://w3id.org/cnr-ispc/ontology/branco#models -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#models">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -147,10 +147,10 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasUSDescription -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasDescription -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasUSDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasDescription">
+        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -175,11 +175,11 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUS -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
-        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
     </owl:Class>
     
 
@@ -249,18 +249,18 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit">
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#StructuralUS -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit -->
 
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
     </owl:Class>
     
 
@@ -276,72 +276,72 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-a -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-a">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-b -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-b">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-c -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-c">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-a -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-a">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-b -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-b">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-c -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-c">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-d -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-d">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-e -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-e">
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
         <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasChronologicalOrder>
     </owl:NamedIndividual>
@@ -515,92 +515,92 @@
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-collapse -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-collapse -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-collapse">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-b"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-collapse">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-partial-collapse-domus-b-southern-wall"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Partial collapse of the Southern wall in domus B owing to an earthquake in 62 AD</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Partial collapse of the Southern wall in domus B owing to an earthquake in 62 AD</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-construction -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-construction -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-construction">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-a"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-construction">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-construction-domus-b-southern"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Construction of the site of domus B in 2nd century BCE.</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Construction of the site of domus B in 2nd century BCE.</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-destruction -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-destruction -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us1-domus-b-destruction">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us1-c"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-destruction">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-southern-wall"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-construction -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-construction">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-a"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-construction-domus-b-northern"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Construction of the site of domus B in 2nd century BCE</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Construction of the site of domus B in 2nd century BCE</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-i-creation -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-creation -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-i-creation">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
-        <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-construction"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-b"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-creation">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
+        <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-decoration-domus-b"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: First decorative campaign on the wall</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: First decorative campaign on the wall</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-i-destruction -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-destruction -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-i-destruction">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-c"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-destruction">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-deco-domus-b-northern-wall"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the first decoration of the wall druing the earthquake of 62 AD</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the first decoration of the wall druing the earthquake of 62 AD</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-ii -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-ii -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-deco-ii">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUS"/>
-        <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-construction"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-d"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-ii">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
+        <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-redecoration-domus-b"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Second decorative campaign on the wall</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Second decorative campaign on the wall</hasDescription>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-destruction -->
+    <!-- https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-destruction -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#us2-domus-b-destruction">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUS"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-us2-e"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-destruction">
+        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
+        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-northern-wall"/>
-        <hasUSDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">Northern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasUSDescription>
+        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">Northern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasDescription>
     </owl:NamedIndividual>
     
 
@@ -620,7 +620,7 @@
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Document"/>
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Event"/>
             <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#PhysicalThing"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#StratigraphicUnit"/>
+            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
