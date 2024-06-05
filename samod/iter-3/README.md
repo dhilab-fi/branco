@@ -4,28 +4,25 @@ This folder contains the materials produced during the third SAMOD iterations fo
 
 *Scenario*
 
-A stratigraphic unit has different kinds of properties. These are assigned in an interpretative process which is carried out by an agent and is supported by different citations (different things can be the object of this citation). Each interpretation is motivated by a specific criterion such as comparison with other physical objects, diagnostic data, archival sources, general rules. Stratigraphic unit properties can be of different type, such as material, placement, iconography and dimension. 
+Each interpretative unit is linked to a physical object, whose qualities are referred to by an interpretative act. Traditional interpretations concern location, dimension, material, technique, authorship, provenance, commision, styles and iconography. For these Iatter two classes, it is possible to recognize single features to assign a style or an iconographic subject (alignable with ICONCLASS) to an artwork. Lastly, any interpretation is justified by interpretative criteria, like direct observation, diagnostic data, general rule, archival sources, or comparison with other objects.
 
 *Examples*
 
-1. In the final reconstruction, the position of the lost statue of Venus (a US) in the atrium of the domus B is justified by the position of the statue of Venus in the domus C (a physical object)
-2. The Eastern Wall of domus B used to be decorated: on the basis of the instructions written by Vitruvius, the layers of decoration might have been composed of plaster.
-3. Given the thickness of the Western wall and comparison with other sites, researchers claim that it should be 3.5 m tall. 
-4. A diagnostic campaign identified one original layer of decoration in the Western Wall. It should have been decorated in Pompeian first style.
+1. The Interpretative Unit IntUnitC1 is related to the decoration of the wall of domus C. In the reconstruction, it is based on the interpretation which claims that it should be 3 metres tall and decorated in Pompeii first style, on the basis of diagnostic data
+2. The addition of a - now lost - altarpiece in the Chapel X is described by IntUnitC2. Different interpretations have been made on the iconography: it can be either a  story of Christ stilling the storm on the Sea of Galilee (ICONCLASS: 73C31) or story of Christ walking on the water, 'Navicella' (ICONCLASS: 73C32). 
+3. The former interpretation of IntUnitC2 derives from archival sources, whereas the latter one derives from a comparison with the altarpiece in the Chapel Y of the same church.
 
 
 *Competency Questions - Natural Language*
 
-1. Which is the criterion and the cited object in the reconstruction of the location of the Venus in domus B? [Location, Object, Reference] [Atrium of domus B, By comparison, Venus in the Atrium of domus C]
-2. Which are the sources and criterion for the reconstruction of the domus B described in this examples? [Reconstruction description, Criterion, Reference objects] [Location of the Venus, comparison, domus C; Material of the decoration of Eastern wall, general rule, Vitruvius; Height of Western wall, general rule; Decoration of the Western wall, diagnostic data]
-3. How can we reconstruct the original decoration of the Western wall? [Reconstruction description, Criterion, Reference objects, Style, Iconography][Decoration of the Western wall, diagnostic data, Pompeian 1st style, NA]
-4. Which is the hypothesised height of the Western wall of the domus B? [Dimension and unit] [3,5 m]
+1. Which is the criterion for the reconstruction of IntUnitC1? [Criterion] [Diagnostic Data]
+2. Which is the supposed height for IntUnitC1? [Dimension (value and unit)] [3m]
+3. Which are the different interpretations for the reconstruction of the altarpiece in Chapel X? [Interpretative Criterion, Iconography, Comparison (if any)] [Christ stilling the storm on the Sea of Galilee, Archival Sources; Navicella, Comparison with Chapel Y]
 
 *Competency Questions - SPARQL Query*
 
 With `PREFIX : <https://w3id.org/cnr-ispc/ontology/branco#>`
 
-1. `SELECT ?locatedObj ?criterion ?citedObj WHERE { ?interpretation :assignsPropertyTo :us-domus-b-atrium-venus . ?interpretation :assigns ?location . ?location a :Placement . ?location :hasSection ?locatedObj . ?interpretation :hasInterpretationCriterion ?criterion OPTIONAL {?interpretation :providesComparisonWith ?citedObj} }`
-2. `SELECT DISTINCT ?description ?criterion ?comparedObj ?citedObj WHERE { ?interpretation :assignsPropertyTo ?us . ?us a  :StratigraphicUnit. ?interpretation :hasInterpretationCriterion ?criterion . ?interpretation :hasInterpretationDescription ?description OPTIONAL {?interpretation :providesComparisonWith ?comparedObj}  OPTIONAL {?interpretation :cites ?citedObj}}`
-3. `SELECT DISTINCT * WHERE { ?interpretation :assignsPropertyTo :us-domus-b-westwall . ?interpretation :assigns ?decoration . ?decoration a :Decoration . ?interpretation :hasInterpretationCriterion ?criterion . ?interpretation :hasInterpretationDescription ?description . OPTIONAL {?decoration :hasStyle ?style .} OPTIONAL { ?decoration :hasIconography ?icon}}`
-4. `SELECT ?dimension ?val ?unit WHERE { :us-domus-b-westwall :hasDimension ?dimension. ?dimension  :hasValue ?val . ?dimension :hasUnit ?unit}`
+1. `SELECT ?criterion WHERE { :intunit-c1 :cites ?int . ?int :hasInterpretationCriterion ?criterion}`
+2. `SELECT ?val ?unit WHERE { :intunit-c1 :cites ?int . ?int :hasInterpretationResult ?dim. ?dim a :Dimension. ?dim :hasValue ?val . ?dim :hasUnit ?unit}`
+3. `SELECT ?icon ?criterion ?artwork WHERE { :intunit-c2 :cites ?int . ?int :hasInterpretationResult ?icon . ?int :hasInterpretationCriterion ?criterion OPTIONAL {?int :providesComparisonWith ?artwork}}`
