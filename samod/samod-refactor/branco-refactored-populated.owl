@@ -137,6 +137,15 @@ The identity of an instance of E24 Physical Human-Made Thing is not defined by i
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.cidoc-crm.org/cidoc-crm/P13_destroyed -->
 
     <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed">
@@ -265,6 +274,12 @@ A comprehensive explanation about refining CIDOC CRM concepts by E55 Type is giv
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"/>
+    
+
+
     <!-- http://www.cidoc-crm.org/cidoc-crm/P2_has_type -->
 
     <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">
@@ -324,6 +339,34 @@ This property is transitive and asymmetric.</rdfs:comment>
     <!-- http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of -->
 
     <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"/>
+        <owl:inverseOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+        <rdfs:comment xml:lang="en">This property records the preferred instance of E42 Identifier that was used to identify an instance of E1 CRM Entity at the time this property was recorded.
+More than one preferred identifier may have been assigned to an item over time.
+Use of this property requires an external mechanism for assigning temporal validity to the respective CIDOC CRM instance.
+The fact that an identifier is a preferred one for an organisation can be better expressed in a context independent form by assigning a suitable instance of E55 Type to the respective instance of E15 Identifier Assignment using the P2 has type property.</rdfs:comment>
+        <rdfs:label xml:lang="fr">a pour identifiant préférentiel</rdfs:label>
+        <rdfs:label xml:lang="en">has preferred identifier</rdfs:label>
+        <rdfs:label xml:lang="de">hat bevorzugtes Kennzeichen</rdfs:label>
+        <rdfs:label xml:lang="pt">tem identificador preferido</rdfs:label>
+        <rdfs:label xml:lang="el">έχει προτιμώμενο αναγνωριστικό</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет предпочтительный идентификатор</rdfs:label>
+        <rdfs:label xml:lang="zh">有优选标识符</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of"/>
     
 
 
@@ -456,25 +499,6 @@ This property is a specialisation of P39 measured (was measured by).
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronology -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronology">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
-        <rdfs:range rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasIconClass -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasIconClass">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/cnr-ispc/ontology/branco#hasNode -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasNode">
@@ -489,15 +513,6 @@ This property is a specialisation of P39 measured (was measured by).
     <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#involves">
         <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#isCauseOf -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#isCauseOf">
-        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
-        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
     </owl:ObjectProperty>
     
 
@@ -541,17 +556,8 @@ This property is a specialisation of P39 measured (was measured by).
     <!-- https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder">
-        <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#hasDescription -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/cnr-ispc/ontology/branco#hasDescription">
         <rdfs:domain rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -691,7 +697,9 @@ The CIDOC CRM is generally not concerned with amounts of matter in fluid or gase
 
     <!-- http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"/>
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    </owl:Class>
     
 
 
@@ -735,6 +743,63 @@ These propositions may be expressed in text, graphics, images, audiograms, video
         <rdfs:label xml:lang="el">Τεκμήριο</rdfs:label>
         <rdfs:label xml:lang="ru">Документ</rdfs:label>
         <rdfs:label xml:lang="zh">文献</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">This class comprises the intellectual or conceptual aspects of recognisable marks and images.
+This class does not intend to describe the idiosyncratic characteristics of an individual physical embodiment of a visual item, but the underlying prototype. For example, a mark such as the ICOM logo is generally considered to be the same logo when used on any number of publications. The size, orientation, and colour may change, but the logo remains uniquely identifiable. The same is true of images that are reproduced many times. This means that visual items are independent of their physical support.
+The E36 Visual Item class provides a means of identifying and linking together instances of E24 Physical Human-Made Thing that carry the same visual symbols, marks, or images, etc. The property P62 depicts (is depicted by) between E24 Physical Human-Made Thing and the depicted subjects (E1 CRM Entity) can be regarded as a shortcut of the more fully developed path from E24 Physical Human-Made Thing through P65 shows visual item (is shown by), E36 Visual Item, P138 represents (has representation) to E1 CRM Entity, which in addition captures the optical features of the depiction.</rdfs:comment>
+        <rdfs:label xml:lang="de">Bildliches</rdfs:label>
+        <rdfs:label xml:lang="fr">Entité visuelle</rdfs:label>
+        <rdfs:label xml:lang="pt">Item Visual</rdfs:label>
+        <rdfs:label xml:lang="en">Visual Item</rdfs:label>
+        <rdfs:label xml:lang="el">Οπτικό Στοιχείο</rdfs:label>
+        <rdfs:label xml:lang="ru">Визуальный Предмет</rdfs:label>
+        <rdfs:label xml:lang="zh">可视项</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E41_Appellation -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:comment xml:lang="en">This class comprises all signs, either meaningful or not, or arrangements of signs following a specific syntax, that are used or can be used to refer to and identify a specific instance of some class within a certain context.
+Instances of E41 Appellation do not identify things by their meaning, even if they happen to have one, but by convention, tradition, or agreement. Instances of E41 Appellation are cultural constructs; as such, they have a context, a history, and a use in time and space by some group of users. A given instance of E41 Appellation can have alternative forms, i.e. other instances of E41 Appellation that are regarded as equivalent, regardless of the thing it denotes.
+Different languages may use different appellations for the same thing, such as the names of major cities. Some appellations may be formulated using a valid noun phrase of a particular language. In these cases, the respective instances of E41 Appellation should also be declared as instances of E33 Linguistic Object. Then the language using the appellation can be declared with the property P72 has language: E56 Language.
+Instances of E41 Appellation may be used to identify any instance of E1 CRM Entity and sometimes are characteristic for instances of more specific subclasses of E1 CRM Entity, such as for instances of E52 Time-Span (for instance “dates”), E39 Actor, E53 Place or E28 Conceptual Object. Postal addresses and E-mail addresses are characteristic examples of identifiers used by services transporting things between clients.
+Even numerically expressed identifiers for extents in space or time are also regarded as instances of E41 Appellation, such as Gregorian dates or spatial coordinates, even though they allow for determining some time or location by a known procedure starting from a reference point and by virtue of that fact play a double role as instances of E59 Primitive Value.
+E41 Appellation should not be confused with the act of naming something. Cf. E15 Identifier Assignment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Appellation</rdfs:label>
+        <rdfs:label xml:lang="fr">Appellation</rdfs:label>
+        <rdfs:label xml:lang="de">Benennung</rdfs:label>
+        <rdfs:label xml:lang="pt">Designação</rdfs:label>
+        <rdfs:label xml:lang="el">Ονομασία</rdfs:label>
+        <rdfs:label xml:lang="ru">Обозначение</rdfs:label>
+        <rdfs:label xml:lang="zh">称谓</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E42_Identifier -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+        <rdfs:comment xml:lang="en">This class comprises strings or codes assigned to instances of E1 CRM Entity in order to identify them uniquely and permanently within the context of one or more organisations. Such codes are often known as inventory numbers, registration codes, etc. and are typically composed of alphanumeric sequences. Postal addresses, telephone numbers, URLs and e-mail addresses are characteristic examples of identifiers used by services transporting things between clients.
+The class E42 Identifier is not normally used for machine-generated identifiers used for automated processing unless these are also used by human agents.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Identifiant</rdfs:label>
+        <rdfs:label xml:lang="pt">Identificador de Objeto</rdfs:label>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+        <rdfs:label xml:lang="de">Kennung</rdfs:label>
+        <rdfs:label xml:lang="el">Κωδικός Αναγνώρισης</rdfs:label>
+        <rdfs:label xml:lang="ru">Идентификатор Объекта</rdfs:label>
+        <rdfs:label xml:lang="zh">标识符</rdfs:label>
     </owl:Class>
     
 
@@ -865,7 +930,9 @@ The decision to document an object as destroyed, transformed, or modified is con
 
     <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
 
-    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+    </owl:Class>
     
 
 
@@ -921,6 +988,22 @@ This class also comprises items that are “about” something in the sense of a
         <rdfs:label xml:lang="fr">Objet propositionnel</rdfs:label>
         <rdfs:label xml:lang="en">Propositional Object</rdfs:label>
         <rdfs:label xml:lang="zh">命题对象</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+        <rdfs:comment xml:lang="en">This class comprises identifiable symbols and any aggregation of symbols, such as characters, identifiers, traffic signs, emblems, texts, data sets, images, musical scores, multimedia objects, computer program code, or mathematical formulae that have an objectively recognizable structure and that are documented as single units.
+It includes sets of signs of any nature, which may serve to designate something, or to communicate some propositional content. An instance of E90 Symbolic Object may or may not have a specific meaning, for example an arbitrary character string.
+In some cases, the content of an instance of E90 Symbolic Object may completely be represented by a serialized digital content model, such as a sequence of ASCII-encoded characters, an XML or HTML document, or a TIFF image. The property P3 has note and its subproperty P190 has symbolic content allow for the description of this content model. In order to disambiguate which symbolic level is the carrier of the meaning, the property P3.1 has type can be used to specify the encoding (e.g. “bit”, “Latin character”, RGB pixel).</rdfs:comment>
+        <rdfs:label xml:lang="fr">Objet symbolique</rdfs:label>
+        <rdfs:label xml:lang="en">Symbolic Object</rdfs:label>
+        <rdfs:label xml:lang="de">Symbolisches Objekt</rdfs:label>
+        <rdfs:label xml:lang="zh">符号对象</rdfs:label>
     </owl:Class>
     
 
@@ -987,27 +1070,11 @@ This class also comprises items that are “about” something in the sense of a
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#Chronology -->
-
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Chronology">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit -->
 
     <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">
         <rdfs:subClassOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         <owl:disjointWith rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#Iconography -->
-
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Iconography">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -1075,7 +1142,7 @@ This class also comprises items that are “about” something in the sense of a
     <!-- https://iconclass.org/73C321 -->
 
     <owl:NamedIndividual rdf:about="https://iconclass.org/73C321">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     </owl:NamedIndividual>
     
 
@@ -1083,7 +1150,7 @@ This class also comprises items that are “about” something in the sense of a
     <!-- https://iconclass.org/73C322 -->
 
     <owl:NamedIndividual rdf:about="https://iconclass.org/73C322">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
     </owl:NamedIndividual>
     
 
@@ -1116,78 +1183,6 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chapel-y-altarpiece">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasChronologicalOrder>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e -->
-
-    <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1397,8 +1392,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#event-earthquake-62ad">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
-        <isCauseOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-deco-domus-b-northern-wall"/>
-        <isCauseOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-partial-collapse-domus-b-southern-wall"/>
+        <cidoc-crm:P132_spatiotemporally_overlaps_with rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-deco-domus-b-northern-wall"/>
+        <cidoc-crm:P132_spatiotemporally_overlaps_with rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-partial-collapse-domus-b-southern-wall"/>
     </owl:NamedIndividual>
     
 
@@ -1426,9 +1421,9 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#event-vesuvius-eruption">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
-        <isCauseOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b"/>
-        <isCauseOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-northern-wall"/>
-        <isCauseOf rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-southern-wall"/>
+        <cidoc-crm:P132_spatiotemporally_overlaps_with rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b"/>
+        <cidoc-crm:P132_spatiotemporally_overlaps_with rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-northern-wall"/>
+        <cidoc-crm:P132_spatiotemporally_overlaps_with rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-southern-wall"/>
     </owl:NamedIndividual>
     
 
@@ -1462,8 +1457,8 @@ This class also comprises items that are “about” something in the sense of a
     <!-- https://w3id.org/cnr-ispc/ontology/branco#iconography-naufragium -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#iconography-naufragium">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
-        <hasIconClass rdf:resource="https://iconclass.org/73C321"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <cidoc-crm:P48_has_preferred_identifier rdf:resource="https://iconclass.org/73C321"/>
     </owl:NamedIndividual>
     
 
@@ -1471,8 +1466,8 @@ This class also comprises items that are “about” something in the sense of a
     <!-- https://w3id.org/cnr-ispc/ontology/branco#iconography-navicella -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#iconography-navicella">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Iconography"/>
-        <hasIconClass rdf:resource="https://iconclass.org/73C322"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+        <cidoc-crm:P48_has_preferred_identifier rdf:resource="https://iconclass.org/73C322"/>
     </owl:NamedIndividual>
     
 
@@ -1547,9 +1542,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-collapse">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-b"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-partial-collapse-domus-b-southern-wall"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Partial collapse of the Southern wall in domus B owing to an earthquake in 62 AD</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1558,9 +1552,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-construction">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-a"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-construction-domus-b-southern"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Construction of the site of domus B in 2nd century BCE.</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1569,9 +1562,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit1-domus-b-destruction">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit1-c"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-southern-wall"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1589,9 +1581,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-a"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-construction-domus-b-northern"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Construction of the site of domus B in 2nd century BCE</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1601,9 +1592,8 @@ This class also comprises items that are “about” something in the sense of a
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-creation">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
         <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-b"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-decoration-domus-b"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: First decorative campaign on the wall</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1612,9 +1602,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-i-destruction">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-c"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-deco-domus-b-northern-wall"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the first decoration of the wall druing the earthquake of 62 AD</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1624,9 +1613,8 @@ This class also comprises items that are “about” something in the sense of a
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-deco-ii">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"/>
         <covers rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-construction"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-d"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-redecoration-domus-b"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Second decorative campaign on the wall</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1635,9 +1623,8 @@ This class also comprises items that are “about” something in the sense of a
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#intunit2-domus-b-destruction">
         <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"/>
-        <hasChronology rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#chronology-intunit2-e"/>
         <models rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#event-destruction-domus-b-northern-wall"/>
-        <hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Wall: Destruction of the domus B during the eruption of Vesuvius in 79 AD.</hasDescription>
+        <hasChronologicalOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</hasChronologicalOrder>
     </owl:NamedIndividual>
     
 
@@ -1779,16 +1766,6 @@ This class also comprises items that are “about” something in the sense of a
             <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
             <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
             <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E31_Document"/>
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Chronology"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
