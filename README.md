@@ -6,4 +6,4 @@ Repository hosting the OWL Ontology describing cultural site reconstruction thro
 
 The ontology directly reuses [CIDOC-CMR](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html), [CRM-DIG](https://ontome.net/namespace/211), and [HICO](https://marilenadaquino.github.io/hico/#d4e318):
 
-<img src="samod/samod-refactor/final-branco.png">
+<img src="samod/samod-refactor/full-align/final-branco.png">

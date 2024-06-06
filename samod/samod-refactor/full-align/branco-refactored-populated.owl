@@ -1120,14 +1120,6 @@ In some cases, the content of an instance of E90 Symbolic Object may completely 
     
 
 
-    <!-- https://w3id.org/cnr-ispc/ontology/branco#Style -->
-
-    <owl:Class rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Style">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1691,7 +1683,7 @@ In some cases, the content of an instance of E90 Symbolic Object may completely 
     <!-- https://w3id.org/cnr-ispc/ontology/branco#pompeii-first-style -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/cnr-ispc/ontology/branco#pompeii-first-style">
-        <rdf:type rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#Style"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     </owl:NamedIndividual>
     
 
