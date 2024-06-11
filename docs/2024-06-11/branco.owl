@@ -13,13 +13,13 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:cito="http://purl.org/spar/cito/">
     <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco">
-        <dc:contributor xml:lang="en">Ivana Cerato, CNR ISPC
-ivana.cerato@cnr.it</dc:contributor>
         <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dc:title xml:lang="en">Branco - Brancacci Chapel Ontology</dc:title>
         <owl:versionInfo xml:lang="en">0.9.0</owl:versionInfo>
         <dc:creator xml:lang="en">Manuele Veggi, &quot;La Sapienza&quot; University of Rome - CNR ISPC
 manuele.veggi@uniroma1.it</dc:creator>
+	<dc:creator xml:lang="en">Ivana Cerato, CNR ISPC
+ivana.cerato@cnr.it</dc:creator>
         <rdfs:comment xml:lang="en">&lt;b&gt;Branco&lt;/b&gt; (Brancacci Chapel Ontology) is an ontology for management of heterogeneous data and the reconstruction of historical sites and artworks which is based on the concept of intepretative unit, an adaptation of the concept of stratigraphic unit beyond the context of archeological excavation.
 
 It is aligned with CIDOC-CRM (v.7.1.3) and CRMDig (v.3.2.1) and it uses specific classes of the Historical Context Ontology (HICO).
