@@ -1,0 +1,1325 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Branco - Brancacci Chapel Ontology</title>
+	<title>Branco - Brancacci Chapel Ontology</title>
+	<link href="Branco%20-%20Brancacci%20Chapel%20Ontology_files/owl.css" rel="stylesheet" type="text/css">
+	<link href="Branco%20-%20Brancacci%20Chapel%20Ontology_files/Primer.css" rel="stylesheet" type="text/css">
+	<link href="Branco%20-%20Brancacci%20Chapel%20Ontology_files/rec.css" rel="stylesheet" type="text/css">
+	<link href="Branco%20-%20Brancacci%20Chapel%20Ontology_files/extra.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="http://150.146.207.114/lode/favicon.ico">
+	<style>
+		body {
+			text-align: justify;    
+		}
+
+		h1 {
+			line-height: 110%;    
+		}
+
+		.hlist {
+			border: 1px solid navy;
+			padding:5px;
+			background-color: #F4FFFF; 
+		}
+
+		.hlist li {
+			display: inline;
+			display: inline-table;
+			list-style-type: none;
+			padding-right: 20px;
+			
+		}
+
+		.entity {
+			border: 1px solid navy;
+			margin:5px 0px 5px 0px;
+			padding: 5px;    
+		}
+
+		.type-c {
+			cursor:help;
+			color:orange;
+		}
+
+		.type-op {
+			cursor:help;
+			color:navy;    
+		}
+
+		.type-dp {
+			cursor:help;
+			color:green;    
+		}
+
+		.type-ap {
+			cursor:help;
+			color:maroon;    
+		}
+
+		.type-ni {
+			cursor:help;
+			color:brown;    
+		}
+
+		.logic {
+			color:purple;
+			font-weight:bold;    
+		}
+
+		h3 {
+			margin-top: 3px;
+			padding-bottom: 5px;
+			border-bottom: 1px solid navy;
+		}
+
+		h2 {
+			margin-top:40px;    
+		}
+
+		.dotted {
+			border-bottom: 1px dotted gray;
+		}
+
+		dt {
+			margin-top:5px;
+		}
+
+		.description {
+			border-top: 1px dashed gray;
+			border-bottom: 1px dashed gray;
+			background-color: rgb(242, 243, 244);
+			margin-top:5px;
+			padding-bottom:5px;
+		}
+
+		.description dl {
+			background-color: rgb(242, 243, 244);
+		}
+
+		.description ul {
+			padding-left: 12px;
+			margin-top: 0px;
+		}
+
+		.backlink {
+			font-size:10pt;
+			text-align:right;
+			float:right;
+			color:black;
+			padding: 2px;
+			border: 1px dotted navy;
+			background-color: #F4FFFF;
+		}
+
+		.imageblock {
+			text-align: center;
+		}
+
+		.imageblock img {
+			border:1px solid gray;
+		}
+
+		.endnote {
+			margin-top: 40px;
+			border-top: 1px solid gray;
+			padding-top: 10px;
+			text-align: center;
+			color:gray;
+			font-size:70%;
+		}
+
+		.literal {
+			color:green;
+			font-style:italic;
+		}
+
+		.RFC2119 {
+		text-transform: lowercase;
+		font-style: italic;
+		}
+		.nonterminal {
+			font-weight: bold;
+			font-family: sans-serif;
+			font-size: 95%;
+		}
+		#abstract br {
+		/* doesn't work right SOMETIMES 
+		margin-bottom: 1em;   */
+		}
+		.name {
+			font-family: monospace;
+		}
+		.buttonpanel {
+			margin-top: 1ex;
+			margin-bottom: 1ex;
+			padding-left: 1ex;
+			padding-right: 1ex;
+			padding-top: 1ex;
+			padding-bottom: 0.6ex;
+			border: 1px dotted black; 
+		}
+		.grammar {
+			margin-top: 1ex;
+			margin-bottom: 1ex;
+			padding-left: 1ex;
+			padding-right: 1ex;
+			padding-top: 1ex;
+			padding-bottom: 0.6ex;
+			border: 1px dashed #2f6fab;
+			font-family: monospace;
+		}
+		.image {
+			text-align: center;
+		}
+		.centered {
+			text-align: center;
+			padding-top: 4ex;
+			padding-bottom: 4ex;
+		}
+		.centered table {
+			margin: 0 auto;
+			text-align: left;
+		}
+		.caption {
+			font-weight: bold;
+		}
+		.indent {
+			margin-left: 20px;
+		}
+		.atrisknote {
+			padding: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border: solid 2px blue;
+			background-color: #FFA;
+		}
+		.atrisknotehead {
+			font-style: italic;	
+		}
+
+		/* Stying the examples. */
+
+		.anexample:before {
+			content: "Example:";
+			font-family: sans-serif;
+			font-size: 1.6ex;
+			font-weight: bold;
+		}
+		.anexample {
+			margin-top: 1ex;
+			margin-bottom: 1ex;
+			padding-left: 1ex;
+			padding-right: 1ex;
+			padding-top: 1ex;
+			padding-bottom: 0.6ex;
+			border: 1px dashed #2f6fab;
+			background-color: #f9f9f9;
+		}
+		.anexample table {
+			background-color: #f9f9f9;
+		}
+
+		/* Styling the parts in the functional-style syntax. */
+
+		div.fss {
+			margin-top: 10px; 
+			margin-bottom: 10px; 
+			margin-left: 20px; 
+			margin-right: 20px; 
+			font-family: monospace;
+		}
+		table.fss {
+			margin: 0px 0px 0px 0px; 
+			padding: 0px 0px 0px 0px; 
+			width: 100%;
+		}
+		table.fss caption.fss {
+			font-size: 1.5ex;
+			font-weight: bold;
+			text-align: left;
+			padding-left: 10px;
+		}
+		table.fss td:first-child {
+			font-family: monospace;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: 60%;
+		}
+
+		/* Styling the parts in the RDF syntax. */
+
+		div.rdf{
+			margin-top: 10px; 
+			margin-bottom: 10px; 
+			margin-left: 20px; 
+			margin-right: 20px; 
+			font-family: monospace;
+		}
+		table.rdf {
+			margin: 0px 0px 0px 0px; 
+			padding: 0px 0px 0px 0px; 
+			width: 100%;
+		}
+		table.rdf caption.rdf {
+			font-size: 1.5ex;
+			font-weight: bold;
+			text-align: left;
+			padding-left: 10px;
+		}
+		table.rdf td:first-child {
+			font-family: monospace;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: 60%;
+		}
+
+		/* Styling the XML syntax. */
+
+		div.xmlsyn {
+			margin-top: 10px; 
+			margin-bottom: 10px; 
+			margin-left: 20px; 
+			margin-right: 20px; 
+			font-family: monospace;
+		}
+		div.axioms {
+			margin-top: 10px; 
+			margin-bottom: 10px; 
+			margin-left: 20px; 
+			margin-right: 20px; 
+		}
+
+		/* Other styles. */
+
+		table.complexity td {
+			text-align: center;
+		}
+		table.allname td {
+		font-family: monospace;
+		}
+		table.canonicalparsing {
+			margin-left: 20px;
+			border-style: none;
+		}
+		table.canonicalparsing td {
+			vertical-align: top;
+			padding: 2px 2px 2px 2px;
+		}
+		table.canonicalparsing td.two {
+			padding-left: 30px;
+		}
+
+		/* The following are classes for templates used in the editing process. */
+
+		.review {
+			padding: 5px;
+			border: solid 1px black;
+			margin-left: 10%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background-color: #FFA;
+			font-size: smaller;
+		}
+		.reviewauthor {
+			font-size: smaller;
+			font-style: italic;
+		}
+		.ednote {
+			padding: 5px;
+			border: solid 1px black;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.ednotehead {
+		font-weight: bold;
+		}
+
+		/* override mediawiki's beautiful DL styling... */
+		dl {
+			background: white;
+			width: 100%;
+			border: none;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		div {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		#fulltitle {
+		font-size: 140%; 
+		font-weight: bold;
+		}
+
+		.xml {
+		color: red
+		}
+
+		.rdbms{
+		color: red
+		}
+
+		/* just copying from wiki, so it stays through TR. Currently
+		affects Primer, at least */
+		pre {
+		background-color:#F9F9F9;
+		border:1px dashed #2F6FAB;
+		color:black;
+		line-height:1.1em;
+		padding:1em;
+		}
+
+		.image object {
+			max-width: 100%;
+		}
+
+		/* define a class "noprint" for sections which don't get printed */  
+		.noprint { display: none; }
+
+		/* our syntax menu for switching */
+		div.syntaxmenu {
+		border: 1px dotted black;
+		padding:0.5em;
+		margin: 1em; 
+		}
+
+		@media print {
+		div.syntaxmenu { display:none; }
+		}
+
+		/* use tab-like headers for syntax examples */
+		div.exampleheader {
+		font-size: 90%;
+		float: left;
+		background: #F9F9F9;
+		color: #2F6FAB;
+		border: 1px dashed #2F6FAB;
+		border-bottom: 0px;
+		padding-top: 2px;
+		}
+
+		div.exampleheader span.exampleheader {
+		background: #F9F9F9;
+		padding-top: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 3px;
+		padding-top: 0px;
+		}
+
+		/* Also copy MediaWiki style here, so it will not look different when exported */
+		div.fssyntax pre, div.rdfxml pre, div.owlxml pre, div.turtle pre, div.manchester pre  {
+		background-color: #F9F9F9;
+		border: 1px dashed #2F6FAB;
+		color: black;
+		line-height: 1.1em;
+		padding: 1em;
+		clear: both;
+		margin-left: 0em;
+		}
+		/* (further styles directly embedded in header template) */
+
+		/* Style for a "Recommendation" */
+
+		/*
+		Copyright 1997-2003 W3C (MIT, ERCIM, Keio). All Rights Reserved.
+		The following software licensing rules apply:
+		http://www.w3.org/Consortium/Legal/copyright-software */
+
+		/* $Id: base.css,v 1.25 2006/04/18 08:42:53 bbos Exp $ */
+
+		body {
+		padding: 2em 1em 2em 70px;
+		margin: 0;
+		font-family: sans-serif;
+		color: black;
+		background: white;
+		background-position: top left;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		}
+		:link { color: #00C; background: transparent }
+		:visited { color: #609; background: transparent }
+		a:active { color: #C00; background: transparent }
+
+		a:link img, a:visited img { border-style: none } /* no border on img links */
+
+		a img { color: white; }        /* trick to hide the border in Netscape 4 */
+		@media all {                   /* hide the next rule from Netscape 4 */
+		a img { color: inherit; }    /* undo the color change above */
+		}
+
+		th, td { /* ns 4 */
+		font-family: sans-serif;
+		}
+
+		h1, h2, h3, h4, h5, h6 { text-align: left }
+		/* background should be transparent, but WebTV has a bug */
+		h1, h2, h3 { color: #005A9C; background: white }
+		h1 { font: 170% sans-serif }
+		h2 { font: 140% sans-serif }
+		h3 { font: 120% sans-serif }
+		h4 { font: bold 100% sans-serif }
+		h5 { font: italic 100% sans-serif }
+		h6 { font: small-caps 100% sans-serif }
+
+		.hide { display: none }
+
+		div.head { margin-bottom: 1em }
+		div.head h1 { margin-top: 2em; clear: both }
+		div.head table { margin-left: 2em; margin-top: 2em }
+
+		p.copyright { font-size: small }
+		p.copyright small { font-size: small }
+
+		@media screen {  /* hide from IE3 */
+		a[href]:hover { background: #ffa }
+		}
+
+		pre { margin-left: 2em }
+		/*
+		p {
+		margin-top: 0.6em;
+		margin-bottom: 0.6em;
+		}
+		*/
+		dd { margin-top: 0; margin-bottom: 0 } /* opera 3.50 */
+		dt { font-weight: bold; margin-bottom: 10; margin-top: 10}
+
+		pre, code { font-family: monospace } /* navigator 4 requires this */
+
+		ul.toc, ol.toc {
+		list-style: disc;		/* Mac NS has problem with 'none' */
+		list-style: none;
+		}
+
+		@media aural {  
+		h1, h2, h3 { stress: 20; richness: 90 }
+		.hide { speak: none }
+		p.copyright { volume: x-soft; speech-rate: x-fast }
+		dt { pause-before: 20% }
+		pre { speak-punctuation: code } 
+		}
+
+		body {
+		background-image: url(./LODELogo.png);
+		}
+
+		.comment {
+			margin-top: 2%;
+		}
+
+		li {
+			text-transform: lowercase;
+		}
+
+		.tocli {
+			text-transform: capitalize;
+		}
+
+		.description dd {
+			text-transform: lowercase;
+		}
+	</style>
+	<script src="Branco%20-%20Brancacci%20Chapel%20Ontology_files/jquery.js"></script>
+	<script src="Branco%20-%20Brancacci%20Chapel%20Ontology_files/jquery.scrollTo.js"></script>
+	<script src="Branco%20-%20Brancacci%20Chapel%20Ontology_files/marked.min.js"></script>
+
+	<!-- <script>
+		$(document).ready(function () {	jQuery(".markdown").each(function (el) { jQuery(this).after(marked(jQuery(this).text())).remove()	});	var list = $('a[name="https: //dhilab-fi.github.io/branco/current/branco.owl"]'); if (list.size() != 0) { 	var element = list.first(); 	$.scrollTo(element); } });
+	</script> -->
+
+	<!-- Script to reorder alphabetically -->
+	<script>
+        function sortEntities(containerSelector, entitySelector) {
+            const container = document.querySelector(containerSelector);
+            const entities = Array.from(container.querySelectorAll(entitySelector));
+
+            entities.sort((a, b) => {
+                const nameA = a.textContent.trim().toLowerCase();
+                const nameB = b.textContent.trim().toLowerCase();
+                return nameA.localeCompare(nameB);
+            });
+
+            entities.forEach(entity => container.appendChild(entity));
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            sortEntities('#classes', '.entity');
+			sortEntities('#objectproperties', '.entity');
+			sortEntities('.hlist', '.hlist li');
+        });
+    </script>
+</head>
+
+<body cz-shortcut-listen="true">
+	<div class="head">
+		<h1>Branco - Brancacci Chapel Ontology</h1>
+		<dl>
+			<dt>IRI:</dt>
+			<dd>https://w3id.org/cnr-ispc/ontology/branco</dd>
+		</dl>
+		<dl>
+			<dt>Current version:
+			</dt>
+			<dd>0.9.0</dd>
+		</dl>
+		<dl>
+			<dt>Authors:
+			</dt>
+			<dd><a href="https://orcid.org/0000-0002-4490-5827">Ivana Cerato</a> (CNR ISPC)</dd>
+			<dd><a href="https://orcid.org/0000-0002-5958-2100">Manuele Veggi</a> ("La Sapienza" University of Rome; CNR ISPC)</dd>
+		</dl>
+		<dl>
+			<dt>License:</dt>
+			<dd>The ontology is released with <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 License</a></dd>
+		</dl>
+		<dl>
+			<dt>Other visualisation:
+			</dt>
+			<dd><a href="http://150.146.207.114/lode/source?url=https://dhilab-fi.github.io/branco/current/branco.owl">Ontology	source</a>-<a	href="https://service.tib.eu/webvowl/#iri=https://dhilab-fi.github.io/branco/current/branco.owl">WebVowl</a>
+			</dd>
+		</dl>
+		<div class="copyright"><span class="markdown"></span></div>
+	</div>
+	<hr>
+	<h2>Abstract</h2><p class="markdown"><b>Branco</b> (Brancacci Chapel Ontology) is an ontology for management of heterogeneous data and the reconstruction of historical sites and
+		artworks which is based on the concept of intepretative unit, an adaptation of the concept of stratigraphic unit beyond the context of archeological excavation.</p>
+		<p>It is aligned with CIDOC-CRM (v.7.1.3) and CRMDig (v.3.2.1) and it uses specific classes of the Historical Context Ontology (HICO).</p>
+
+		<img src="branco.png" style="width: 100%">
+		
+		<p>The ontology has been developed following the <a href="https://essepuntato.it/samod/">SAMOD protocol</a>: see the reference <a href="https://github.com/dhilab-fi/branco">GitHub Repository</a> for the material produced during the SAMOD
+		iterations.</p>
+		<p>The ontology is a project of the CNR Institute of Heritage Science - Digital Heritage and Innovation Lab.</p>
+	<div id="toc">
+		<h2>Table of Content</h2>
+		<ol>
+			<li class="tocli"><a href="#classes">Classes</a></li>
+			<li class="tocli"><a href="#objectproperties">Object Properties</a></li>
+			<li class="tocli"><a href="#dataproperties">Data Properties</a></li>
+			<li class="tocli"><a href="#namedindividuals">Named Individuals</a></li>
+			<li class="tocli"><a href="#annotationproperties">Annotation Properties</a></li>
+			<li class="tocli"><a href="#generalaxioms">General Axioms</a></li>
+			<li class="tocli"><a href="#namespacedeclarations">Namespace Declarations</a></li>
+		</ol>
+	</div>
+	<div id="classes">
+		<h2>Classes</h2>
+		<ul class="hlist">
+			<li><a href="#d4e1167" title="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"><span>cladding unit</span></a></li>
+			<li><a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"><span>digitization process</span></a></li>
+			<li><a href="#d4e1122" title="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"><span>annotation object</span></a></li>
+			<li><a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"><span>data object</span></a></li>
+			<li><a href="#d4e997" title="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction">Destruction</a></li>
+			<li><a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"><span>						attribute assignment</span></a></li>
+			<li><a href="#d4e882" title="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"><span>physical human made thing</span></a></li>
+			<li><a href="#d4e922" title="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"><span>conceptual object</span></a></li>
+			<li><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event"><span>event</span></a></li>
+			<li><a href="#d4e933" title="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"><span>dimension</span></a></li>
+			<li><a href="#d4e982" title="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"><span>beginning of existence</span></a></li>
+			<li><a href="#d4e990" title="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"><span>end of existence</span></a></li>
+			<li><a href="#d4e1066" title="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"><span>activity</span></a>
+			</li>
+			<li><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"><span>propositional object</span></a></li>
+			<li><a href="#d4e1182"	title="https://w3id.org/cnr-ispc/ontology/branco#Interpretation"><span>interpretation</span></a>
+			</li>
+			<li><a href="#d4e737" title="http://purl.org/emmedi/hico/InterpretationAct"><span>interpretation act</span></a></li>
+			<li><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation	Criterion</a></li>
+			<li><a href="#d4e1196"	title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"><span>interpretative unit</span></a></li>
+			<li><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a></li>
+			<li><a href="#d4e1034" title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a></li>
+			<li><a href="#d4e1073" title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a></li>
+			<li><a href="#d4e889" title="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature">Physical Feature</a>
+			</li>
+			<li><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a></li>
+			<li><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a></li>
+			<li><a href="#d4e1208"	title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction"><span>reconstruction</span></a>
+			</li>
+			<li><a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode"><span>semantic node</span></a></li>
+			<li><a href="#d4e1233" title="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"><span>structural unit</span></a></li>
+			<li><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a></li>
+		</ul>
+		<div id="d4e1167" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit"></a>
+			<h3>cladding unit<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">Interpretative	Unit can refer to events concerning decorative elements, which covers	structural element (e.g. the frescoes decoration on a wall): in this	case, it is said <i>cladding unit</i></span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e633" title="https://w3id.org/cnr-ispc/ontology/branco#covers">covers</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e1233" title="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit">structural unit</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1132" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"></a>
+			<h3>digitization process<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://www.ics.forth.gr/isl/CRMdig/">http://www.ics.forth.gr/isl/CRMdig/</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	class comprises events that result in the creation of instances of D9	Data Object that	represent the appearance and/or form of an instance of E18 Physical	Thing such as paper documents, statues, buildings, paintings, etc.	A particular case is the analogue-to-digital conversion of audiovisual	material.	This class represents the transition from a material thing to an	immaterial representation of it.	The characteristic subsequent processing steps on digital objects are	regarded as instances of D3 Formal Derivation.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.ics.forth.gr/isl/CRMdig/D11_Digital_Measurement_Event">d11 digital measurement event</span><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e612" title="http://www.ics.forth.gr/isl/CRMdig/L1_digitized">digitized</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1122" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object"></a>
+			<h3>annotation object<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object</p>
+			<div class="comment"><span class="markdown">This	class comprises objects that make propositions about other artefacts.	Instances of this class are not the attributes themselves, by which	things are annotated,	but represent the connection between the concepts related in a	proposition, and the activities of creation, modification and deletion.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e624" title="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by">is annotated by</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1149" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"></a>
+			<h3>data object<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://www.ics.forth.gr/isl/CRMdig/">http://www.ics.forth.gr/isl/CRMdig/</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	class comprises instances of D1 Digital Object that are the direct	result of a digital measurement or a formal derivative of it, containing	quantitative properties of some physical things or other constellations	of matter.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e933" title="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension">dimension</a><sup title="class" class="type-c">c</sup></dd><dd><span class="dotted" title="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object">digital object</span><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e648" title="https://w3id.org/cnr-ispc/ontology/branco#hasNode">has node</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e997" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"></a>
+			<h3>Destruction<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E6_Destruction</p>
+			<div class="comment"><span class="markdown">This	class comprises events that destroy one or more instances of E18	Physical Thing, such that they lose their identity as the subjects of	documentation.	Some destruction events are intentional, while others are independent of	human activity. Intentional destruction can be documented by	classifying the event as both an instance of E6 Destruction and of E7	Activity.	The decision to document an object as destroyed, transformed, or	modified is context-sensitive:	1. If the matter remaining from the destruction is not documented, the	event is modelled solely as an instance of E6 Destruction.	2. An event should also be documented using E81 Transformation if it	results in the destruction of one or more objects and the simultaneous	production of others using parts or material from the original. In this	case, the new items have separate identities. Matter is preserved, but	identity is not.	3. When the initial identity of the changed instance of E18 Physical	Thing is preserved, the event should be documented as an instance of E11	Modification.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e990" title="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence">end of existence</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e237" title="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed">destroyed</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e838" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"></a>
+			<h3>attribute assignment<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1066" title="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">activity</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1182" title="https://w3id.org/cnr-ispc/ontology/branco#Interpretation">interpretation</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e322" title="http://www.cidoc-crm.org/cidoc-crm/P141_assigned">assigned</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e281" title="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to">assigned attribute to</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e404" title="http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type">assigned property of type</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e882" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing"></a>
+			<h3>physical human made thing<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e91" title="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced">has produced</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e922" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"></a>
+			<h3>conceptual object<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e922" title="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">conceptual object</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup>, <a href="#d4e922" title="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">conceptual object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e975" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E5_Event"></a>
+			<h3>event<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a>	or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E5_Event</p>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E4_Period">e4 period</span><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e982" title="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence">beginning of existence</a><sup title="class" class="type-c">c</sup>, <a href="#d4e990" title="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence">end of existence</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1066" title="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">activity</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e228" title="http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with">spatiotemporally overlaps with</a><sup title="object property" class="type-op">op</sup></dd><dt>is in range of</dt><dd><a href="#d4e228" title="http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with">spatiotemporally overlaps with</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e933" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"></a>
+			<h3>dimension<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E54_Dimension</p>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e982" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence"></a>
+			<h3>beginning of existence<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event">event</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e990" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence"></a>
+			<h3>end of existence<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event">event</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e997" title="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction">Destruction</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1066" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"></a>
+			<h3>activity<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E7_Activity</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event">event</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup>, <a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">attribute assignment</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1106" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"></a>
+			<h3>propositional object<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object</p>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e922" title="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">conceptual object</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1122" title="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object">annotation object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e365" title="http://www.cidoc-crm.org/cidoc-crm/P148_has_component">has component</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e546" title="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to">refers to</a><sup title="object property" class="type-op">op</sup></dd><dt>is in range of</dt><dd><a href="#d4e365" title="http://www.cidoc-crm.org/cidoc-crm/P148_has_component">has component</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1182" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#Interpretation"></a>
+			<h3>interpretation<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#Interpretation</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	class comprises interpretative acts, with which different properties	(defined as instances of class <code>crm:E55_Type</code>)	are associated to a cultural object or site on the basis of a scientific	analysis, relying on different sources and supported by several	criteria.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e737" title="http://purl.org/emmedi/hico/InterpretationAct">interpretation act</a><sup title="class" class="type-c">c</sup></dd><dd><a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">attribute assignment</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e702" title="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith">provides comparison with</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e737" class="entity"><a name="http://purl.org/emmedi/hico/InterpretationAct"></a>
+			<h3>interpretation act<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/emmedi/hico/InterpretationAct</p>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.w3.org/ns/prov#Activity">activity</span><sup title="class" class="type-c">c</sup></dd><dd><a href="#d4e48" title="http://purl.org/emmedi/hico/hasInterpretationCriterion">has interpretation criterion</a><sup title="object property" class="type-op">op</sup> <span class="logic">some</span> <a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1182" title="https://w3id.org/cnr-ispc/ontology/branco#Interpretation">interpretation</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e48" title="http://purl.org/emmedi/hico/hasInterpretationCriterion">has interpretation criterion</a><sup title="object property" class="type-op">op</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e754" class="entity"><a name="http://purl.org/emmedi/hico/InterpretationCriterion"></a>
+			<h3>Interpretation Criterion<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/emmedi/hico/InterpretationCriterion</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://purl.org/emmedi/hico">http://purl.org/emmedi/hico</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">The	criterion or type of source used by an agent to support an	interpretation act, such as bibliography, verbal communication, etc. </span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e48" title="http://purl.org/emmedi/hico/hasInterpretationCriterion">has interpretation criterion</a><sup title="object property" class="type-op">op</sup></dd><dt>has members</dt><dd><a href="#d4e1247" title="https://w3id.org/cnr-ispc/ontology/branco#archival-source">archival source</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1284" title="https://w3id.org/cnr-ispc/ontology/branco#comparison">comparison</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1297" title="https://w3id.org/cnr-ispc/ontology/branco#diagnostic-data">diagnostic data</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1321" title="https://w3id.org/cnr-ispc/ontology/branco#general-rule">general rule</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1371" title="https://w3id.org/cnr-ispc/ontology/branco#observation">observation</a><sup title="named individual" class="type-ni">ni</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1196" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"></a>
+			<h3>interpretative unit<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">The	interpretative unit is the core unit of a reconstruction activity.	Based on the archeological concept of <i>stratigraphic unit</i>, the interpretative unit tries to extend the semantics of	this concept also to non-archeological sites. It models an event of	destruction (<code>crm:6_Destruction</code>) or modification	(<code>crm:E11_Modification</code> and its subclasses) on a	physical object.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1167" title="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">cladding unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1233" title="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit">structural unit</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e720" title="https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder">has chronological order</a><sup title="data property" class="type-dp">dp</sup>, <a href="#d4e662" title="https://w3id.org/cnr-ispc/ontology/branco#involves">involves</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e676" title="https://w3id.org/cnr-ispc/ontology/branco#models">models</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e769" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E11_Modification"></a>
+			<h3>Modification<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E11_Modification</p>
+			<div class="comment"><span class="markdown">This	class comprises instances of Activity that are undertaken to create,	alter or change instances of E24 Physical Human-Made Thing.	This class includes the production of an item from raw materials and	other so far undocumented objects. It also includes the conservation	treatment of an object.	Since the distinction between modification and production is not always	clear, modification is regarded as the more generally applicable	concept. This implies that some items may be consumed or destroyed in an	instance of E11 Modification, and that others may be produced as a	result of it. An event should also be documented using an instance of	E81 Transformation if it results in the destruction of one or more	objects and the simultaneous production of others using parts or	material from the originals. In this case, the new items have separate	identities.	An activity undertaken on an object which was designed to alter it, but	which, in fact, it did not in any seemingly significant way (such as the	application of a solvent during conservation which failed to dissolve	any part of the object), is still considered as an instance of E11	Modification. Typically, any such activity will leave at least forensic	traces of evidence on the object.	If the instance of E29 Design or Procedure utilized for the modification	prescribes the use of specific materials, they should be documented	using property P68 foresees use of (use foreseen by): E57 Material of	E29 Design or Procedure, rather than via P126 employed (was employed	in): E57 Material.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1066" title="http://www.cidoc-crm.org/cidoc-crm/E7_Activity">activity</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e1034" title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1073" title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a><sup title="class" class="type-c">c</sup>, <a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e446" title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e997" title="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction">Destruction</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1034" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"></a>
+			<h3>Part Addition<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition</p>
+			<div class="comment"><span class="markdown">This	class comprises activities that result in an instance of E18 Physical	Thing being increased, enlarged, or augmented by the addition of a part.	Typical scenarios include the attachment of an accessory, the	integration of a component, the addition of an element to an aggregate	object, or the accessioning of an object into a curated instance of E78	Curated Holding. Both the E18 Physical Thing being augmented and the E18	Physical Thing that is being added are treated as separate identifiable	wholes prior to the instance of E79 Part Addition. Following the	addition of parts, the resulting assemblages are treated objectively as	single identifiable wholes, made up of constituent or component parts	bound together either physically (for example the engine becoming a part	of the car), or by sharing a common purpose (such as the 32 chess	pieces that make up a chess set). This class of activities forms a basis	for reasoning about the history and continuity of identity of objects	that are integrated into other objects over time, such as precious	gemstones being repeatedly incorporated into different items of	jewellery, or cultural artefacts being added to different museum	instances of E78 Curated Holding over their lifespan.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e136" title="http://www.cidoc-crm.org/cidoc-crm/P111_added">added</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1073" title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1073" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"></a>
+			<h3>Part Removal<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal</p>
+			<div class="comment"><span class="markdown">This	class comprises the activities that result in an instance of E18	Physical Thing being decreased by the removal of a part.	Typical scenarios include the detachment of an accessory, the removal of	a component or part of a composite object, or the deaccessioning of an	object from a curated collection, an instance of E78 Curated Holding. If	the instance of E80 Part Removal results in the total decomposition of	the original object into pieces, such that the whole ceases to exist,	the activity should instead be modelled as an instance of E81	Transformation, i.e. a simultaneous destruction and production. In cases	where the part removed has no discernible identity prior to its removal	but does have an identity subsequent to its removal, the activity	should be modelled as both an instance of E80 Part Removal and E12	Production. This class of activities forms a basis for reasoning about	the history, and continuity of identity over time, of objects that are	removed from other objects, such as precious gemstones being extracted	from different items of jewellery, or cultural artifacts being	deaccessioned from different museum collections over their lifespan.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e180" title="http://www.cidoc-crm.org/cidoc-crm/P113_removed">removed</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1034" title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e889" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"></a>
+			<h3>Physical Feature<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature</p>
+			<div class="comment"><span class="markdown">This	class comprises identifiable features that are physically attached in	an integral way to particular physical objects.	Instances of E26 Physical Feature share many of the attributes of	instances of E19 Physical Object. They may have a one-dimensional,	two-dimensional, or three-dimensional geometric extent, but there are no	natural borders that separate them completely in an objective way from	the carrier objects. For example, a doorway is a feature but the door	itself, being attached by hinges, is not.	Instances of E26 Physical Feature can be features in a narrower sense,	such as scratches, holes, reliefs, surface colours, reflection zones in	an opal crystal or a density change in a piece of wood. In the wider	sense, they are portions of particular objects with partially imaginary	borders, such as the core of the Earth, an area of property on the	surface of the Earth, a landscape or the head of a contiguous marble	statue. They can be measured and dated, and it is sometimes possible to	state who or what is or was responsible for them. They cannot be	separated from the carrier object, but a segment of the carrier object	may be identified (or sometimes removed) carrying the complete feature.	This definition coincides with the definition of “fiat objects”, with	the exception of aggregates of “bona fide objects” (Smith &amp;amp;	Varzi, 2000).</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e845" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"></a>
+			<h3>Physical Thing<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing</p>
+			<div class="comment"><span class="markdown">This	class comprises all persistent physical items with a relatively stable	form, human-made or natural.	Depending on the existence of natural boundaries of such things, the	CIDOC CRM distinguishes the instances of E19 Physical Object from	instances of E26 Physical Feature, such as holes, rivers, pieces of	land, etc. Most instances of E19 Physical Object can be moved (if not	too heavy), whereas features are integral to the surrounding matter.	An instance of E18 Physical Thing occupies not only a particular	geometric space at any instant of its existence, but in the course of	its existence it also forms a trajectory through spacetime, which	occupies a real, that is phenomenal, volume in spacetime. We include in	the occupied space the space filled by the matter of the physical thing	and all its inner spaces, such as the interior of a box. For the purpose	of more detailed descriptions of the presence of an instance of E18	Physical Thing in space and time it can be associated with its specific	instance of E92 Spacetime Volume by the property P196 defines (is	defined by).	The CIDOC CRM is generally not concerned with amounts of matter in fluid	or gaseous states, as long as they are not confined in an identifiable	way for an identifiable minimal time-span.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object">e72 legal object</span><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e889" title="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature">Physical Feature</a><sup title="class" class="type-c">c</sup>, <a href="#d4e882" title="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing">physical human made thing</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e489" title="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of">is composed of</a><sup title="object property" class="type-op">op</sup></dd><dt>is in range of</dt><dd><a href="#d4e136" title="http://www.cidoc-crm.org/cidoc-crm/P111_added">added</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e237" title="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed">destroyed</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e446" title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e662" title="https://w3id.org/cnr-ispc/ontology/branco#involves">involves</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e489" title="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of">is composed of</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e612" title="http://www.ics.forth.gr/isl/CRMdig/L1_digitized">digitized</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e702" title="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith">provides comparison with</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e180" title="http://www.cidoc-crm.org/cidoc-crm/P113_removed">removed</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e804" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E12_Production"></a>
+			<h3>Production<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E12_Production</p>
+			<div class="comment"><span class="markdown">This	class comprises activities that are designed to, and succeed in,	creating one or more new items.	It specializes the notion of modification into production. The decision	as to whether or not an object is regarded as new is context sensitive.	Normally, items are considered “new” if there is no obvious overall	similarity between them and the consumed items and material used in	their production. In other cases, an item is considered “new” because it	becomes relevant to documentation by a modification. For example, the	scribbling of a name on a potsherd may make it a voting token. The	original potsherd may not be worth documenting, in contrast to the	inscribed one.	This entity can be collective: the printing of a thousand books, for	example, would normally be considered a single event.	An event should also be documented using an instance of E81	Transformation if it results in the destruction of one or more objects	and the simultaneous production of others using parts or material from	the originals. In this case, the new items have separate identities and	matter is preserved, but identity is not.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup></dd><dd><a href="#d4e982" title="http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence">beginning of existence</a><sup title="class" class="type-c">c</sup></dd><dt>is in domain of</dt><dd><a href="#d4e91" title="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced">has produced</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e1034" title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1073" title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1208" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction"></a>
+			<h3>reconstruction<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#Reconstruction</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">A	reconstruction is a system of interpretative units which, on the basis	of scrupulous and scientific research, describe the original appearance	of a cultural site or artwork</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1221" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode"></a>
+			<h3>semantic node<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#SemanticNode</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	class comprises all the annotation objects which may embedded in a 3D	Model to add semantics annotation. For the implementation of semantic	nodes in the framework <a href="https://osiris.itabc.cnr.it/aton/">ATON</a>, see the	reference <a href="https://aton.ispc.cnr.it/apidoc/client/Node.html">documentation page</a></span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1122" title="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object">annotation object</a><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e648" title="https://w3id.org/cnr-ispc/ontology/branco#hasNode">has node</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup>, <a href="#d4e1208" title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1233" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit"></a>
+			<h3>structural unit<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">Interpretative	Unit can refer to events concerning structural elements, considered	without any decoration: in this case, it is said <i>structural unit</i></span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e633" title="https://w3id.org/cnr-ispc/ontology/branco#covers">covers</a><sup title="object property" class="type-op">op</sup></dd><dt>is disjoint with</dt><dd><a href="#d4e1167" title="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">cladding unit</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e941" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/E55_Type"></a>
+			<h3>Type<sup title="class" class="type-c">c</sup><span class="backlink"> back to <a href="#toc">ToC</a> or	<a href="#classes">Class ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E55_Type</p>
+			<div class="comment"><span class="markdown">This	class comprises concepts denoted by terms from thesauri and controlled	vocabularies used to characterize and classify instances of CIDOC CRM	classes. Instances of E55 Type represent concepts, in contrast to	instances of E41 Appellation which are used to name instances of CIDOC	CRM classes.	E55 Type provides an interface to domain specific ontologies and	thesauri. These can be represented in the CIDOC CRM as subclasses of E55	Type, forming hierarchies of terms, i.e. instances of E55 Type linked	via P127 has broader term (has narrower term): E55 Type. Such	hierarchies may be extended with additional properties.</span></div>
+			<dl class="description"><dt>has super-classes</dt><dd><a href="#d4e922" title="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">conceptual object</a><sup title="class" class="type-c">c</sup></dd><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd><dt>has sub-classes</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd><dt>is in range of</dt><dd><a href="#d4e404" title="http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type">assigned property of type</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e436" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a><sup title="object property" class="type-op">op</sup></dd><dt>has members</dt><dd><a href="#d4e1260" title="https://w3id.org/cnr-ispc/ontology/branco#author">author</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1272" title="https://w3id.org/cnr-ispc/ontology/branco#commission">commission</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1309" title="https://w3id.org/cnr-ispc/ontology/branco#dimension">dimension</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1334" title="https://w3id.org/cnr-ispc/ontology/branco#iconography">iconography</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1346" title="https://w3id.org/cnr-ispc/ontology/branco#location">location</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1358" title="https://w3id.org/cnr-ispc/ontology/branco#material">material</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1383" title="https://w3id.org/cnr-ispc/ontology/branco#provenance">provenance</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1395" title="https://w3id.org/cnr-ispc/ontology/branco#style">style</a><sup title="named individual" class="type-ni">ni</sup>, <a href="#d4e1408" title="https://w3id.org/cnr-ispc/ontology/branco#technique">technique</a><sup title="named individual" class="type-ni">ni</sup></dd>
+			</dl>
+		</div>
+	</div>
+	<div id="objectproperties">
+		<h2>Object Properties</h2>
+		<ul class="hlist">
+			<li><a href="#d4e136" title="http://www.cidoc-crm.org/cidoc-crm/P111_added">added</a></li>
+			<li><a href="#d4e322" title="http://www.cidoc-crm.org/cidoc-crm/P141_assigned">assigned</a></li>
+			<li><a href="#d4e281" title="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to">assigned	attribute to</a></li>
+			<li><a href="#d4e404" title="http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type">assigned	property of type</a></li>
+			<li><a href="#d4e65" title="http://purl.org/spar/cito/cites"><span>cites</span></a></li>
+			<li><a href="#d4e75" title="http://purl.org/spar/cito/citesAsEvidence">cites as evidence</a></li>
+			<li><a href="#d4e633" title="https://w3id.org/cnr-ispc/ontology/branco#covers"><span>covers</span></a></li>
+			<li><a href="#d4e237" title="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed">destroyed</a></li>
+			<li><a href="#d4e365" title="http://www.cidoc-crm.org/cidoc-crm/P148_has_component">has component</a></li>
+			<li><a href="#d4e48" title="http://purl.org/emmedi/hico/hasInterpretationCriterion">has interpretation	criterion</a></li>
+			<li><a href="#d4e446" title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a></li>
+			<li><a href="#d4e648" title="https://w3id.org/cnr-ispc/ontology/branco#hasNode"><span>has node</span></a>
+			</li>
+			<li><a href="#d4e91" title="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced">has produced</a></li>
+			<li><a href="#d4e662" title="https://w3id.org/cnr-ispc/ontology/branco#involves"><span>involves</span></a>
+			</li>
+			<li><a href="#d4e489" title="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of">is composed of</a></li>
+			<li><a href="#d4e612" title="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"><span>digitized</span></a>
+			</li>
+			<li><a href="#d4e599" title="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"><span>had output</span></a></li>
+			<li><a href="#d4e624" title="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"><span>is annotated by</span></a></li>
+			<li><a href="#d4e676" title="https://w3id.org/cnr-ispc/ontology/branco#models"><span>models</span></a></li>
+			<li><a href="#d4e228"	title="http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with"><span>spatiotemporally overlaps with</span></a></li>
+			<li><a href="#d4e397" title="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"><span>used specific object</span></a></li>
+			<li><a href="#d4e436" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"><span>has type</span></a>
+			</li>
+			<li><a href="#d4e530" title="http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier"><span>has preferred identifier</span></a></li>
+			<li><a href="#d4e702"	title="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith"><span>provides comparison with</span></a></li>
+			<li><a href="#d4e546" title="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to">refers to</a></li>
+			<li><a href="#d4e180" title="http://www.cidoc-crm.org/cidoc-crm/P113_removed">removed</a></li>
+		</ul>
+		<div id="d4e136" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P111_added"></a>
+			<h3>added<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P111_added</p>
+			<div class="comment"><span class="markdown">This property identifies the instance of E18 Physical Thing that	is added during an instance of E79 Part Addition activity.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><a href="#d4e397" title="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object">used specific object</a><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e1034" title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P111i_was_added_by">p111i was added by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e322" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P141_assigned"></a>
+			<h3>assigned<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P141_assigned</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of E13 Attribute Assignment with the	instance of E1 CRM Entity used in the attribution. The instance of E1	CRM Entity here plays the role of the range of the attribution.	The kind of attribution made should be documented using P177 assigned	property of type (is type of property assigned).</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</span></dd>	<dt>has domain</dt>	<dd><a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">							attribute assignment</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by">p141i was assigned by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e281" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"></a>
+			<h3>assigned attribute to<sup title="object property" class="type-op">op</sup><span class="backlink"> back	to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of E13 Attribute Assignment with the	instance of E1 CRM Entity about which it made an attribution. The	instance of E1 CRM Entity plays the role of the domain of the	attribution.	The kind of attribution made should be documented using P177 assigned	property of type (is type of property assigned).</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">							attribute assignment</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by">p140i was attributed by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e404" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type"></a>
+			<h3>assigned property of type<sup title="object property" class="type-op">op</sup><span class="backlink">	back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of E13 Attribute Assignment with the	type of property or relation that this assignment maintains to hold	between the item to which it assigns an attribute and the attribute	itself. Note that the properties defined by the CIDOC CRM also	constitute instances of E55 Type themselves. The direction of the	assigned property of type is understood to be from the attributed item	(the range of property P140 assigned attribute to) to the attribute item	(the range of the property P141 assigned). More than one property type	may be assigned to hold between two items.	A comprehensive explanation about refining CIDOC CRM concepts by E55	Type is given in the section “About Types” in the section on “Specific	Modelling Constructs” of this document.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><a href="#d4e436" title="http://www.cidoc-crm.org/cidoc-crm/P2_has_type">has type</a><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e838" title="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment">							attribute assignment</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P177i_is_type_of_property_assigned">p177i is type of property assigned</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e65" class="entity"><a name="http://purl.org/spar/cito/cites"></a>
+			<h3>cites<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/spar/cito/cites</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://purl.org/spar/cito">http://purl.org/spar/cito</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">The	citing entity cites the cited entity, either directly and explicitly	(as in the reference list of a journal article), indirectly (e.g. by	citing a more recent paper by the same group on the same topic), or	implicitly (e.g. as in artistic quotations or parodies, or in cases of	plagiarism).</span></div>
+			<div class="description"><dl>	<dt>has sub-properties</dt>	<dd><a href="#d4e75" title="http://purl.org/spar/cito/citesAsEvidence">cites as evidence</a><sup title="object property" class="type-op">op</sup>, <a href="#d4e702" title="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith">provides comparison with</a><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e75" class="entity"><a name="http://purl.org/spar/cito/citesAsEvidence"></a>
+			<h3>cites as evidence<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/spar/cito/citesAsEvidence</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://purl.org/spar/cito">http://purl.org/spar/cito</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">The	citing entity cites the cited entity as source of factual evidence for	statements it contains.
+	In the implementation of Branco, it allows to connect interpretations to	a specific feature (<code>crm:E26_Physical_Feature</code>)	which supports an assertion of a property to the studied	<code>crm:E18_Physical_Thing</code>, as in style recognition	(see individual :style).</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><a href="#d4e65" title="http://purl.org/spar/cito/cites">cites</a><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e633" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#covers"></a>
+			<h3>covers<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#covers</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This property connects a cladding unit to its reference	structural unit, e.g. the production of a fresco decoration on a wall.</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1167" title="https://w3id.org/cnr-ispc/ontology/branco#CladdingUnit">cladding unit</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e1233" title="https://w3id.org/cnr-ispc/ontology/branco#StructuralUnit">structural unit</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e237" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P13_destroyed"></a>
+			<h3>destroyed<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P13_destroyed</p>
+			<div class="comment"><span class="markdown">This	property links an instance of E6 Destruction to an instance of E18	Physical Thing that has been destroyed by it.	Destruction implies the end of an item’s life as a subject of cultural	documentation – the physical matter of which the item was composed may	in fact continue to exist. An instance of E6 Destruction may be	contiguous with an instance of E12 Production that brings into existence	a derived object composed partly of matter from the destroyed object.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence">p93 took out of existence</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e997" title="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction">Destruction</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P13i_was_destroyed_by">p13i was destroyed by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e365" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P148_has_component"></a>
+			<h3>has component<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P148_has_component</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of Propositional Object with a	structural part of it that is by itself an instance of Propositional	Object.	This property is transitive. This property is asymmetric.</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P148i_is_component_of">p148i is component of</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e48" class="entity"><a name="http://purl.org/emmedi/hico/hasInterpretationCriterion"></a>
+			<h3>has interpretation criterion<sup title="object property" class="type-op">op</sup><span class="backlink">	back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/emmedi/hico/hasInterpretationCriterion</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="http://purl.org/emmedi/hico">http://purl.org/emmedi/hico</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">A property relating an interpretation act to a criterion or type	of source used to support the claim.</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e737" title="http://purl.org/emmedi/hico/InterpretationAct">interpretation act</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e446" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified"></a>
+			<h3>has modified<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P31_has_modified</p>
+			<div class="comment"><span class="markdown">This property identifies the instance of E18 Physical Thing	modified in an instance of E11 Modification.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of">p12 occurred in the presence of</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has sub-properties</dt>	<dd><a href="#d4e91" title="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced">has produced</a><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P31i_was_modified_by">p31i was modified by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e648" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#hasNode"></a>
+			<h3>has node<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#hasNode</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This property connects a digital object to the one or more	semantic nodes that annotates it</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1149" title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e1221" title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e91" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P108_has_produced"></a>
+			<h3>has produced<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P108_has_produced</p>
+			<div class="comment"><span class="markdown">This	property identifies the instance of E24 Physical Human-Made Thing that	came into existence as a result of the instance of E12 Production.	The identity of an instance of E24 Physical Human-Made Thing is not	defined by its matter, but by its existence as a subject of	documentation. An E12 Production can result in the creation of multiple	instances of E24 Physical Human-Made Thing.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><a href="#d4e446" title="http://www.cidoc-crm.org/cidoc-crm/P31_has_modified">has modified</a><sup title="object property" class="type-op">op</sup></dd>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence">p92 brought into existence</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e882" title="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing">	physical human made thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by">p108i was produced by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e662" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#involves"></a>
+			<h3>involves<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#involves</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	property further describes an interpretative unit: it allows to	directly link it with the physical thing that is undergoing a process of	<code>crm:E6_Destruction</code> or	<code>crm:E11_Modification</code></span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e489" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of"></a>
+			<h3>is composed of<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of E18 Physical Thing with another	instance of Physical Thing that forms part of it. The spatial extent of	the composing part is included in the spatial extent of the whole.	Component elements, since they are themselves instances of E18 Physical	Thing, may be further analysed into sub-components, thereby creating a	hierarchy of part decomposition. An instance of E18 Physical Thing may	be shared between multiple wholes, for example two buildings may share a	common wall. This property does not specify when and for how long a	component element resided in the respective whole. If a component is not	part of a whole from the beginning of existence or until the end of	existence of the whole, the classes E79 Part Addition and E90 Part	Removal can be used to document when a component became part of a	particular whole and/or when it stopped being a part of it. For the	time-span of being part of the respective whole, the component is	completely contained in the place the whole occupies.	This property is intended to describe specific components that are	individually documented, rather than general aspects. Overall	descriptions of the structure of an instance of E18 Physical Thing are	captured by the P3 has note property.	The instances of E57 Material of which an instance of E18 Physical Thing	is composed should be documented using P45 consists of (is incorporated	in).	This property is transitive and asymmetric.</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of">p46i forms part of</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e612" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/L1_digitized"></a>
+			<h3>digitized<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/L1_digitized</p>
+			<div class="comment"><span class="markdown">This	property associates an instance of D2 Digitization Process with an	instance of E18 Physical Thing which is a material thing.	This property is a specialisation of P39 measured (was measured by).</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1132" title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">	digitization process</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e599" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/L11_had_output"></a>
+			<h3>had output<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/L11_had_output</p>
+			<div class="comment"><span class="markdown">This property associates an instance of D7 Digital Machine Event	with an instance of D1 Digital Object	which is the output of the activity.	This property is a specialisation of P94 has created (was created by).</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><span class="dotted" title="http://www.ics.forth.gr/isl/CRMdig/D7_Digital_Machine_Event">d7 digital machine event</span><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><span class="dotted" title="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object">digital object</span><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e624" class="entity"><a name="http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by"></a>
+			<h3>is annotated by<sup title="object property" class="type-op">op</sup><span class="backlink"> back to	<a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.ics.forth.gr/isl/CRMdig/L43i_is_annotated_by</p>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e1122" title="http://www.ics.forth.gr/isl/CRMdig/D29_Annotation_Object">d29 annotation object</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e676" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#models"></a>
+			<h3>models<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#models</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">Interpretative	units model events of type <code>crm:E6_Destruction</code>	or <code>crm:E11_Modification</code> on a physical thing:	this property allows to link an interpretative unit to one of these	processes</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e769" title="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">Modification</a><sup title="class" class="type-c">c</sup> <span class="logic">or</span> <a href="#d4e997" title="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction">Destruction</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e228" class="entity"><aname="http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with"></a>
+			<h3>p132 spatiotemporally overlaps with<sup title="object property" class="type-op">op</sup><span	class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P132_spatiotemporally_overlaps_with</p>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event">event</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e975" title="http://www.cidoc-crm.org/cidoc-crm/E5_Event">event</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e397" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object"></a>
+			<h3>used specific object<sup title="object property" class="type-op">op</sup><span class="backlink">	back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object</p>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of">p12 occurred in the presence of</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has sub-properties</dt>	<dd><a href="#d4e136" title="http://www.cidoc-crm.org/cidoc-crm/P111_added">added</a><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e436" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"></a>
+			<h3>has type<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P2_has_type</p>
+			<div class="description"><dl>	<dt>has sub-properties</dt>	<dd><a href="#d4e404" title="http://www.cidoc-crm.org/cidoc-crm/P177_assigned_property_of_type">assigned property of type</a><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e530" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier"></a>
+			<h3>has preferred identifier<sup title="object property" class="type-op">op</sup><span class="backlink">	back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier</p>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by">p1 is identified by</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P48i_is_preferred_identifier_of">p48i is preferred identifier of</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e702" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith"></a>
+			<h3>provides comparison with<sup title="object property" class="type-op">op</sup><span class="backlink">	back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#providesComparisonWith</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">Interpretations	may be based on a comparison with other relevant artwork or sites	displaying similar features with the current case study. This properties	associates the interpretation with the object of comparison.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><a href="#d4e65" title="http://purl.org/spar/cito/cites">cites</a><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e1182" title="https://w3id.org/cnr-ispc/ontology/branco#Interpretation">interpretation</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e546" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"></a>
+			<h3>refers to<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P67_refers_to</p>
+			<div class="comment"><span class="markdown">This	property documents that an instance of Propositional Object makes a	statement about an instance of E1 CRM Entity. P67 refers to (is	referred to by) has the P67.1 has type link to an instance of E55 Type.	This is intended to allow a more detailed description of the type of	reference. This differs from P129 is about (is subject of), which	describes the primary subject or subjects of the instance of E89	Propositional Object.</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1106" title="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">propositional object</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">e1 c r m entity</span><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by">p67i is referred to by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+		<div id="d4e180" class="entity"><a name="http://www.cidoc-crm.org/cidoc-crm/P113_removed"></a>
+			<h3>removed<sup title="object property" class="type-op">op</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/P113_removed</p>
+			<div class="comment"><span class="markdown">This property identifies the instance of E18 Physical Thing that	is removed during an instance of E80 Part Removal activity.</span></div>
+			<div class="description"><dl>	<dt>has super-properties</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of">p12 occurred in the presence of</span><sup title="object property" class="type-op">op</sup></dd>	<dt>has domain</dt>	<dd><a href="#d4e1073" title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup title="class" class="type-c">c</sup></dd>	<dt>is inverse of</dt>	<dd><span class="dotted" title="http://www.cidoc-crm.org/cidoc-crm/P113i_was_removed_by">p113i was removed by</span><sup title="object property" class="type-op">op</sup></dd></dl>
+			</div>
+		</div>
+	</div>
+	<div id="dataproperties">
+		<h2>Data Properties</h2>
+		<ul class="hlist">
+			<li><a href="#d4e720" title="https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder"><span>has chronological order</span></a></li>
+		</ul>
+		<div id="d4e720" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder"></a>
+			<h3>has chronological order<sup title="data property" class="type-dp">dp</sup><span class="backlink"> back	to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#hasChronologicalOrder</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">Interpretative units models a series of events: as a result they	may be organised chronologically thanks to this data property</span></div>
+			<div class="description"><dl>	<dt>has domain</dt>	<dd><a href="#d4e1196" title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup title="class" class="type-c">c</sup></dd>	<dt>has range</dt>	<dd><span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span></dd></dl>
+			</div>
+		</div>
+	</div>
+	<div id="namedindividuals">
+		<h2>Named Individuals</h2>
+		<ul class="hlist">
+			<li><a href="#d4e1247" title="https://w3id.org/cnr-ispc/ontology/branco#archival-source"><span>archival source</span></a></li>
+			<li><a href="#d4e1260" title="https://w3id.org/cnr-ispc/ontology/branco#author"><span>author</span></a></li>
+			<li><a href="#d4e1272"	title="https://w3id.org/cnr-ispc/ontology/branco#commission"><span>commission</span></a></li>
+			<li><a href="#d4e1284"	title="https://w3id.org/cnr-ispc/ontology/branco#comparison"><span>comparison</span></a></li>
+			<li><a href="#d4e1297" title="https://w3id.org/cnr-ispc/ontology/branco#diagnostic-data"><span>diagnostic data</span></a></li>
+			<li><a href="#d4e1309"	title="https://w3id.org/cnr-ispc/ontology/branco#dimension"><span>dimension</span></a></li>
+			<li><a href="#d4e1321" title="https://w3id.org/cnr-ispc/ontology/branco#general-rule"><span>general rule</span></a></li>
+			<li><a href="#d4e1334"	title="https://w3id.org/cnr-ispc/ontology/branco#iconography"><span>iconography</span></a></li>
+			<li><a href="#d4e1346" title="https://w3id.org/cnr-ispc/ontology/branco#location"><span>location</span></a>
+			</li>
+			<li><a href="#d4e1358" title="https://w3id.org/cnr-ispc/ontology/branco#material"><span>material</span></a>
+			</li>
+			<li><a href="#d4e1371"	title="https://w3id.org/cnr-ispc/ontology/branco#observation"><span>observation</span></a></li>
+			<li><a href="#d4e1383"	title="https://w3id.org/cnr-ispc/ontology/branco#provenance"><span>provenance</span></a></li>
+			<li><a href="#d4e1395" title="https://w3id.org/cnr-ispc/ontology/branco#style"><span>style</span></a></li>
+			<li><a href="#d4e1408"	title="https://w3id.org/cnr-ispc/ontology/branco#technique"><span>technique</span></a></li>
+		</ul>
+		<div id="d4e1247" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#archival-source"></a>
+			<h3>archival source<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#archival-source</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a interpretative criterion	(<code>hico:InterpretationCriterion</code>): the	consultation of archival documents</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1260" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#author"></a>
+			<h3>author<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#author</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation, i.e. the author (suggested type:	<code>crm:E39_Actor</code> or its subclasses).</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1272" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#commission"></a>
+			<h3>commission<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#commission</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation, i.e. the actor who commissioned the artwork or monument	(suggested type: <code>crm:E39_Actor</code> or its	subclasses).</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1284" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#comparison"></a>
+			<h3>comparison<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#comparison</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a interpretative criterion	(<code>hico:InterpretationCriterion</code>): the comparison	with similar objects (they can be asserted via	<code>:providesComparisonWith</code>)</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1297" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#diagnostic-data"></a>
+			<h3>diagnostic data<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#diagnostic-data</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a interpretative criterion	(<code>hico:InterpretationCriterion</code>): scientific	evidence derived from diagnostic data acquired through physico-chemical	analyses</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1309" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#dimension"></a>
+			<h3>dimension<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#dimension</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation, i.e. the dimension of the object (suggested type:	<code>crm:E54_Dimension</code>. The numerical value can be	asserted also as an <code>xsd:float</code>, as indicated in	<a href="https://www.cidoc-crm.org/sites/default/files/
+Implementing%20the%20CIDOC%20Conceptual%20Reference%20Model%20in%20RDF.pdf"><i>Implementing the CIDOC Conceptual Reference Model in RDF</i></a>, v.1.0).</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1321" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#general-rule"></a>
+			<h3>general rule<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#general-rule</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a interpretative criterion	(<code>hico:InterpretationCriterion</code>): general rules	(such as the proportion in the dimensions of temples in Greco-Roman	architecture)</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1334" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#iconography"></a>
+			<h3>iconography<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#iconography</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation. It refers to the iconography (usually of cladding	unit), which pertains to "the identification of such images, stories and	allegories" (Panofsky).
+	In Branco, the definition of a specific iconography may be asserted as	follows: a <code>:Interpretation crm:P141_assigned crm:E36_Visual_Item</code>. With this axiom, this conceptual model	is interoperable with the <a href="https://ncarboni.github.io/vir/">VIR - Visual Representation Ontology</a> and the class <code>IC9 Representation</code>, which is in turn subclass of	<code>crm:E36_Visual_Item</code>.
+	Association of an iconography to an Iconclass concept can be asserted as	<code>crm:E36_Visual_Item crm:P48_has_preferred_identifier crm:E42_Identifier</code></span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1346" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#location"></a>
+			<h3>location<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#location</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation. It refers to the location in which the object of an	interpretative unit might be found (suggested type:	<code>crm:E53_Place</code>, with specifications asserted via	<code>crm:P157_is_at_rest_relative_to</code>)</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1358" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#material"></a>
+			<h3>material<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#material</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation. It refers to the material of which the studied object	is made (suggested type: <code>crm:E57_Material</code>)</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1371" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#observation"></a>
+			<h3>observation<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#observation</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a interpretative criterion	(<code>hico:InterpretationCriterion</code>): direct	observation of the studied object</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e754" title="http://purl.org/emmedi/hico/InterpretationCriterion">Interpretation Criterion</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1383" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#provenance"></a>
+			<h3>provenance<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#provenance</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation, i.e. the pervious owner of the studied objects	(suggested type: <code>crm:E39_Actor</code> or its	subclasses).</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1395" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#style"></a>
+			<h3>style<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#style</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation, i.e. the style in which the object is made. "By style,	it is meant the constant form - and sometimes the constant elements,	qualities, and expression - in the art of an individual or a group"	(Shapiro).
+	Since single elements may be found, it is recommended the identification	of specific features (e.g. drapery) via the axiom	<code>:Interpretation cito:citesAsEvidence crm:E26_Physical_Feature</code>
+	In CIDOC CRM style, i.e. "a style applicable to all paintings sharing	the characteristics of the works produced by the Impressionist painters,	regardless of historical context", defines morphological object types	that fall under E55 Type" (from CIDOC CRM documentation, v. 7.1.3, class	crm:E4_Period, fifth paragraph).</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+		<div id="d4e1408" class="entity"><a name="https://w3id.org/cnr-ispc/ontology/branco#technique"></a>
+			<h3>technique<sup title="named individual" class="type-ni">ni</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a></span></h3>
+			<p><strong>IRI:</strong> https://w3id.org/cnr-ispc/ontology/branco#technique</p>
+			<dl class="definedBy"><dt>is defined by</dt><dd><a href="https://w3id.org/cnr-ispc/ontology/branco#">https://w3id.org/cnr-ispc/ontology/branco#</a></dd>
+			</dl>
+			<div class="comment"><span class="markdown">This	individual refers to a type of features which may be assigned during an	interpretation. It refers to the technique used for the production of	the studied object (suggested type:	<code>crm:E55_Type</code>)</span></div>
+			<dl class="description"><dt>belongs to</dt><dd><a href="#d4e941" title="http://www.cidoc-crm.org/cidoc-crm/E55_Type">Type</a><sup title="class" class="type-c">c</sup></dd>
+			</dl>
+		</div>
+	</div>
+	<div id="annotationproperties">
+		<h2>Annotation Properties</h2>
+		<ul class="hlist">
+			<li><a href="#d4e28" title="http://purl.org/dc/elements/1.1/contributor"><span>contributor</span></a></li>
+			<li><a href="#d4e33" title="http://purl.org/dc/elements/1.1/creator"><span>creator</span></a></li>
+			<li><a href="#d4e37" title="http://purl.org/dc/elements/1.1/rights"><span>rights</span></a></li>
+			<li><a href="#d4e41" title="http://purl.org/dc/elements/1.1/title"><span>title</span></a></li>
+		</ul>
+		<div id="d4e28" class="entity"><a name="http://purl.org/dc/elements/1.1/contributor"></a>
+			<h3>contributor<sup title="annotation property" class="type-ap">ap</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/dc/elements/1.1/contributor</p>
+		</div>
+		<div id="d4e33" class="entity"><a name="http://purl.org/dc/elements/1.1/creator"></a>
+			<h3>creator<sup title="annotation property" class="type-ap">ap</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/dc/elements/1.1/creator</p>
+		</div>
+		<div id="d4e37" class="entity"><a name="http://purl.org/dc/elements/1.1/rights"></a>
+			<h3>rights<sup title="annotation property" class="type-ap">ap</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/dc/elements/1.1/rights</p>
+		</div>
+		<div id="d4e41" class="entity"><a name="http://purl.org/dc/elements/1.1/title"></a>
+			<h3>title<sup title="annotation property" class="type-ap">ap</sup><span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a></span></h3>
+			<p><strong>IRI:</strong> http://purl.org/dc/elements/1.1/title</p>
+		</div>
+	</div>
+	<div id="generalaxioms">
+		<h2>General Axioms</h2>
+		<div id="d4e1420" class="entity">
+			<h3>All Disjoint Classes <span class="backlink"> back to <a href="#toc">ToC</a></span></h3>
+			<p><a href="#d4e804" title="http://www.cidoc-crm.org/cidoc-crm/E12_Production">Production</a><sup	title="class" class="type-c">c</sup>, <a href="#d4e1034"	title="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition">Part Addition</a><sup title="class"	class="type-c">c</sup>, <a href="#d4e1073"	title="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal">Part Removal</a><sup title="class"	class="type-c">c</sup></p>
+		</div>
+		<div id="d4e1434" class="entity">
+			<h3>All Disjoint Classes <span class="backlink"> back to <a href="#toc">ToC</a></span></h3>
+			<p><a href="#d4e845" title="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">Physical Thing</a><sup	title="class" class="type-c">c</sup>, <a href="#d4e1132"	title="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process">digitization process</a><sup	title="class" class="type-c">c</sup>, <a href="#d4e1149"	title="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object">data object</a><sup title="class"	class="type-c">c</sup>, <a href="#d4e1196"	title="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit">interpretative unit</a><sup	title="class" class="type-c">c</sup>, <a href="#d4e1208"	title="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction">reconstruction</a><sup	title="class" class="type-c">c</sup>, <a href="#d4e1221"	title="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode">semantic node</a><sup title="class"	class="type-c">c</sup></p>
+		</div>
+	</div>
+	<div id="namespacedeclarations">
+		<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+		<dl>
+			<dt><em>default namespace</em></dt>
+			<dd>https://w3id.org/cnr-ispc/ontology/branco#</dd>
+			<dt>cidoc-crm</dt>
+			<dd>http://www.cidoc-crm.org/cidoc-crm/</dd>
+			<dt>cito</dt>
+			<dd>http://purl.org/spar/cito/</dd>
+			<dt>crmdig</dt>
+			<dd>http://www.ics.forth.gr/isl/CRMdig/</dd>
+			<dt>dc</dt>
+			<dd>http://purl.org/dc/elements/1.1/</dd>
+			<dt>emmedi</dt>
+			<dd>http://purl.org/emmedi/</dd>
+			<dt>hico</dt>
+			<dd>http://purl.org/emmedi/hico/</dd>
+			<dt>ontology</dt>
+			<dd>https://w3id.org/cnr-ispc/ontology/</dd>
+			<dt>owl</dt>
+			<dd>http://www.w3.org/2002/07/owl#</dd>
+			<dt>prov</dt>
+			<dd>http://www.w3.org/ns/prov#</dd>
+			<dt>rdf</dt>
+			<dd>http://www.w3.org/1999/02/22-rdf-syntax-ns#</dd>
+			<dt>rdfs</dt>
+			<dd>http://www.w3.org/2000/01/rdf-schema#</dd>
+			<dt>spar</dt>
+			<dd>http://purl.org/spar/</dd>
+			<dt>xsd</dt>
+			<dd>http://www.w3.org/2001/XMLSchema#</dd>
+		</dl>
+	</div>
+	<p class="endnote">This HTML document was obtained by processing the OWL ontology source code through <a
+			href="http://www.essepuntato.it/lode">LODE</a>, <em>Live OWL Documentation Environment</em>, developed by <a
+			href="http://www.essepuntato.it/">Silvio Peroni</a>
+		.
+	</p>
+</body>
+
+</html>
