@@ -6,7 +6,8 @@ Repository hosting the OWL Ontology for heterogeneous cultural heritage manageme
 
 This repository contains the full documentation produced during the development of the ontology. In particular:
 - the ```docs``` directory contains all the files related to the ontology and its versions in time;
-- the ```samod``` directory contains the material produced during SAMOD iterations.
+- the ```samod``` directory contains the material produced during SAMOD iterations;
+- the ```test``` directory contains the material produced for the test of the ontology with the data extracted on a catalogue entry on the Brancacci Chapel.
 
 The ontology directly reuses [CIDOC-CMR](https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html), [CRM-DIG](https://ontome.net/namespace/211), and [HICO](https://marilenadaquino.github.io/hico/#d4e318):
 

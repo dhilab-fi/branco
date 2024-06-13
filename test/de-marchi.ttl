@@ -1,0 +1,75 @@
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix hico: <http://purl.org/emmedi/hico/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# ===================
+# ===== EVENTS ======
+# ===================
+
+# First decoration of the right lunette (Masolino)
+:decoration-lunette-i a crm:E79_Part_Addition ;
+    crm:P111_added :lunette-masolino-i ;
+    crm:P110_augmented :apse-branc-chapel ;
+    crm:P132_spatiotemporally_overlaps_with :decoration-lunette-ii .
+
+# First decoration of the left lunette (Masolino)
+:decoration-lunette-ii a crm:E79_Part_Addition ;
+    crm:P111_added :lunette-sinopia-ii ;
+    crm:P110_augmented :apse-branc-chapel .
+
+# Redecoration of the vault
+:decoration-meucci a crm:E79_Part_Addition ;
+    a crm:E80_Part_Removal ;
+    crm:P110_augmented :apse-branc-chapel ;
+    crm:P111_added :vault-lunette-meucci ;
+    crm:P113_removed :lunette-masolino-fresco-i ;
+    crm:P113_removed :lunette-masolino-fresco-ii 
+
+# Redecoration of the left lunette (Masolino)
+:decoration-meucci-ii a crm:E79_Part_Addition .
+
+# Fire 1771
+:fire-1771 a crm:E5_Event.
+
+# Restoration 1984
+:restoration-1984 a crm:E5_Event.
+
+# ===================
+# ===================
+
+
+# ===================
+# ===== CULTURAL ARTEFACTS AND OBJECTSS ======
+# ===================
+
+# Apse Wall
+:apse-branc-chapel a crm:E22_Human-Made_Object .
+
+# The right lunette (Masolino) > Pentimento
+:lunette-masolino-i a crm:E22_Human-Made_Object .
+    crm:P46_is_composed_of :lunette-masolino-sinopia-i ;
+    crm:P46_is_composed_of :lunette-masolino-fresco-i .
+
+:lunette-masolino-sinopia-i a crm:E22_Human-Made_Object .
+:lunette-masolino-fresco-i a crm:E22_Human-Made_Object .
+
+# The left lunette (Meucci) > Pasce oves meas
+:lunette-masolino-ii a crm:E22_Human-Made_Object .
+    crm:P46_is_composed_of :lunette-masolino-sinopia-ii ;
+    crm:P46_is_composed_of :lunette-masolino-fresco-ii .
+
+:lunette-masolino-sinopia-ii a crm:E22_Human-Made_Object .
+:lunette-masolino-fresco-ii a crm:E22_Human-Made_Object .
+
+# The vault by V. Meucci
+:vault-lunette-meucci a crm:E22_Human-Made_Object .
+    crm:P46_is_composed_of :meucci-sinopia ;
+    crm:P46_is_composed_of :meucci-fresco .
+
+:meucci-sinopia a crm:E22_Human-Made_Object .
+:lmeucci-fresco a crm:E22_Human-Made_Object .
+
+# ===================
+# ===================
