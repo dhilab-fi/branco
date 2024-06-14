@@ -1,12 +1,34 @@
+@prefix : <http://w3id.org/cnr-ispc/example.org/> .
+@prefix branco: <https://w3id.org/cnr-ispc/ontology/branco#> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+
 @prefix cito: <http://purl.org/spar/cito/> .
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix vir: <http://w3id.org/vir#> .
 @prefix hico: <http://purl.org/emmedi/hico/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-# ===================
-# ===== EVENTS ======
-# ===================
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+@prefix viaf: <https://viaf.org/viaf/> .
+
+# @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# ======================================
+# ===== EVENTS - Historical facts ======
+# ======================================
+
+# Construction of the Brancacci Chapel Apse
+:construction-branc-apse a crm:E12_Production ;
+    crm:P108_has_produced :apse-branc-chapel .
 
 # First decoration of the right lunette (Masolino)
 :decoration-lunette-i a crm:E79_Part_Addition ;
@@ -16,7 +38,7 @@
 
 # First decoration of the left lunette (Masolino)
 :decoration-lunette-ii a crm:E79_Part_Addition ;
-    crm:P111_added :lunette-sinopia-ii ;
+    crm:P111_added :lunette-sinopite-ii ;
     crm:P110_augmented :apse-branc-chapel .
 
 # Redecoration of the vault
@@ -25,51 +47,290 @@
     crm:P110_augmented :apse-branc-chapel ;
     crm:P111_added :vault-lunette-meucci ;
     crm:P113_removed :lunette-masolino-fresco-i ;
-    crm:P113_removed :lunette-masolino-fresco-ii 
+    crm:P113_removed :lunette-masolino-fresco-ii .
 
-# Redecoration of the left lunette (Masolino)
+# Redecoration of the left lunette (Meucci)
 :decoration-meucci-ii a crm:E79_Part_Addition .
 
 # Fire 1771
 :fire-1771 a crm:E5_Event.
 
-# Restoration 1984
-:restoration-1984 a crm:E5_Event.
+# Detachment of the  1984
+:restoration-1984 a crmsci:S1_Matter_Removal ;
+    crmsci:O1_diminished :vault-lunette-meucci ;
+    crmsci:O2_diminished :lunette-masolino-sinopite-i ;
+    crmsci:O2_diminished :lunette-masolino-sinopite-ii .
+
+# ===================
+# ===================
+
+
+# =================================
+# ===== INTERPRETATIVE UNITS ======
+# =================================
+
+:int-units-1 a branco:StructuralUnit ;
+    branco:hasChronologicalOrder "1"^^xsd:integer ;
+    branco:models :construction-branc-apse .
+
+:int-units-2 a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "2"^^xsd:integer ;
+    branco:models :decoration-lunette-i ;
+    branco:models :decoration-lunette-ii ;
+    branco:involves :lunette-masolino-i ;
+    branco:involves :lunette-masolino-ii ;
+    branco:covers :int-units-1 ;
+    cito:cites :interpretation-call-longhi ;
+    cito:cites :intepretation-lunette-i-baldini1990 ;
+    cito:cites :intepretation-lunette-i-christiansen1991 ;
+    cito:cites :intepretation-lunette-i-joannides1993 ;
+    cito:cites :authorship-de-marchi-lun-i ;
+    cito:cites :iconography-de-marchi-lun-i ;
+    cito:cites :authorship-de-marchi-lun-ii ;
+    cito:cites :iconography-de-marchi-lun-ii ;
+    cito:cites :iconology-de-marchi-lun-ii .
+
+:int-units-3 a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "3"^^xsd:integer ;
+    branco:models :decoration-meucci ;
+    branco:involves :vault-lunette-meucci .
+
+# ===================
+# ===================
+
+
+# ======================================
+# ===== EVENTS - Interpretations =======
+# ======================================
+
+# ===== Cited interpretations
+:interpretation-call-longhi a branco:Interpretation ;               # Longhi 1940 - Call of Saint Peter (AUTH)
+    hico:isExtractedFrom :fatti-di-masaccio-masolino-ita ;
+    crm:P140_assigned_attribute_to :fresco-call-saint-peter ;
+    crm:P177_assigned_property_of_type branco:author ;
+    branco:providesComparisonWith :copy-call-saint-peter ;
+    crm:P141_assigned :masolino .
+
+:intepretation-lunette-i-baldini1990 a branco:Interpretation ;      # Baldini 1990 - Right Lunette (AUTH / ICON) 
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:iconography ;
+    crm:P141_assigned :tears-saint-peter ;
+    crm:P177_assigned_property_of_type branco:author ;
+    crm:P141_assigned :masaccio . 
+
+:intepretation-lunette-i-christiansen1991 a branco:Interpretation ; # Christiansen 1991 - Right Lunette (AUTH)
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:author ;
+    cito:disagreesWith :intepretation-lunette-i-baldini1990 ;
+    crm:P141_assigned :masolino .
+
+:intepretation-lunette-i-joannides1993 a branco:Interpretation ;    # Joannides 1993 - Right Lunette (AUTH)
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:author ;
+    cito:disagreesWith :intepretation-lunette-i-baldini1990 ;
+    crm:P141_assigned :masolino .
+
+:iconography-bas-relief-pope-hennessy1949 a branco:Interpretation ;      # Pope-Hennessy 1949 - Bas-relief (ICON)
+    crm:P140_assigned_attribute_to :basrelief-donatello ;
+    crm:P177_assigned_property_of_type branco:iconography ;
+    crm:P141_assigned :ascension-traditio-clavium .
+
+# ===== De Marchi interpretations
+:authorship-de-marchi-lun-i a branco:Interpretation ;               # Right Lunette (AUTH)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:author ;
+    cito:citesAsEvidence :drapery-saint-peter-lun-i ;
+    cito:cites :interpretation-call-longhi ;
+    crm:P141_assigned :masolino .
+
+:iconography-de-marchi-lun-i a branco:Interpretation ;              # Right Lunette (ICON)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:iconography ;
+    cito:citesAsEvidence :rooster-saint-peter-lun-i ;
+    crm:P141_assigned :repentance-saint-peter .    
+
+:authorship-de-marchi-lun-ii a branco:Interpretation ;              # Left Lunette (AUTH)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :lunette-masolino-i ;
+    crm:P177_assigned_property_of_type branco:author ;
+    cito:usesConclusionsFrom :authorship-de-marchi-lun-i ;
+    crm:P141_assigned :masolino .
+
+:iconography-de-marchi-lun-ii a branco:Interpretation ;             # Left Lunette (ICONOGRAPHY)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :lunette-masolino-ii ;
+    crm:P177_assigned_property_of_type branco:iconography ;
+    cito:citesAsEvidence :sheep-saint-peter-lun-ii ;
+    crm:P141_assigned :pasce-oves-meas .
+
+:iconology-de-marchi-lun-ii a branco:Interpretation ;               # Left Lunette (ICONOLOGY)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :lunette-masolino-ii ;
+    crm:P177_assigned_property_of_type :iconology ;
+    crm:P141_assigned :mission-saint-peter .
+
+:location-bas-relief-de-marchi a branco:Interpretation ;            # Bas-relief (ORIG. LOCATION)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :basrelief-donatello ;
+    crm:P177_assigned_property_of_type branco:location ;
+    cito:usesConclusionsFrom :iconography-bas-relief-pope-hennessy ;
+    crm:P141_assigned :loc-altar-brancacci .
+
+:provenance-bas-relief-de-marchi a branco:Interpretation ;          # Bas-relief (PROVENANCE)
+    hico:isExtractedFrom :catalogue-masolino-2024-ita ;
+    crm:P140_assigned_attribute_to :basrelief-donatello ;
+    crm:P177_assigned_property_of_type branco:provenance ;
+    cito:citesAsSourceDocument :libro-inventario-medici ;
+    crm:P141_assigned :medici-family .
 
 # ===================
 # ===================
 
 
 # ===================
-# ===== CULTURAL ARTEFACTS AND OBJECTSS ======
+# ===== ACTORS ======
 # ===================
+
+:massaccio a crm:E21_Person ;
+    owl:sameAs viaf:7368513 .
+
+:masolino a crm:E21_Person ;
+    owl:sameAs viaf:14747968 .
+
+:medici-family a crm:E74_Group ;
+    owl:sameAs viaf:13102402 ;
+    rdfs:label "Medici Family" ;
+    crm:P11i_participated_in :creation-libro-inventario-medici .
+
+:de-marchi a crm:E21_Person ;
+    a foaf:Person ;
+    frbr:creatorOf :catalogue-masolino-2024 .
+
+:longhi a crm:E21_Person ;
+    a foaf:Person ;
+    owl:sameAs viaf:39380437 ;
+    frbr:creatorOf :fatti-di-masaccio-masolino .
+
+:v-and-a a crm:E74_Group ;
+    owl:sameAs viaf:128776887 ;
+    rdfs:label "Victoria and Albert Museum"^^xsd:string .
+
+:asf a crm:E74_Group ;
+    owl:sameAs viaf:140812626 ;
+    rdfs:label "Archivio di Stato di Firenze"^^xsd:string .
+
+# ===================
+# ===================
+
+
+# ==========================================
+# ===== ICONOGRAPHIES and ICONOLOGIES ======
+# ==========================================
+
+:tears-saint-peter a vir:IC9_Representation ;
+    rdfs:label "Sain Peter in Tears"^^xsd:string .
+
+:repentance-saint-peter a vir:IC9_Representation ;
+    rdfs:label "Repentance of Sain Peter"^^xsd:string .
+
+:pasce-oves-meas a vir:IC9_Representation ;
+    rdfs:label "Pasce Oves Meas"^^xsd:string ;
+    vir:K14_symbolize :mission-saint-peter .
+
+:ascension-traditio-clavium a vir:IC9_Representation ;
+    rdfs:label "The Ascension of Jesus and Traditio Clavium"^^xsd:string ;
+    vir:K14_symbolize :mission-saint-peter .
+
+:mission-saint-peter a crm:E90_Symbolic_Object ;
+    rdfs:label "Saint Peter's ecclesial mission on Earth"^^xsd:string .
+
+# ===================
+# ===================
+
+# ====================
+# ===== SOURCES ======
+# ====================
+
+:libro-inventario-medici a fabio:ArchivalDocument ;
+    a crm:E31_Document ;
+    crm:P92i_was_brought_into_existence_by :creation-libro-inventario-medici ;
+    fabio:hasRepresentation :libro-inventario-medici-analog ;
+    fabio:hasRepresentation :libro-inventario-medici-digital .
+
+:libro-inventario-medici-analog a fabio:AnalogItem ;
+    a crm:E24_Physical_Human-Made_Thing ;
+    crm:P50_has_current_keeper :asf.
+    
+:libro-inventario-medici-digital a fabio:ComputerFile ;
+    a crmdig:D1_Digital_Object ;
+    fabio:hasURL "https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960"^^xsd:anyURI .
+
+:catalogue-masolino-2024 a fabio:Catalog ;
+    frbr:realization :catalogue-masolino-2024-ita .
+
+:fatti-di-masaccio-masolino a fabio:Essay ;
+    frbr:realization :fatti-di-masaccio-masolino-ita .
+
+# ===================
+# ===================
+
+# ===========================================
+# ===== CULTURAL ARTEFACTS AND OBJECTS ======
+# ===========================================
 
 # Apse Wall
 :apse-branc-chapel a crm:E22_Human-Made_Object .
 
-# The right lunette (Masolino) > Pentimento
-:lunette-masolino-i a crm:E22_Human-Made_Object .
-    crm:P46_is_composed_of :lunette-masolino-sinopia-i ;
+# The right lunette (Masolino) > Repentance of Saint Peter
+:lunette-masolino-i a crm:E22_Human-Made_Object ;
+    crm:P46_is_composed_of :lunette-masolino-sinopite-i ;
     crm:P46_is_composed_of :lunette-masolino-fresco-i .
 
-:lunette-masolino-sinopia-i a crm:E22_Human-Made_Object .
+:lunette-masolino-sinopite-i a crm:E22_Human-Made_Object ;
+    a crmsci:S11_Amount_of_Matter ;
+    crm:P56_bears_feature :drapery-saint-peter-lun-i ;
+    crm:P56_bears_feature :rooster-saint-peter-lun-i .
+
 :lunette-masolino-fresco-i a crm:E22_Human-Made_Object .
 
-# The left lunette (Meucci) > Pasce oves meas
-:lunette-masolino-ii a crm:E22_Human-Made_Object .
-    crm:P46_is_composed_of :lunette-masolino-sinopia-ii ;
+:drapery-saint-peter-lun-i a crm:E26_Physical_Feature .
+:rooster-saint-peter-lun-i a crm:E26_Physical_Feature .
+
+# The left lunette (Masolino) > Pasce oves meas
+:lunette-masolino-ii a crm:E22_Human-Made_Object ;
+    crm:P46_is_composed_of :lunette-masolino-sinopite-ii ;
     crm:P46_is_composed_of :lunette-masolino-fresco-ii .
 
-:lunette-masolino-sinopia-ii a crm:E22_Human-Made_Object .
+:lunette-masolino-sinopite-ii a crm:E22_Human-Made_Object ;
+    a crmsci:S11_Amount_of_Matter ;
+    crm:P56_bears_feature :sheep-saint-peter-lun-ii .
+
 :lunette-masolino-fresco-ii a crm:E22_Human-Made_Object .
 
+:sheep-saint-peter-lun-ii a crm:E26_Physical_Feature .
+
 # The vault by V. Meucci
-:vault-lunette-meucci a crm:E22_Human-Made_Object .
-    crm:P46_is_composed_of :meucci-sinopia ;
+:vault-lunette-meucci a crm:E22_Human-Made_Object ;
+    crm:P46_is_composed_of :meucci-sinopite ;
     crm:P46_is_composed_of :meucci-fresco .
 
-:meucci-sinopia a crm:E22_Human-Made_Object .
-:lmeucci-fresco a crm:E22_Human-Made_Object .
+:meucci-sinopite a crm:E22_Human-Made_Object ;
+    a crmsci:S11_Amount_of_Matter .
+
+:meucci-fresco a crm:E22_Human-Made_Object .
+
+# Other artefacts
+:fresco-call-saint-peter a crm:E22_Human-Made_Object .
+
+:copy-call-saint-peter a crm:E22_Human-Made_Object .
+
+:basrelief-donatello a crm:E22_Human-Made_Object ;
+    crm:P50_has_current_keeper :v-and-a .
+
+:altar-brancacci a crm:E22_Human-Made_Object ;
+    crm:P157i_provides_reference_space_for :loc-altar-brancacci .
 
 # ===================
 # ===================

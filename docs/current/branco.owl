@@ -14,12 +14,12 @@
      xmlns:cito="http://purl.org/spar/cito/">
     <owl:Ontology rdf:about="https://w3id.org/cnr-ispc/ontology/branco">
         <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dc:creator xml:lang="en">Ivana Cerato, CNR ISPC
+ivana.cerato@cnr.it</dc:creator>
         <dc:title xml:lang="en">Branco - Brancacci Chapel Ontology</dc:title>
         <owl:versionInfo xml:lang="en">0.9.0</owl:versionInfo>
         <dc:creator xml:lang="en">Manuele Veggi, &quot;La Sapienza&quot; University of Rome - CNR ISPC
 manuele.veggi@uniroma1.it</dc:creator>
-	<dc:creator xml:lang="en">Ivana Cerato, CNR ISPC
-ivana.cerato@cnr.it</dc:creator>
         <rdfs:comment xml:lang="en">&lt;b&gt;Branco&lt;/b&gt; (Brancacci Chapel Ontology) is an ontology for management of heterogeneous data and the reconstruction of historical sites and artworks which is based on the concept of intepretative unit, an adaptation of the concept of stratigraphic unit beyond the context of archeological excavation.
 
 It is aligned with CIDOC-CRM (v.7.1.3) and CRMDig (v.3.2.1) and it uses specific classes of the Historical Context Ontology (HICO).
@@ -1148,14 +1148,6 @@ In CIDOC CRM style, i.e. &quot;a style applicable to all paintings sharing the c
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12_Production"/>
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E79_Part_Addition"/>
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
