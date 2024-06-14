@@ -1,22 +1,21 @@
-@prefix : <http://w3id.org/cnr-ispc/example.org/> .
+@prefix : <http://w3id.org/cnr-ispc/brancacci/example> .
 @prefix branco: <https://w3id.org/cnr-ispc/ontology/branco#> .
 
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix vir: <http://w3id.org/vir#> .
 
 @prefix cito: <http://purl.org/spar/cito/> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-
-@prefix vir: <http://w3id.org/vir#> .
 @prefix hico: <http://purl.org/emmedi/hico/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 @prefix viaf: <https://viaf.org/viaf/> .
 

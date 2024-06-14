@@ -618,7 +618,6 @@ This property is a specialisation of P39 measured (was measured by).
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E11_Modification">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
-        <owl:disjointWith rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E6_Destruction"/>
         <rdfs:comment xml:lang="en">This class comprises instances of E7 Activity that are undertaken to create, alter or change instances of E24 Physical Human-Made Thing.
 This class includes the production of an item from raw materials and other so far undocumented objects. It also includes the conservation treatment of an object.
 Since the distinction between modification and production is not always clear, modification is regarded as the more generally applicable concept. This implies that some items may be consumed or destroyed in an instance of E11 Modification, and that others may be produced as a result of it. An event should also be documented using an instance of E81 Transformation if it results in the destruction of one or more objects and the simultaneous production of others using parts or material from the originals. In this case, the new items have separate identities.
@@ -1137,28 +1136,6 @@ In CIDOC CRM style, i.e. &quot;a style applicable to all paintings sharing the c
         <rdfs:comment xml:lang="en">This individual refers to a type of features which may be assigned during an interpretation. It refers to the technique used for the production of the studied object (suggested type: &lt;code&gt;crm:E55_Type&lt;/code&gt;)</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/cnr-ispc/ontology/branco#"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
-            <rdf:Description rdf:about="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
-            <rdf:Description rdf:about="http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#InterpretativeUnit"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#Reconstruction"/>
-            <rdf:Description rdf:about="https://w3id.org/cnr-ispc/ontology/branco#SemanticNode"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
