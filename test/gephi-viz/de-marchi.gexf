@@ -1,0 +1,1205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-06-16">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="networkx_key" type="string" />
+    </attributes>
+    <nodes>
+      <node id=":libro-inventario-medici" label=":libro-inventario-medici" />
+      <node id=":libro-inventario-medici-digital" label=":libro-inventario-medici-digital" />
+      <node id=":int-unit-2-i" label=":int-unit-2-i" />
+      <node id=":decoration-lunette-i" label=":decoration-lunette-i" />
+      <node id=":iconography-de-marchi-lun-i" label=":iconography-de-marchi-lun-i" />
+      <node id=":catalogue-masolino-2024-ita" label=":catalogue-masolino-2024-ita" />
+      <node id=":int-unit-4" label=":int-unit-4" />
+      <node id=":int-unit-1" label=":int-unit-1" />
+      <node id=":meucci-sinopite" label=":meucci-sinopite" />
+      <node id="crm:E22_Human-Made_Object" label="crm:E22_Human-Made_Object" />
+      <node id=":de-marchi" label=":de-marchi" />
+      <node id=":catalogue-masolino-2024" label=":catalogue-masolino-2024" />
+      <node id=":intepretation-lunette-i-baldini1990" label=":intepretation-lunette-i-baldini1990" />
+      <node id="branco:iconography" label="branco:iconography" />
+      <node id=":iconography-de-marchi-lun-ii" label=":iconography-de-marchi-lun-ii" />
+      <node id=":authorship-de-marchi-lun-i" label=":authorship-de-marchi-lun-i" />
+      <node id=":libro-inventario-medici-analog" label=":libro-inventario-medici-analog" />
+      <node id=":lunette-masolino-fresco-i" label=":lunette-masolino-fresco-i" />
+      <node id=":lunette-masolino-i" label=":lunette-masolino-i" />
+      <node id=":lunette-masolino-sinopite-i" label=":lunette-masolino-sinopite-i" />
+      <node id=":lunette-masolino-ii" label=":lunette-masolino-ii" />
+      <node id=":intepretation-lunette-i-joannides1993" label=":intepretation-lunette-i-joannides1993" />
+      <node id=":longhi" label=":longhi" />
+      <node id=":fatti-di-masaccio-masolino" label=":fatti-di-masaccio-masolino" />
+      <node id=":authorship-de-marchi-lun-ii" label=":authorship-de-marchi-lun-ii" />
+      <node id=":location-bas-relief-de-marchi" label=":location-bas-relief-de-marchi" />
+      <node id=":fresco-call-saint-peter" label=":fresco-call-saint-peter" />
+      <node id=":int-unit-3" label=":int-unit-3" />
+      <node id="3" label="3" />
+      <node id=":pasce-oves-meas" label=":pasce-oves-meas" />
+      <node id="vir:IC9_Representation" label="vir:IC9_Representation" />
+      <node id=":iconology-de-marchi-lun-ii" label=":iconology-de-marchi-lun-ii" />
+      <node id="branco:Interpretation" label="branco:Interpretation" />
+      <node id=":int-unit-6" label=":int-unit-6" />
+      <node id=":restoration-1984" label=":restoration-1984" />
+      <node id=":lunette-masolino-sinopite-ii" label=":lunette-masolino-sinopite-ii" />
+      <node id=":v-and-a" label=":v-and-a" />
+      <node id="Victoria and Albert Museum" label="Victoria and Albert Museum" />
+      <node id=":iconography-bas-relief-pope-hennessy1949" label=":iconography-bas-relief-pope-hennessy1949" />
+      <node id=":basrelief-donatello" label=":basrelief-donatello" />
+      <node id=":provenance-bas-relief-de-marchi" label=":provenance-bas-relief-de-marchi" />
+      <node id="foaf:Person" label="foaf:Person" />
+      <node id=":altar-brancacci" label=":altar-brancacci" />
+      <node id=":loc-altar-brancacci" label=":loc-altar-brancacci" />
+      <node id=":int-unit-2-ii" label=":int-unit-2-ii" />
+      <node id=":intepretation-lunette-i-christiansen1991" label=":intepretation-lunette-i-christiansen1991" />
+      <node id=":masolino" label=":masolino" />
+      <node id=":construction-branc-apse" label=":construction-branc-apse" />
+      <node id=":apse-branc-chapel" label=":apse-branc-chapel" />
+      <node id="crmdig:D1_Digital_Object" label="crmdig:D1_Digital_Object" />
+      <node id="branco:author" label="branco:author" />
+      <node id=":repentance-saint-peter" label=":repentance-saint-peter" />
+      <node id="Repentance of Sain Peter" label="Repentance of Sain Peter" />
+      <node id=":add-basrelief" label=":add-basrelief" />
+      <node id=":copy-call-saint-peter" label=":copy-call-saint-peter" />
+      <node id=":int-unit-5" label=":int-unit-5" />
+      <node id="branco:CladdingUnit" label="branco:CladdingUnit" />
+      <node id="crm:E21_Person" label="crm:E21_Person" />
+      <node id=":asf" label=":asf" />
+      <node id="crm:E74_Group" label="crm:E74_Group" />
+      <node id=":rooster-saint-peter-lun-i" label=":rooster-saint-peter-lun-i" />
+      <node id=":decoration-lunette-ii" label=":decoration-lunette-ii" />
+      <node id=":medici-family" label=":medici-family" />
+      <node id=":ascension-traditio-clavium" label=":ascension-traditio-clavium" />
+      <node id=":mission-saint-peter" label=":mission-saint-peter" />
+      <node id="branco:StructuralUnit" label="branco:StructuralUnit" />
+      <node id="viaf:14747968" label="viaf:14747968" />
+      <node id=":lunette-sinopite-ii" label=":lunette-sinopite-ii" />
+      <node id="viaf:140812626" label="viaf:140812626" />
+      <node id=":vault-lunette-meucci" label=":vault-lunette-meucci" />
+      <node id="crm:E31_Document" label="crm:E31_Document" />
+      <node id="::restoration-1984" label="::restoration-1984" />
+      <node id=":remove-basrelief" label=":remove-basrelief" />
+      <node id="branco:location" label="branco:location" />
+      <node id=":lunette-masolino-fresco-ii" label=":lunette-masolino-fresco-ii" />
+      <node id=":interpretation-call-longhi" label=":interpretation-call-longhi" />
+      <node id="6" label="6" />
+      <node id="fabio:AnalogItem" label="fabio:AnalogItem" />
+      <node id="fabio:Catalog" label="fabio:Catalog" />
+      <node id="Archivio di Stato di Firenze" label="Archivio di Stato di Firenze" />
+      <node id=":creation-libro-inventario-medici" label=":creation-libro-inventario-medici" />
+      <node id=":iconography-bas-relief-pope-hennessy" label=":iconography-bas-relief-pope-hennessy" />
+      <node id="crmsci:S11_Amount_of_Matter" label="crmsci:S11_Amount_of_Matter" />
+      <node id="viaf:13102402" label="viaf:13102402" />
+      <node id="5" label="5" />
+      <node id=":decoration-meucci" label=":decoration-meucci" />
+      <node id="fabio:ArchivalDocument" label="fabio:ArchivalDocument" />
+      <node id="branco:provenance" label="branco:provenance" />
+      <node id=":sheep-saint-peter-lun-ii" label=":sheep-saint-peter-lun-ii" />
+      <node id=":fire-1771" label=":fire-1771" />
+      <node id="crm:E5_Event" label="crm:E5_Event" />
+      <node id=":fatti-di-masaccio-masolino-ita" label=":fatti-di-masaccio-masolino-ita" />
+      <node id="fabio:Essay" label="fabio:Essay" />
+      <node id="crm:E24_Physical_Human-Made_Thing" label="crm:E24_Physical_Human-Made_Thing" />
+      <node id="crm:E79_Part_Addition" label="crm:E79_Part_Addition" />
+      <node id="viaf:128776887" label="viaf:128776887" />
+      <node id="2" label="2" />
+      <node id="crm:E26_Physical_Feature" label="crm:E26_Physical_Feature" />
+      <node id=":iconology" label=":iconology" />
+      <node id=":tears-saint-peter" label=":tears-saint-peter" />
+      <node id="Medici Family" label="Medici Family" />
+      <node id="https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960" label="https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960" />
+      <node id=":meucci-fresco" label=":meucci-fresco" />
+      <node id=":massaccio" label=":massaccio" />
+      <node id="viaf:7368513" label="viaf:7368513" />
+      <node id="crm:E12_Production" label="crm:E12_Production" />
+      <node id="Pasce Oves Meas" label="Pasce Oves Meas" />
+      <node id=":drapery-saint-peter-lun-i" label=":drapery-saint-peter-lun-i" />
+      <node id="viaf:39380437" label="viaf:39380437" />
+      <node id="crmsci:S1_Matter_Removal" label="crmsci:S1_Matter_Removal" />
+      <node id="1" label="1" />
+      <node id="The Ascension of Jesus and Traditio Clavium" label="The Ascension of Jesus and Traditio Clavium" />
+      <node id="4" label="4" />
+      <node id="Sain Peter in Tears" label="Sain Peter in Tears" />
+      <node id="Saint Peter's ecclesial mission on Earth" label="Saint Peter's ecclesial mission on Earth" />
+      <node id=":decoration-meucci-ii" label=":decoration-meucci-ii" />
+      <node id="fabio:ComputerFile" label="fabio:ComputerFile" />
+      <node id="crm:E80_Part_Removal" label="crm:E80_Part_Removal" />
+      <node id=":masaccio" label=":masaccio" />
+      <node id="crm:E90_Symbolic_Object" label="crm:E90_Symbolic_Object" />
+    </nodes>
+    <edges>
+      <edge source=":libro-inventario-medici" target=":libro-inventario-medici-digital" id="0" label="fabio:hasRepresentation">
+        <attvalues>
+          <attvalue for="0" value="fabio:hasRepresentation" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici" target=":libro-inventario-medici-analog" id="1" label="fabio:hasRepresentation">
+        <attvalues>
+          <attvalue for="0" value="fabio:hasRepresentation" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici" target="crm:E31_Document" id="2" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici" target="fabio:ArchivalDocument" id="3" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici" target=":creation-libro-inventario-medici" id="4" label="crm:P92i_was_brought_into_existence_by">
+        <attvalues>
+          <attvalue for="0" value="crm:P92i_was_brought_into_existence_by" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-digital" target="crmdig:D1_Digital_Object" id="5" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-digital" target="https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960" id="6" label="fabio:hasURL">
+        <attvalues>
+          <attvalue for="0" value="fabio:hasURL" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-digital" target="fabio:ComputerFile" id="7" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":decoration-lunette-i" id="8" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":lunette-masolino-ii" id="9" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":int-unit-1" id="10" label="branco:covers">
+        <attvalues>
+          <attvalue for="0" value="branco:covers" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target="branco:CladdingUnit" id="11" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":intepretation-lunette-i-christiansen1991" id="12" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target="2" id="13" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":iconography-de-marchi-lun-i" id="14" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":intepretation-lunette-i-joannides1993" id="15" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":authorship-de-marchi-lun-i" id="16" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":intepretation-lunette-i-baldini1990" id="17" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-i" target=":lunette-masolino-i" id="18" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-i" target=":lunette-masolino-i" id="19" label="crm:P111_added">
+        <attvalues>
+          <attvalue for="0" value="crm:P111_added" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-i" target=":apse-branc-chapel" id="20" label="crm:P110_augmented">
+        <attvalues>
+          <attvalue for="0" value="crm:P110_augmented" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-i" target="crm:E79_Part_Addition" id="21" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-i" target=":decoration-lunette-ii" id="22" label="crm:P132_spatiotemporally_overlaps_with">
+        <attvalues>
+          <attvalue for="0" value="crm:P132_spatiotemporally_overlaps_with" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target=":catalogue-masolino-2024-ita" id="23" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target=":repentance-saint-peter" id="24" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target="branco:Interpretation" id="25" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target=":lunette-masolino-i" id="26" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target=":rooster-saint-peter-lun-i" id="27" label="cito:citesAsEvidence">
+        <attvalues>
+          <attvalue for="0" value="cito:citesAsEvidence" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-i" target="branco:iconography" id="28" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target=":int-unit-1" id="29" label="branco:covers">
+        <attvalues>
+          <attvalue for="0" value="branco:covers" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target=":remove-basrelief" id="30" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target=":provenance-bas-relief-de-marchi" id="31" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target="4" id="32" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target=":basrelief-donatello" id="33" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-4" target="branco:CladdingUnit" id="34" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-1" target="branco:StructuralUnit" id="35" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-1" target="1" id="36" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-1" target=":construction-branc-apse" id="37" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":meucci-sinopite" target="crm:E22_Human-Made_Object" id="38" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":meucci-sinopite" target="crmsci:S11_Amount_of_Matter" id="39" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":de-marchi" target=":catalogue-masolino-2024" id="40" label="frbr:creatorOf">
+        <attvalues>
+          <attvalue for="0" value="frbr:creatorOf" />
+        </attvalues>
+      </edge>
+      <edge source=":de-marchi" target="foaf:Person" id="41" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":de-marchi" target="crm:E21_Person" id="42" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":catalogue-masolino-2024" target=":catalogue-masolino-2024-ita" id="43" label="frbr:realization">
+        <attvalues>
+          <attvalue for="0" value="frbr:realization" />
+        </attvalues>
+      </edge>
+      <edge source=":catalogue-masolino-2024" target="fabio:Catalog" id="44" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target="branco:iconography" id="45" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target="branco:author" id="46" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target="branco:Interpretation" id="47" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target=":lunette-masolino-i" id="48" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target=":masaccio" id="49" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-baldini1990" target=":tears-saint-peter" id="50" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target="branco:iconography" id="51" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target=":pasce-oves-meas" id="52" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target=":catalogue-masolino-2024-ita" id="53" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target="branco:Interpretation" id="54" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target=":sheep-saint-peter-lun-ii" id="55" label="cito:citesAsEvidence">
+        <attvalues>
+          <attvalue for="0" value="cito:citesAsEvidence" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-de-marchi-lun-ii" target=":lunette-masolino-ii" id="56" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target=":catalogue-masolino-2024-ita" id="57" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target="branco:Interpretation" id="58" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target=":lunette-masolino-i" id="59" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target=":masolino" id="60" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target=":interpretation-call-longhi" id="61" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target=":drapery-saint-peter-lun-i" id="62" label="cito:citesAsEvidence">
+        <attvalues>
+          <attvalue for="0" value="cito:citesAsEvidence" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-i" target="branco:author" id="63" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-analog" target="fabio:AnalogItem" id="64" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-analog" target="crm:E24_Physical_Human-Made_Thing" id="65" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":libro-inventario-medici-analog" target=":asf" id="66" label="crm:P50_has_current_keeper">
+        <attvalues>
+          <attvalue for="0" value="crm:P50_has_current_keeper" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-fresco-i" target="crm:E22_Human-Made_Object" id="67" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-i" target=":lunette-masolino-sinopite-i" id="68" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-i" target="crm:E22_Human-Made_Object" id="69" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-i" target=":lunette-masolino-fresco-i" id="70" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-i" target="crm:E22_Human-Made_Object" id="71" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-i" target=":rooster-saint-peter-lun-i" id="72" label="crm:P56_bears_feature">
+        <attvalues>
+          <attvalue for="0" value="crm:P56_bears_feature" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-i" target="crmsci:S11_Amount_of_Matter" id="73" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-i" target=":drapery-saint-peter-lun-i" id="74" label="crm:P56_bears_feature">
+        <attvalues>
+          <attvalue for="0" value="crm:P56_bears_feature" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-ii" target="crm:E22_Human-Made_Object" id="75" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-ii" target=":lunette-masolino-fresco-ii" id="76" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-ii" target=":lunette-masolino-sinopite-ii" id="77" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-joannides1993" target=":lunette-masolino-i" id="78" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-joannides1993" target=":intepretation-lunette-i-baldini1990" id="79" label="cito:disagreesWith">
+        <attvalues>
+          <attvalue for="0" value="cito:disagreesWith" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-joannides1993" target=":masolino" id="80" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-joannides1993" target="branco:author" id="81" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-joannides1993" target="branco:Interpretation" id="82" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":longhi" target=":fatti-di-masaccio-masolino" id="83" label="frbr:creatorOf">
+        <attvalues>
+          <attvalue for="0" value="frbr:creatorOf" />
+        </attvalues>
+      </edge>
+      <edge source=":longhi" target="foaf:Person" id="84" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":longhi" target="viaf:39380437" id="85" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":longhi" target="crm:E21_Person" id="86" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":fatti-di-masaccio-masolino" target="fabio:Essay" id="87" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":fatti-di-masaccio-masolino" target=":fatti-di-masaccio-masolino-ita" id="88" label="frbr:realization">
+        <attvalues>
+          <attvalue for="0" value="frbr:realization" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target=":catalogue-masolino-2024-ita" id="89" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target="branco:author" id="90" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target="branco:Interpretation" id="91" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target=":lunette-masolino-i" id="92" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target=":authorship-de-marchi-lun-i" id="93" label="cito:usesConclusionsFrom">
+        <attvalues>
+          <attvalue for="0" value="cito:usesConclusionsFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":authorship-de-marchi-lun-ii" target=":masolino" id="94" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target=":catalogue-masolino-2024-ita" id="95" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target="branco:Interpretation" id="96" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target=":loc-altar-brancacci" id="97" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target="branco:location" id="98" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target=":basrelief-donatello" id="99" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":location-bas-relief-de-marchi" target=":iconography-bas-relief-pope-hennessy" id="100" label="cito:usesConclusionsFrom">
+        <attvalues>
+          <attvalue for="0" value="cito:usesConclusionsFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":fresco-call-saint-peter" target="crm:E22_Human-Made_Object" id="101" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target="3" id="102" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target=":basrelief-donatello" id="103" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target=":iconography-bas-relief-pope-hennessy1949" id="104" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target=":location-bas-relief-de-marchi" id="105" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target=":int-unit-1" id="106" label="branco:covers">
+        <attvalues>
+          <attvalue for="0" value="branco:covers" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target="branco:CladdingUnit" id="107" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-3" target=":add-basrelief" id="108" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":pasce-oves-meas" target="vir:IC9_Representation" id="109" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":pasce-oves-meas" target="Pasce Oves Meas" id="110" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":pasce-oves-meas" target=":mission-saint-peter" id="111" label="vir:K14_symbolize">
+        <attvalues>
+          <attvalue for="0" value="vir:K14_symbolize" />
+        </attvalues>
+      </edge>
+      <edge source=":iconology-de-marchi-lun-ii" target="branco:Interpretation" id="112" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconology-de-marchi-lun-ii" target=":lunette-masolino-ii" id="113" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":iconology-de-marchi-lun-ii" target=":iconology" id="114" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconology-de-marchi-lun-ii" target=":mission-saint-peter" id="115" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":iconology-de-marchi-lun-ii" target=":catalogue-masolino-2024-ita" id="116" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-6" target=":lunette-masolino-sinopite-i" id="117" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-6" target="::restoration-1984" id="118" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-6" target="6" id="119" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-6" target="branco:CladdingUnit" id="120" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-6" target=":lunette-masolino-sinopite-ii" id="121" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":restoration-1984" target=":lunette-masolino-sinopite-ii" id="122" label="crmsci:O2_removed">
+        <attvalues>
+          <attvalue for="0" value="crmsci:O2_removed" />
+        </attvalues>
+      </edge>
+      <edge source=":restoration-1984" target=":vault-lunette-meucci" id="123" label="crmsci:O1_diminished">
+        <attvalues>
+          <attvalue for="0" value="crmsci:O1_diminished" />
+        </attvalues>
+      </edge>
+      <edge source=":restoration-1984" target="crmsci:S1_Matter_Removal" id="124" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":restoration-1984" target=":lunette-masolino-sinopite-i" id="125" label="crmsci:O2_removed">
+        <attvalues>
+          <attvalue for="0" value="crmsci:O2_removed" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-ii" target="crm:E22_Human-Made_Object" id="126" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-ii" target=":sheep-saint-peter-lun-ii" id="127" label="crm:P56_bears_feature">
+        <attvalues>
+          <attvalue for="0" value="crm:P56_bears_feature" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-sinopite-ii" target="crmsci:S11_Amount_of_Matter" id="128" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":v-and-a" target="Victoria and Albert Museum" id="129" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":v-and-a" target="viaf:128776887" id="130" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":v-and-a" target="crm:E74_Group" id="131" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-bas-relief-pope-hennessy1949" target=":basrelief-donatello" id="132" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-bas-relief-pope-hennessy1949" target="branco:iconography" id="133" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-bas-relief-pope-hennessy1949" target=":ascension-traditio-clavium" id="134" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":iconography-bas-relief-pope-hennessy1949" target="branco:Interpretation" id="135" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":basrelief-donatello" target=":add-basrelief" id="136" label="crm:P111i_was_added_by">
+        <attvalues>
+          <attvalue for="0" value="crm:P111i_was_added_by" />
+        </attvalues>
+      </edge>
+      <edge source=":basrelief-donatello" target="crm:E22_Human-Made_Object" id="137" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":basrelief-donatello" target=":remove-basrelief" id="138" label="crm:P113i_was_removed_by">
+        <attvalues>
+          <attvalue for="0" value="crm:P113i_was_removed_by" />
+        </attvalues>
+      </edge>
+      <edge source=":basrelief-donatello" target=":v-and-a" id="139" label="crm:P50_has_current_keeper">
+        <attvalues>
+          <attvalue for="0" value="crm:P50_has_current_keeper" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target=":basrelief-donatello" id="140" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target=":libro-inventario-medici" id="141" label="cito:citesAsSourceDocument">
+        <attvalues>
+          <attvalue for="0" value="cito:citesAsSourceDocument" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target="branco:provenance" id="142" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target=":medici-family" id="143" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target=":catalogue-masolino-2024-ita" id="144" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":provenance-bas-relief-de-marchi" target="branco:Interpretation" id="145" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":altar-brancacci" target=":loc-altar-brancacci" id="146" label="crm:P157i_provides_reference_space_for">
+        <attvalues>
+          <attvalue for="0" value="crm:P157i_provides_reference_space_for" />
+        </attvalues>
+      </edge>
+      <edge source=":altar-brancacci" target="crm:E22_Human-Made_Object" id="147" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":iconology-de-marchi-lun-ii" id="148" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":lunette-masolino-ii" id="149" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":int-unit-1" id="150" label="branco:covers">
+        <attvalues>
+          <attvalue for="0" value="branco:covers" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target="branco:CladdingUnit" id="151" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target="2" id="152" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":decoration-lunette-ii" id="153" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":iconography-de-marchi-lun-ii" id="154" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-2-ii" target=":authorship-de-marchi-lun-ii" id="155" label="cito:cites">
+        <attvalues>
+          <attvalue for="0" value="cito:cites" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-christiansen1991" target=":masolino" id="156" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-christiansen1991" target=":intepretation-lunette-i-baldini1990" id="157" label="cito:disagreesWith">
+        <attvalues>
+          <attvalue for="0" value="cito:disagreesWith" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-christiansen1991" target="branco:Interpretation" id="158" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-christiansen1991" target="branco:author" id="159" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":intepretation-lunette-i-christiansen1991" target=":lunette-masolino-i" id="160" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":masolino" target="crm:E21_Person" id="161" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":masolino" target="viaf:14747968" id="162" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":construction-branc-apse" target=":apse-branc-chapel" id="163" label="crm:P108_has_produced">
+        <attvalues>
+          <attvalue for="0" value="crm:P108_has_produced" />
+        </attvalues>
+      </edge>
+      <edge source=":construction-branc-apse" target="crm:E12_Production" id="164" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":apse-branc-chapel" target="crm:E22_Human-Made_Object" id="165" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":repentance-saint-peter" target="Repentance of Sain Peter" id="166" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":repentance-saint-peter" target="vir:IC9_Representation" id="167" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":copy-call-saint-peter" target="crm:E22_Human-Made_Object" id="168" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-5" target="branco:CladdingUnit" id="169" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-5" target=":vault-lunette-meucci" id="170" label="branco:involves">
+        <attvalues>
+          <attvalue for="0" value="branco:involves" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-5" target="5" id="171" label="branco:hasChronologicalOrder">
+        <attvalues>
+          <attvalue for="0" value="branco:hasChronologicalOrder" />
+        </attvalues>
+      </edge>
+      <edge source=":int-unit-5" target=":decoration-meucci" id="172" label="branco:models">
+        <attvalues>
+          <attvalue for="0" value="branco:models" />
+        </attvalues>
+      </edge>
+      <edge source=":asf" target="crm:E74_Group" id="173" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":asf" target="viaf:140812626" id="174" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":asf" target="Archivio di Stato di Firenze" id="175" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":rooster-saint-peter-lun-i" target="crm:E26_Physical_Feature" id="176" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-ii" target=":apse-branc-chapel" id="177" label="crm:P110_augmented">
+        <attvalues>
+          <attvalue for="0" value="crm:P110_augmented" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-ii" target=":lunette-sinopite-ii" id="178" label="crm:P111_added">
+        <attvalues>
+          <attvalue for="0" value="crm:P111_added" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-lunette-ii" target="crm:E79_Part_Addition" id="179" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":medici-family" target="crm:E74_Group" id="180" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":medici-family" target=":creation-libro-inventario-medici" id="181" label="crm:P11i_participated_in">
+        <attvalues>
+          <attvalue for="0" value="crm:P11i_participated_in" />
+        </attvalues>
+      </edge>
+      <edge source=":medici-family" target="viaf:13102402" id="182" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":medici-family" target="Medici Family" id="183" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":ascension-traditio-clavium" target=":mission-saint-peter" id="184" label="vir:K14_symbolize">
+        <attvalues>
+          <attvalue for="0" value="vir:K14_symbolize" />
+        </attvalues>
+      </edge>
+      <edge source=":ascension-traditio-clavium" target="vir:IC9_Representation" id="185" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":ascension-traditio-clavium" target="The Ascension of Jesus and Traditio Clavium" id="186" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":mission-saint-peter" target="Saint Peter's ecclesial mission on Earth" id="187" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":mission-saint-peter" target="crm:E90_Symbolic_Object" id="188" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":vault-lunette-meucci" target=":meucci-sinopite" id="189" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":vault-lunette-meucci" target="crm:E22_Human-Made_Object" id="190" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":vault-lunette-meucci" target=":meucci-fresco" id="191" label="crm:P46_is_composed_of">
+        <attvalues>
+          <attvalue for="0" value="crm:P46_is_composed_of" />
+        </attvalues>
+      </edge>
+      <edge source=":lunette-masolino-fresco-ii" target="crm:E22_Human-Made_Object" id="192" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target="branco:author" id="193" label="crm:P177_assigned_property_of_type">
+        <attvalues>
+          <attvalue for="0" value="crm:P177_assigned_property_of_type" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target=":fatti-di-masaccio-masolino-ita" id="194" label="hico:isExtractedFrom">
+        <attvalues>
+          <attvalue for="0" value="hico:isExtractedFrom" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target="branco:Interpretation" id="195" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target=":fresco-call-saint-peter" id="196" label="crm:P140_assigned_attribute_to">
+        <attvalues>
+          <attvalue for="0" value="crm:P140_assigned_attribute_to" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target=":masolino" id="197" label="crm:P141_assigned">
+        <attvalues>
+          <attvalue for="0" value="crm:P141_assigned" />
+        </attvalues>
+      </edge>
+      <edge source=":interpretation-call-longhi" target=":copy-call-saint-peter" id="198" label="branco:providesComparisonWith">
+        <attvalues>
+          <attvalue for="0" value="branco:providesComparisonWith" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target=":lunette-masolino-fresco-ii" id="199" label="crm:P113_removed">
+        <attvalues>
+          <attvalue for="0" value="crm:P113_removed" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target=":lunette-masolino-fresco-i" id="200" label="crm:P113_removed">
+        <attvalues>
+          <attvalue for="0" value="crm:P113_removed" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target="crm:E79_Part_Addition" id="201" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target=":vault-lunette-meucci" id="202" label="crm:P111_added">
+        <attvalues>
+          <attvalue for="0" value="crm:P111_added" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target="crm:E80_Part_Removal" id="203" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci" target=":apse-branc-chapel" id="204" label="crm:P110_augmented">
+        <attvalues>
+          <attvalue for="0" value="crm:P110_augmented" />
+        </attvalues>
+      </edge>
+      <edge source=":sheep-saint-peter-lun-ii" target="crm:E26_Physical_Feature" id="205" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":fire-1771" target="crm:E5_Event" id="206" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":tears-saint-peter" target="vir:IC9_Representation" id="207" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":tears-saint-peter" target="Sain Peter in Tears" id="208" label="rdfs:label">
+        <attvalues>
+          <attvalue for="0" value="rdfs:label" />
+        </attvalues>
+      </edge>
+      <edge source=":meucci-fresco" target="crm:E22_Human-Made_Object" id="209" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":massaccio" target="viaf:7368513" id="210" label="owl:sameAs">
+        <attvalues>
+          <attvalue for="0" value="owl:sameAs" />
+        </attvalues>
+      </edge>
+      <edge source=":massaccio" target="crm:E21_Person" id="211" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":drapery-saint-peter-lun-i" target="crm:E26_Physical_Feature" id="212" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+      <edge source=":decoration-meucci-ii" target="crm:E79_Part_Addition" id="213" label="rdf:type">
+        <attvalues>
+          <attvalue for="0" value="rdf:type" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

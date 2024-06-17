@@ -57,8 +57,8 @@
 # Detachment of the  1984
 :restoration-1984 a crmsci:S1_Matter_Removal ;
     crmsci:O1_diminished :vault-lunette-meucci ;
-    crmsci:O2_diminished :lunette-masolino-sinopite-i ;
-    crmsci:O2_diminished :lunette-masolino-sinopite-ii .
+    crmsci:O2_removed :lunette-masolino-sinopite-i ;
+    crmsci:O2_removed :lunette-masolino-sinopite-ii .
 
 # ===================
 # ===================
@@ -68,31 +68,56 @@
 # ===== INTERPRETATIVE UNITS ======
 # =================================
 
-:int-units-1 a branco:StructuralUnit ;
+:int-unit-1 a branco:StructuralUnit ;
     branco:hasChronologicalOrder "1"^^xsd:integer ;
     branco:models :construction-branc-apse .
 
-:int-units-2 a branco:CladdingUnit ;
+:int-unit-2-i a branco:CladdingUnit ;
     branco:hasChronologicalOrder "2"^^xsd:integer ;
     branco:models :decoration-lunette-i ;
-    branco:models :decoration-lunette-ii ;
     branco:involves :lunette-masolino-i ;
     branco:involves :lunette-masolino-ii ;
-    branco:covers :int-units-1 ;
-    cito:cites :interpretation-call-longhi ;
+    branco:covers :int-unit-1 ;
     cito:cites :intepretation-lunette-i-baldini1990 ;
     cito:cites :intepretation-lunette-i-christiansen1991 ;
     cito:cites :intepretation-lunette-i-joannides1993 ;
     cito:cites :authorship-de-marchi-lun-i ;
-    cito:cites :iconography-de-marchi-lun-i ;
+    cito:cites :iconography-de-marchi-lun-i .
+
+:int-unit-2-ii a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "2"^^xsd:integer ;
+    branco:models :decoration-lunette-ii ;
+    branco:involves :lunette-masolino-ii ;
+    branco:covers :int-unit-1 ;
     cito:cites :authorship-de-marchi-lun-ii ;
     cito:cites :iconography-de-marchi-lun-ii ;
     cito:cites :iconology-de-marchi-lun-ii .
 
-:int-units-3 a branco:CladdingUnit ;
+:int-unit-3 a branco:CladdingUnit ;
     branco:hasChronologicalOrder "3"^^xsd:integer ;
+    branco:covers :int-unit-1 ;
+    branco:models :add-basrelief ;
+    branco:involves :basrelief-donatello ;
+    cito:cites :location-bas-relief-de-marchi ;
+    cito:cites :iconography-bas-relief-pope-hennessy1949 .
+
+:int-unit-4 a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "4"^^xsd:integer ;
+    branco:covers :int-unit-1 ;
+    branco:models :remove-basrelief ;
+    branco:involves :basrelief-donatello ;
+    cito:cites :provenance-bas-relief-de-marchi .
+
+:int-unit-5 a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "5"^^xsd:integer ;
     branco:models :decoration-meucci ;
     branco:involves :vault-lunette-meucci .
+
+:int-unit-6 a branco:CladdingUnit ;
+    branco:hasChronologicalOrder "6"^^xsd:integer ;
+    branco:models ::restoration-1984 ;
+    branco:involves :lunette-masolino-sinopite-i ;
+    branco:involves :lunette-masolino-sinopite-ii .
 
 # ===================
 # ===================
@@ -129,7 +154,7 @@
     cito:disagreesWith :intepretation-lunette-i-baldini1990 ;
     crm:P141_assigned :masolino .
 
-:iconography-bas-relief-pope-hennessy1949 a branco:Interpretation ;      # Pope-Hennessy 1949 - Bas-relief (ICON)
+:iconography-bas-relief-pope-hennessy1949 a branco:Interpretation ; # Pope-Hennessy 1949 - Bas-relief (ICON)
     crm:P140_assigned_attribute_to :basrelief-donatello ;
     crm:P177_assigned_property_of_type branco:iconography ;
     crm:P141_assigned :ascension-traditio-clavium .
@@ -326,7 +351,9 @@
 :copy-call-saint-peter a crm:E22_Human-Made_Object .
 
 :basrelief-donatello a crm:E22_Human-Made_Object ;
-    crm:P50_has_current_keeper :v-and-a .
+    crm:P50_has_current_keeper :v-and-a ;
+    crm:P111i_was_added_by :add-basrelief ;
+    crm:P113i_was_removed_by :remove-basrelief .
 
 :altar-brancacci a crm:E22_Human-Made_Object ;
     crm:P157i_provides_reference_space_for :loc-altar-brancacci .

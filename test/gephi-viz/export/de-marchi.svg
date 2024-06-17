@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1502.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-730.000000 -767.000000 1502.000000 1477.000000" height="1477.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-i id_:decoration-lunette-ii"
+              d="M 302.220032,208.505600 A 437.095625,437.095625 0,0 1,531.442261,-242.523407"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-i id_:lunette-masolino-i"
+              d="M 299.723999,227.513000 A 816.471983,816.471983 0,0 1,-536.540100,701.540161"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-i id_:apse-branc-chapel"
+              d="M 296.936340,225.655090 A 535.568521,535.568521 0,0 1,-316.746887,339.398743"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-i id_crm:E79_Part_Addition"
+              d="M 295.395844,223.803375 A 741.320568,741.320568 0,0 1,-574.032227,170.212021"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-ii id_crm:E79_Part_Addition"
+              d="M 537.534302,-240.046860 A 999.479330,999.479330 0,0 1,-571.524292,165.545120"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-ii id_:apse-branc-chapel"
+              d="M 539.667664,-238.980148 A 873.357713,873.357713 0,0 1,-315.462067,334.346466"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-lunette-ii id_:lunette-sinopite-ii"
+              d="M 540.425720,-258.045807 A 134.453514,134.453514 0,0 1,586.628479,-392.710907"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:masolino id_viaf:14747968"
+              d="M -172.661087,-118.660828 A 477.415193,477.415193 0,0 1,-237.307373,431.890045"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:masolino id_crm:E21_Person"
+              d="M -170.816879,-134.749802 A 706.573713,706.573713 0,0 1,642.802979,-295.649231"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-joannides1993 id_branco:Interpretation"
+              d="M -273.663696,674.991516 A 1224.836275,1224.836275 0,0 1,11.454454,-748.065979"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-joannides1993 id_:lunette-masolino-i"
+              d="M -277.182739,690.316589 A 233.746837,233.746837 0,0 1,-538.421936,706.855103"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-joannides1993 id_:intepretation-lunette-i-baldini1990"
+              d="M -274.040558,675.178955 A 1038.121500,1038.121500 0,0 1,-84.943153,-537.435181"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-joannides1993 id_:masolino"
+              d="M -274.398956,675.376160 A 680.492171,680.492171 0,0 1,-186.398346,-117.831947"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-joannides1993 id_branco:author"
+              d="M -265.881348,674.676697 A 828.400643,828.400643 0,0 1,552.527039,143.663849"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-ii id_crm:E22_Human-Made_Object"
+              d="M -58.721718,568.660645 A 291.314762,291.314762 0,0 1,-291.653778,333.621643"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-ii id_:lunette-masolino-sinopite-ii"
+              d="M -58.588566,568.010193 A 797.950001,797.950001 0,0 1,-663.763733,-150.015640"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-ii id_:lunette-masolino-fresco-ii"
+              d="M -53.909470,561.706116 A 712.197390,712.197390 0,0 1,34.124908,-269.772522"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_branco:Interpretation"
+              d="M 130.833054,-419.334198 A 302.397373,302.397373 0,0 1,17.379189,-744.317383"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_:pasce-oves-meas"
+              d="M 148.725372,-411.201294 A 574.994637,574.994637 0,0 1,580.393921,103.109985"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_:sheep-saint-peter-lun-ii"
+              d="M 148.964355,-412.598389 A 536.526315,536.526315 0,0 1,614.963135,4.326292"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_branco:iconography"
+              d="M 137.688492,-403.669739 A 795.335357,795.335357 0,0 1,-512.582764,269.429108"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_:lunette-masolino-ii"
+              d="M 143.351990,-404.572144 A 834.748349,834.748349 0,0 1,-39.319965,561.512695"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+              d="M 134.554214,-404.630646 A 652.739690,652.739690 0,0 1,-545.506042,-54.793129"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-bas-relief-pope-hennessy1949 id_:ascension-traditio-clavium"
+              d="M -335.156555,-433.635895 A 708.758568,708.758568 0,0 1,156.959915,237.217041"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-bas-relief-pope-hennessy1949 id_branco:iconography"
+              d="M -340.939484,-427.358856 A 609.071936,609.071936 0,0 1,-515.363647,263.313660"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-bas-relief-pope-hennessy1949 id_branco:Interpretation"
+              d="M -342.510101,-446.382538 A 405.097386,405.097386 0,0 1,8.164454,-755.583069"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-bas-relief-pope-hennessy1949 id_:basrelief-donatello"
+              d="M -334.809662,-438.106354 A 781.920898,781.920898 0,0 1,478.266235,-8.051577"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:ascension-traditio-clavium id_vir:IC9_Representation"
+              d="M 147.691269,254.082748 A 583.775764,583.775764 0,0 1,-515.488464,94.988235"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:ascension-traditio-clavium id_:mission-saint-peter"
+              d="M 147.458740,253.472931 A 706.450116,706.450116 0,0 1,-644.079468,6.314772"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:ascension-traditio-clavium id_The_Ascension_of_Jesus_and_Traditio_Clavium"
+              d="M 147.426987,247.054718 A 494.415721,494.415721 0,0 1,-185.905609,-221.149292"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:de-marchi id_crm:E21_Person"
+              d="M 419.137115,-68.734734 A 276.002161,276.002161 0,0 1,641.709656,-288.119385"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:de-marchi id_:catalogue-masolino-2024"
+              d="M 407.420807,-58.696285 A 632.792537,632.792537 0,0 1,-197.874084,-485.828430"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:de-marchi id_foaf:Person"
+              d="M 415.100037,-68.610817 A 521.697062,521.697062 0,0 1,649.991272,-628.847168"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:pasce-oves-meas id_:mission-saint-peter"
+              d="M 572.648499,121.237434 A 1032.354594,1032.354594 0,0 1,-642.107605,4.535740"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:pasce-oves-meas id_Pasce_Oves_Meas"
+              d="M 573.106262,110.236153 A 527.155130,527.155130 0,0 1,382.848785,-473.581604"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:pasce-oves-meas id_vir:IC9_Representation"
+              d="M 573.021790,121.812508 A 921.267765,921.267765 0,0 1,-513.633606,93.065620"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:mission-saint-peter id_crm:E90_Symbolic_Object"
+              d="M -646.500916,4.331229 A 132.465751,132.465751 0,0 1,-652.246399,144.190186"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:mission-saint-peter id_Saint_Peter&apos;s_ecclesial_mission_on_Earth"
+              d="M -645.208740,-11.734775 A 1022.397013,1022.397013 0,0 1,534.121704,-275.189026"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-i id_:lunette-masolino-sinopite-i"
+              d="M -545.981323,690.580627 A 970.356610,970.356610 0,0 1,412.305511,62.185947"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-i id_:lunette-masolino-fresco-i"
+              d="M -542.089722,693.185913 A 411.393696,411.393696 0,0 1,-70.245338,637.822205"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-i id_crm:E22_Human-Made_Object"
+              d="M -549.813110,689.968811 A 381.161865,381.161865 0,0 1,-305.862915,325.245178"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_:location-bas-relief-de-marchi"
+              d="M -526.598389,41.193035 A 139.497650,139.497650 0,0 1,-497.770264,186.810608"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_:basrelief-donatello"
+              d="M -525.865051,27.980375 A 848.385790,848.385790 0,0 1,473.201599,-3.733083"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_:int-unit-1"
+              d="M -523.721741,33.909206 A 813.735065,813.735065 0,0 1,261.863739,582.170837"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-3 id_3"
+              d="M -524.135254,31.313730 A 885.596990,885.596990 0,0 1,458.073578,385.822205"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_branco:CladdingUnit"
+              d="M -532.163330,24.292805 A 427.641483,427.641483 0,0 1,-182.777267,-325.770844"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_:add-basrelief"
+              d="M -528.203918,25.829010 A 1025.473694,1025.473694 0,0 1,610.589783,-389.278717"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-3 id_:iconography-bas-relief-pope-hennessy1949"
+              d="M -536.191284,24.481762 A 422.769733,422.769733 0,0 1,-355.707550,-429.709991"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_branco:location"
+              d="M -508.794098,190.586685 A 189.657038,189.657038 0,0 1,-511.178894,-18.178087"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_:basrelief-donatello"
+              d="M -496.249451,191.324402 A 838.297645,838.297645 0,0 1,472.129303,-1.874264"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_:iconography-bas-relief-pope-hennessy"
+              d="M -493.111267,197.097580 A 590.788195,590.788195 0,0 1,122.637352,509.384247"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_:catalogue-masolino-2024-ita"
+              d="M -510.383759,192.001434 A 217.934841,217.934841 0,0 1,-563.405396,-44.901642"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_:loc-altar-brancacci"
+              d="M -495.752777,191.808731 A 1062.217060,1062.217060 0,0 1,750.489929,34.066444"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:location-bas-relief-de-marchi id_branco:Interpretation"
+              d="M -504.337280,188.814453 A 908.155176,908.155176 0,0 1,9.308558,-751.318604"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_:catalogue-masolino-2024-ita"
+              d="M -469.419769,-723.098083 A 566.798887,566.798887 0,0 1,-549.421265,-66.333107"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_branco:Interpretation"
+              d="M -466.543793,-738.122864 A 413.372151,413.372151 0,0 1,10.218025,-763.867188"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_:lunette-masolino-i"
+              d="M -468.770996,-723.494812 A 1194.794569,1194.794569 0,0 1,-541.164063,689.939819"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_:rooster-saint-peter-lun-i"
+              d="M -464.316071,-731.437317 A 1190.253045,1190.253045 0,0 1,635.059875,151.180130"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_branco:iconography"
+              d="M -468.772949,-723.493530 A 837.243009,837.243009 0,0 1,-517.164246,261.515778"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconography-de-marchi-lun-i id_:repentance-saint-peter"
+              d="M -466.107971,-726.098877 A 214.355359,214.355359 0,0 1,-384.706909,-501.959747"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_:apse-branc-chapel"
+              d="M 275.001038,-17.897491 A 588.707049,588.707049 0,0 1,-315.507904,334.984436"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_:lunette-masolino-fresco-i"
+              d="M 280.577332,-17.252268 A 626.279831,626.279831 0,0 1,-47.346851,638.315613"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_crm:E80_Part_Removal"
+              d="M 286.681000,-20.837307 A 242.608277,242.608277 0,0 1,360.951080,241.250565"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_crm:E79_Part_Addition"
+              d="M 272.309814,-19.581356 A 736.108318,736.108318 0,0 1,-572.114258,167.143921"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_:vault-lunette-meucci"
+              d="M 276.415833,-36.797775 A 467.650179,467.650179 0,0 1,477.349609,-540.834778"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci id_:lunette-masolino-fresco-ii"
+              d="M 269.077240,-29.023083 A 287.851246,287.851246 0,0 1,44.609970,-266.467072"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:apse-branc-chapel id_crm:E22_Human-Made_Object"
+              d="M -321.755707,326.302765 A 30.939079,30.939079 0,0 1,-306.618195,319.798157"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+              d="M 449.358459,-280.118500 A 866.789109,866.789109 0,0 1,-546.427429,-51.665226"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_:masolino"
+              d="M 449.516968,-279.985291 A 544.513884,544.513884 0,0 1,-165.514084,-122.507523"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_branco:author"
+              d="M 463.568970,-281.323578 A 371.552796,371.552796 0,0 1,570.294800,132.383850"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_:authorship-de-marchi-lun-i"
+              d="M 450.856903,-296.358765 A 280.072595,280.072595 0,0 1,480.974396,-612.334290"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_branco:Interpretation"
+              d="M 446.049774,-289.587708 A 532.967305,532.967305 0,0 1,22.616777,-743.858093"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-ii id_:lunette-masolino-i"
+              d="M 454.327454,-277.826752 A 1174.423171,1174.423171 0,0 1,-536.568604,698.166199"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:iconography-de-marchi-lun-ii"
+              d="M -264.629395,121.373161 A 565.148751,565.148751 0,0 1,126.598244,-409.724426"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_branco:CladdingUnit"
+              d="M -268.802032,122.272026 A 390.679001,390.679001 0,0 1,-179.528137,-319.001770"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:int-unit-1"
+              d="M -254.692413,132.197739 A 586.943183,586.943183 0,0 1,263.156403,581.809631"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:decoration-lunette-ii"
+              d="M -259.912354,122.571106 A 743.771129,743.771129 0,0 1,530.288269,-250.916061"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:iconology-de-marchi-lun-ii"
+              d="M -256.079010,126.235535 A 768.227865,768.227865 0,0 1,643.176941,212.359741"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-2-ii id_2"
+              d="M -261.796722,121.791313 A 237.591976,237.591976 0,0 1,-52.083996,-42.463943"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:authorship-de-marchi-lun-ii"
+              d="M -260.693451,122.192741 A 694.617689,694.617689 0,0 1,442.946136,-289.099609"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-ii id_:lunette-masolino-ii"
+              d="M -255.800705,136.014465 A 407.617604,407.617604 0,0 1,-46.655983,557.528625"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:tears-saint-peter id_Sain_Peter_in_Tears"
+              d="M 322.458588,-53.346348 A 637.274501,637.274501 0,0 1,-387.993317,-281.558777"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:tears-saint-peter id_vir:IC9_Representation"
+              d="M 324.979706,-49.338512 A 722.866589,722.866589 0,0 1,-512.280396,90.942963"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:basrelief-donatello id_:v-and-a"
+              d="M 474.450012,6.976361 A 493.220297,493.220297 0,0 1,-74.361176,-158.808426"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:basrelief-donatello id_crm:E22_Human-Made_Object"
+              d="M 478.684662,12.210017 A 699.766411,699.766411 0,0 1,-281.049530,323.954712"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:basrelief-donatello id_:add-basrelief"
+              d="M 481.070099,-5.924676 A 344.476584,344.476584 0,0 1,612.341614,-378.202393"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:basrelief-donatello id_:remove-basrelief"
+              d="M 482.276947,13.539605 A 738.751395,738.751395 0,0 1,-138.250458,620.466980"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-digital id_crmdig:D1_Digital_Object"
+              d="M 434.058319,-568.185913 A 1379.738918,1379.738918 0,0 1,-648.641724,659.934814"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-digital id_fabio:ComputerFile"
+              d="M 436.721588,-568.319153 A 1118.442033,1118.442033 0,0 1,-143.779633,621.257996"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-digital id_https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960"
+              d="M 427.040741,-571.961304 A 809.788735,809.788735 0,0 1,-525.721924,-541.516052"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_:copy-call-saint-peter"
+              d="M 545.060547,-154.121704 A 416.870050,416.870050 0,0 1,78.987717,-32.597572"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_branco:author"
+              d="M 557.618286,-154.009186 A 255.533437,255.533437 0,0 1,572.540161,133.538101"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_:fatti-di-masaccio-masolino-ita"
+              d="M 546.254822,-153.278656 A 453.439262,453.439262 0,0 1,62.212761,51.440243"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_:masolino"
+              d="M 543.649353,-155.540344 A 608.160681,608.160681 0,0 1,-166.734756,-120.188965"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_branco:Interpretation"
+              d="M 541.622192,-163.901199 A 664.135716,664.135716 0,0 1,22.334391,-743.828308"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:interpretation-call-longhi id_:fresco-call-saint-peter"
+              d="M 556.048096,-152.989105 A 500.082937,500.082937 0,0 1,470.230530,422.186157"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:copy-call-saint-peter id_crm:E22_Human-Made_Object"
+              d="M 65.334030,-27.499649 A 423.504062,423.504062 0,0 1,-280.808716,318.783722"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:fatti-di-masaccio-masolino id_:fatti-di-masaccio-masolino-ita"
+              d="M 612.831299,311.939545 A 524.900950,524.900950 0,0 1,55.927166,59.781929"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:fatti-di-masaccio-masolino id_fabio:Essay"
+              d="M 612.620117,309.851471 A 1304.963836,1304.963836 0,0 1,-625.997314,-617.818054"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-1 id_branco:StructuralUnit"
+              d="M 260.535614,586.121521 A 473.566876,473.566876 0,0 1,288.669312,37.127918"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-1 id_1"
+              d="M 257.809753,588.762024 A 668.832371,668.832371 0,0 1,6.248558,-153.868301"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-1 id_:construction-branc-apse"
+              d="M 257.952576,588.563049 A 763.966339,763.966339 0,0 1,-8.284010,-269.331146"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_branco:CladdingUnit"
+              d="M 122.530067,-92.116806 A 319.697151,319.697151 0,0 1,-166.276886,-315.296570"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:iconography-de-marchi-lun-i"
+              d="M 122.677345,-93.513794 A 734.994579,734.994579 0,0 1,-472.699463,-718.921509"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:lunette-masolino-i"
+              d="M 131.791763,-81.796280 A 870.791083,870.791083 0,0 1,-536.767883,697.078003"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:authorship-de-marchi-lun-i"
+              d="M 132.108215,-101.760780 A 532.761616,532.761616 0,0 1,477.327728,-617.681335"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-2-i id_2"
+              d="M 126.204193,-84.019615 A 148.676498,148.676498 0,0 1,-26.767494,-38.883842"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:intepretation-lunette-i-christiansen1991"
+              d="M 124.592354,-85.679405 A 354.418397,354.418397 0,0 1,-281.909576,-73.625641"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:lunette-masolino-ii"
+              d="M 136.115616,-82.436668 A 572.088092,572.088092 0,0 1,-38.684227,562.254089"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:decoration-lunette-i"
+              d="M 141.572922,-87.512955 A 295.248910,295.248910 0,0 1,305.314331,205.469147"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:intepretation-lunette-i-joannides1993"
+              d="M 134.103699,-81.894989 A 728.115307,728.115307 0,0 1,-257.741241,678.286499"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:intepretation-lunette-i-baldini1990"
+              d="M 123.796432,-96.650925 A 416.813999,416.813999 0,0 1,-78.242317,-533.809387"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-2-i id_:int-unit-1"
+              d="M 139.883209,-84.998718 A 582.603279,582.603279 0,0 1,271.543976,582.733521"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-i id_crm:E22_Human-Made_Object"
+              d="M 419.713379,71.243706 A 636.479670,636.479670 0,0 1,-281.193970,324.480774"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-i id_crmsci:S11_Amount_of_Matter"
+              d="M 416.776978,68.195763 A 810.266030,810.266030 0,0 1,-533.844238,-9.876966"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-i id_:drapery-saint-peter-lun-i"
+              d="M 415.518005,65.090912 A 900.864629,900.864629 0,0 1,-554.954712,-367.569550"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-i id_:rooster-saint-peter-lun-i"
+              d="M 435.129120,61.187332 A 196.422149,196.422149 0,0 1,631.898010,152.467712"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-christiansen1991 id_:masolino"
+              d="M -287.057983,-89.259842 A 103.398586,103.398586 0,0 1,-190.316971,-129.921036"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-christiansen1991 id_branco:author"
+              d="M -283.353577,-84.671089 A 739.382498,739.382498 0,0 1,557.335999,134.353119"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-christiansen1991 id_:intepretation-lunette-i-baldini1990"
+              d="M -294.585754,-90.772331 A 428.050774,428.050774 0,0 1,-87.046104,-540.248413"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-christiansen1991 id_branco:Interpretation"
+              d="M -294.635284,-90.762383 A 620.905991,620.905991 0,0 1,9.720996,-750.502502"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-christiansen1991 id_:lunette-masolino-i"
+              d="M -289.509369,-71.466232 A 685.054803,685.054803 0,0 1,-538.856567,692.418274"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-fresco-i id_crm:E22_Human-Made_Object"
+              d="M -68.438034,641.126282 A 333.033332,333.033332 0,0 1,-293.605774,333.776520"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-4 id_:remove-basrelief"
+              d="M -108.224030,628.817261 A 43.126902,43.126902 0,0 1,-139.897339,628.798340"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-4 id_:provenance-bas-relief-de-marchi"
+              d="M -99.207451,614.098816 A 872.839626,872.839626 0,0 1,528.494141,-201.168747"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-4 id_:basrelief-donatello"
+              d="M -98.229973,614.166443 A 709.637677,709.637677 0,0 1,471.102112,6.021777"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-4 id_4"
+              d="M -93.572006,615.976563 A 730.527213,730.527213 0,0 1,722.858459,351.743378"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-4 id_branco:CladdingUnit"
+              d="M -105.935493,616.520813 A 795.398172,795.398172 0,0 1,-176.852783,-316.767273"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-4 id_:int-unit-1"
+              d="M -91.811455,617.593872 A 305.507775,305.507775 0,0 1,254.863007,587.794739"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:v-and-a id_crm:E74_Group"
+              d="M -78.824112,-159.779312 A 446.801435,446.801435 0,0 1,-225.883102,336.475220"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:v-and-a id_viaf:128776887"
+              d="M -78.068741,-160.082397 A 299.961231,299.961231 0,0 1,-145.725098,174.436707"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:v-and-a id_Victoria_and_Albert_Museum"
+              d="M -78.595802,-159.863434 A 389.286382,389.286382 0,0 1,-194.606003,273.416351"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:medici-family id_:creation-libro-inventario-medici"
+              d="M 33.165489,-212.371323 A 306.121992,306.121992 0,0 1,-5.678582,-558.891357"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:medici-family id_Medici_Family"
+              d="M 31.374508,-199.659576 A 635.046616,635.046616 0,0 1,-709.993591,-256.341583"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:medici-family id_viaf:13102402"
+              d="M 44.847870,-196.276550 A 488.246135,488.246135 0,0 1,-16.506575,367.730225"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:medici-family id_crm:E74_Group"
+              d="M 41.535183,-195.086395 A 512.313009,512.313009 0,0 1,-224.663742,338.410187"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:longhi id_:fatti-di-masaccio-masolino"
+              d="M -513.752319,-308.662628 A 1084.856626,1084.856626 0,0 1,617.089600,298.129608"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:longhi id_foaf:Person"
+              d="M -517.501526,-315.106049 A 1024.530802,1024.530802 0,0 1,649.007263,-640.192078"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:longhi id_crm:E21_Person"
+              d="M -515.531189,-313.059418 A 981.941591,981.941591 0,0 1,644.220215,-297.980103"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:longhi id_viaf:39380437"
+              d="M -521.679016,-297.413116 A 93.940610,93.940610 0,0 1,-556.030090,-210.432663"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_branco:author"
+              d="M 496.254913,-614.680115 A 641.936061,641.936061 0,0 1,572.125854,133.282150"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_:interpretation-call-longhi"
+              d="M 496.472443,-614.882446 A 386.993317,386.993317 0,0 1,557.562866,-173.299225"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_:drapery-saint-peter-lun-i"
+              d="M 483.069366,-614.488708 A 898.890955,898.890955 0,0 1,-549.411804,-373.725006"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_branco:Interpretation"
+              d="M 480.163605,-618.661194 A 406.179997,406.179997 0,0 1,29.115150,-746.527527"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_:lunette-masolino-i"
+              d="M 489.291565,-612.105408 A 1401.231532,1401.231532 0,0 1,-536.900696,696.546387"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_:catalogue-masolino-2024-ita"
+              d="M 485.314697,-613.044556 A 992.177593,992.177593 0,0 1,-545.469849,-55.030083"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:authorship-de-marchi-lun-i id_:masolino"
+              d="M 486.631958,-612.538147 A 692.122317,692.122317 0,0 1,-164.569122,-127.425392"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-analog id_crm:E24_Physical_Human-Made_Thing"
+              d="M -312.148743,-185.735886 A 579.415565,579.415565 0,0 1,218.359222,234.465225"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-analog id_fabio:AnalogItem"
+              d="M -312.194061,-187.134354 A 847.223223,847.223223 0,0 1,547.317505,320.401367"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici-analog id_:asf"
+              d="M -324.251495,-195.886780 A 217.062903,217.062903 0,0 1,-229.906342,-418.430603"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:drapery-saint-peter-lun-i id_crm:E26_Physical_Feature"
+              d="M -554.533447,-371.567383 A 734.314800,734.314800 0,0 1,-456.358582,485.498383"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-ii id_crm:E22_Human-Made_Object"
+              d="M -654.981018,-160.197372 A 508.003723,508.003723 0,0 1,-293.959625,307.780182"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-ii id_crmsci:S11_Amount_of_Matter"
+              d="M -654.925415,-160.396301 A 157.067865,157.067865 0,0 1,-544.852905,-31.383648"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-sinopite-ii id_:sheep-saint-peter-lun-ii"
+              d="M -655.804382,-167.778442 A 1078.994199,1078.994199 0,0 1,608.362183,7.934801"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-6 id_:lunette-masolino-sinopite-ii"
+              d="M -104.327492,140.769363 A 537.776417,537.776417 0,0 1,-658.906921,-151.294510"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-6 id_::restoration-1984"
+              d="M -101.678848,146.201630 A 191.196955,191.196955 0,0 1,-309.907227,177.914841"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-6 id_:lunette-masolino-sinopite-i"
+              d="M -87.311531,132.289398 A 437.749566,437.749566 0,0 1,413.769318,56.903934"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-6 id_6"
+              d="M -95.216316,129.338379 A 709.689405,709.689405 0,0 1,344.579987,-578.236145"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-6 id_branco:CladdingUnit"
+              d="M -101.545937,132.276962 A 394.285085,394.285085 0,0 1,-175.782227,-316.162720"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici id_:creation-libro-inventario-medici"
+              d="M 580.091064,-197.370285 A 580.819170,580.819170 0,0 1,5.495446,-558.106506"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici id_:libro-inventario-medici-analog"
+              d="M 582.104858,-192.034363 A 760.238007,760.238007 0,0 1,-311.575043,-178.539124"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici id_:libro-inventario-medici-digital"
+              d="M 581.562622,-203.350037 A 342.100028,342.100028 0,0 1,431.844238,-565.513916"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici id_crm:E31_Document"
+              d="M 584.376709,-189.862305 A 858.751899,858.751899 0,0 1,-373.113403,137.822937"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:libro-inventario-medici id_fabio:ArchivalDocument"
+              d="M 587.423462,-188.441910 A 967.181460,967.181460 0,0 1,-310.174988,517.809998"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_:lunette-masolino-i"
+              d="M -72.954590,-536.931824 A 1111.260535,1111.260535 0,0 1,-538.498779,692.947510"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_:tears-saint-peter"
+              d="M -65.971161,-544.149048 A 531.175414,531.175414 0,0 1,331.130096,-69.490204"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_branco:iconography"
+              d="M -74.337158,-536.644165 A 777.987691,777.987691 0,0 1,-513.605225,266.114777"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_:masaccio"
+              d="M -65.681946,-546.261780 A 755.821300,755.821300 0,0 1,633.961975,1.366862"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_branco:author"
+              d="M -65.849533,-544.707947 A 785.556660,785.556660 0,0 1,564.039185,131.550735"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:intepretation-lunette-i-baldini1990 id_branco:Interpretation"
+              d="M -77.527840,-556.381226 A 192.856616,192.856616 0,0 1,9.890464,-750.203979"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:construction-branc-apse id_:apse-branc-chapel"
+              d="M -2.506313,-271.715759 A 579.696022,579.696022 0,0 1,-316.760406,328.040741"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:construction-branc-apse id_crm:E12_Production"
+              d="M -5.136683,-271.669128 A 577.321144,577.321144 0,0 1,-462.969818,223.305984"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:meucci-fresco id_crm:E22_Human-Made_Object"
+              d="M -236.690247,19.189341 A 262.480942,262.480942 0,0 1,-284.453766,311.593140"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconology-de-marchi-lun-ii id_:iconology"
+              d="M 645.621277,227.970428 A 877.196722,877.196722 0,0 1,-380.089417,359.786835"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconology-de-marchi-lun-ii id_:mission-saint-peter"
+              d="M 643.918030,225.564148 A 1103.248654,1103.248654 0,0 1,-642.779358,5.226445"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconology-de-marchi-lun-ii id_:lunette-masolino-ii"
+              d="M 648.286316,229.954636 A 653.193639,653.193639 0,0 1,-36.054832,572.560791"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconology-de-marchi-lun-ii id_branco:Interpretation"
+              d="M 643.479675,217.541016 A 970.117658,970.117658 0,0 1,20.289047,-743.796448"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:iconology-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+              d="M 643.683960,225.067581 A 1035.549580,1035.549580 0,0 1,-549.884277,-46.997990"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_:basrelief-donatello"
+              d="M 544.411438,-195.322708 A 180.064003,180.064003 0,0 1,493.864746,-4.663941"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_:libro-inventario-medici"
+              d="M 550.257141,-208.502106 A 41.260908,41.260908 0,0 1,579.482971,-205.637268"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_:catalogue-masolino-2024-ita"
+              d="M 533.832214,-197.748367 A 924.362349,924.362349 0,0 1,-546.947327,-50.609295"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_:medici-family"
+              d="M 532.925049,-198.822266 A 417.613178,417.613178 0,0 1,50.379929,-197.303772"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_branco:provenance"
+              d="M 541.047119,-194.722580 A 433.474002,433.474002 0,0 1,248.101776,212.429611"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:provenance-bas-relief-de-marchi id_branco:Interpretation"
+              d="M 531.160156,-206.510818 A 631.929042,631.929042 0,0 1,22.694641,-743.867432"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:vault-lunette-meucci id_crm:E22_Human-Made_Object"
+              d="M 487.427795,-537.770081 A 973.918113,973.918113 0,0 1,-280.916565,318.182251"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:vault-lunette-meucci id_:meucci-sinopite"
+              d="M 482.566681,-539.583801 A 851.856452,851.856452 0,0 1,-471.659760,-228.238419"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:vault-lunette-meucci id_:meucci-fresco"
+              d="M 485.601196,-538.117188 A 765.320353,765.320353 0,0 1,-228.103287,9.981645"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:sheep-saint-peter-lun-ii id_crm:E26_Physical_Feature"
+              d="M 612.710388,25.754704 A 985.153973,985.153973 0,0 1,-450.158508,499.588074"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:catalogue-masolino-2024 id_:catalogue-masolino-2024-ita"
+              d="M -202.435760,-488.176483 A 472.681459,472.681459 0,0 1,-545.781189,-60.237164"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:catalogue-masolino-2024 id_fabio:Catalog"
+              d="M -192.194397,-496.067902 A 1009.309957,1009.309957 0,0 1,596.384766,398.728699"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:repentance-saint-peter id_vir:IC9_Representation"
+              d="M -384.289795,-480.231995 A 491.906922,491.906922 0,0 1,-513.996826,76.588722"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:repentance-saint-peter id_Repentance_of_Sain_Peter"
+              d="M -383.147644,-480.805542 A 965.369835,965.369835 0,0 1,-505.396332,652.582581"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:meucci-sinopite id_crm:E22_Human-Made_Object"
+              d="M -475.772064,-226.658478 A 487.469870,487.469870 0,0 1,-289.828796,308.352448"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:meucci-sinopite id_crmsci:S11_Amount_of_Matter"
+              d="M -480.612335,-222.943359 A 185.058434,185.058434 0,0 1,-533.602295,-26.722431"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:lunette-masolino-fresco-ii id_crm:E22_Human-Made_Object"
+              d="M 44.143036,-269.431763 A 573.387835,573.387835 0,0 1,-281.825104,315.386597"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-5 id_branco:CladdingUnit"
+              d="M 239.440002,252.486679 A 598.463264,598.463264 0,0 1,-170.060638,-314.772736"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-5 id_:decoration-meucci"
+              d="M 244.012833,246.871078 A 236.879136,236.879136 0,0 1,270.305023,-17.349321"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_:int-unit-5 id_5"
+              d="M 239.040100,256.870575 A 185.161558,185.161558 0,0 1,58.408058,163.419678"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:int-unit-5 id_:vault-lunette-meucci"
+              d="M 245.556732,246.159698 A 698.508426,698.508426 0,0 1,478.000122,-539.889587"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:rooster-saint-peter-lun-i id_crm:E26_Physical_Feature"
+              d="M 632.376709,171.787491 A 958.697268,958.697268 0,0 1,-450.605316,501.135742"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:restoration-1984 id_:vault-lunette-meucci"
+              d="M 161.215790,-125.703796 A 451.677279,451.677279 0,0 1,475.928467,-543.966675"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:restoration-1984 id_crmsci:S1_Matter_Removal"
+              d="M 170.119415,-119.931320 A 184.592558,184.592558 0,0 1,369.820618,-85.251968"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:restoration-1984 id_:lunette-masolino-sinopite-ii"
+              d="M 152.686478,-110.232864 A 689.160383,689.160383 0,0 1,-654.567627,-154.701996"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:restoration-1984 id_:lunette-masolino-sinopite-i"
+              d="M 171.051804,-116.006866 A 265.792429,265.792429 0,0 1,420.737610,50.759571"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:decoration-meucci-ii id_crm:E79_Part_Addition"
+              d="M 730.194702,555.352966 A 1149.870153,1149.870153 0,0 1,-576.159485,172.231522"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:asf id_viaf:140812626"
+              d="M -216.453064,-415.502411 A 214.295595,214.295595 0,0 1,-303.611298,-193.615768"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:asf id_Archivio_di_Stato_di_Firenze"
+              d="M -220.022781,-415.291138 A 331.319847,331.319847 0,0 1,-476.808960,-136.612640"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:asf id_crm:E74_Group"
+              d="M -213.065201,-417.039703 A 641.468379,641.468379 0,0 1,-228.299866,334.044922"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:fresco-call-saint-peter id_crm:E22_Human-Made_Object"
+              d="M 452.250031,436.120239 A 635.661748,635.661748 0,0 1,-284.402496,329.908417"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:fire-1771 id_crm:E5_Event"
+              d="M 118.894035,-285.904297 A 544.533721,544.533721 0,0 1,266.532593,331.587006"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:massaccio id_crm:E21_Person"
+              d="M 343.276398,-622.020447 A 385.905823,385.905823 0,0 1,652.749023,-302.971588"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:massaccio id_viaf:7368513"
+              d="M 336.343994,-614.186279 A 232.430563,232.430563 0,0 1,254.606659,-367.178009"
+              stroke="#999999" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:altar-brancacci id_crm:E22_Human-Made_Object"
+              d="M -433.960083,-9.309734 A 305.597293,305.597293 0,0 1,-291.022064,308.046051"
+              stroke="#b09f7f" stroke-width="1.0" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_:altar-brancacci id_:loc-altar-brancacci"
+              d="M -434.319244,-19.914337 A 1004.727845,1004.727845 0,0 1,751.729004,32.246204"
+              stroke="#626262" stroke-width="1.0" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-lunette-i id_:decoration-lunette-ii"
+                  points="534.118958,-243.878128 532.119629,-241.185059 530.764893,-243.861755"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-lunette-i id_:lunette-masolino-i"
+                  points="-539.517944,701.175964 -536.358032,700.051270 -536.722168,703.029053"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-lunette-i id_:apse-branc-chapel"
+                  points="-319.447052,338.091431 -316.093231,338.048645 -317.400543,340.748840"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:decoration-lunette-i id_crm:E79_Part_Addition"
+                  points="-576.330017,168.283234 -573.067810,169.063141 -574.996643,171.360901"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:decoration-lunette-ii id_crm:E79_Part_Addition"
+                  points="-574.400818,164.693314 -571.098389,164.106857 -571.950195,166.983383"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-lunette-ii id_:apse-branc-chapel"
+                  points="-318.458710,334.205048 -315.391327,332.848145 -315.532745,335.844788"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-lunette-ii id_:lunette-sinopite-ii"
+                  points="589.045471,-394.487976 587.517029,-391.502380 585.739929,-393.919434"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:masolino id_viaf:14747968"
+                  points="-239.352112,434.085297 -238.404999,430.867676 -236.209747,432.912415"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:masolino id_crm:E21_Person"
+                  points="645.515686,-294.368195 642.162476,-294.292877 643.443481,-297.005585"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-joannides1993 id_branco:Interpretation"
+                  points="13.682681,-750.074707 12.458820,-746.951843 10.450089,-749.180115"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-joannides1993 id_:lunette-masolino-i"
+                  points="-540.965515,705.264404 -537.626587,705.583313 -539.217285,708.126892"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-joannides1993 id_:intepretation-lunette-i-baldini1990"
+                  points="-82.804970,-539.539490 -83.890991,-536.366089 -85.995316,-538.504272"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-joannides1993 id_:masolino"
+                  points="-184.360809,-120.033867 -185.297394,-116.813187 -187.499298,-118.850723"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-joannides1993 id_branco:author"
+                  points="555.521301,143.849457 552.434204,145.160980 552.619873,142.166718"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-ii id_crm:E22_Human-Made_Object"
+                  points="-292.115601,330.657410 -290.171661,333.390717 -293.135895,333.852570"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-ii id_:lunette-masolino-sinopite-ii"
+                  points="-663.952820,-153.009674 -662.266724,-150.110199 -665.260742,-149.921082"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-ii id_:lunette-masolino-fresco-ii"
+                  points="36.152119,-271.983948 35.230621,-268.758911 33.019196,-270.786133"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_branco:Interpretation"
+                  points="18.240170,-747.191162 18.816088,-743.886902 15.942289,-744.747864"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_:pasce-oves-meas"
+                  points="580.584167,106.103951 578.896912,103.205101 581.890930,103.014870"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_:sheep-saint-peter-lun-ii"
+                  points="615.578918,7.262407 613.495056,4.634199 616.431213,4.018385"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_branco:iconography"
+                  points="-515.541809,269.923126 -512.829773,267.949585 -512.335754,270.908630"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_:lunette-masolino-ii"
+                  points="-41.522366,563.549744 -40.338474,560.411499 -38.301456,562.613892"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+                  points="-548.467407,-55.273224 -545.265991,-56.273796 -545.746094,-53.312462"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-bas-relief-pope-hennessy1949 id_:ascension-traditio-clavium"
+                  points="156.949280,240.217026 155.459930,237.211731 158.459900,237.222351"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-bas-relief-pope-hennessy1949 id_branco:iconography"
+                  points="-517.680969,265.218933 -516.316284,262.154999 -514.411011,264.472321"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:iconography-bas-relief-pope-hennessy1949 id_branco:Interpretation"
+                  points="11.151911,-755.857056 8.301468,-754.089355 8.027437,-757.076782"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-bas-relief-pope-hennessy1949 id_:basrelief-donatello"
+                  points="479.563477,-5.346556 476.913727,-7.402950 479.618744,-8.700203"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:ascension-traditio-clavium id_vir:IC9_Representation"
+                  points="-517.422058,92.694504 -514.341553,94.021439 -516.635254,95.955032"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:ascension-traditio-clavium id_:mission-saint-peter"
+                  points="-645.851074,3.893724 -642.868958,5.428977 -645.289978,7.200567"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:ascension-traditio-clavium id_The_Ascension_of_Jesus_and_Traditio_Clavium"
+                  points="-185.861526,-224.148972 -184.405777,-221.127258 -187.405441,-221.171326"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:de-marchi id_crm:E21_Person"
+                  points="644.674683,-288.576019 641.937988,-286.636871 641.481323,-289.601898"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:de-marchi id_:catalogue-masolino-2024"
+                  points="-198.819733,-488.675507 -196.450546,-486.301239 -199.297623,-485.355621"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:de-marchi id_foaf:Person"
+                  points="652.564575,-630.389221 650.762329,-627.560486 649.220215,-630.133850"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:pasce-oves-meas id_:mission-saint-peter"
+                  points="-644.334229,2.525239 -641.102356,3.422425 -643.112854,5.649055"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:pasce-oves-meas id_Pasce_Oves_Meas"
+                  points="383.789581,-476.430267 384.273132,-473.111206 381.424438,-474.052002"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:pasce-oves-meas id_vir:IC9_Representation"
+                  points="-515.995239,91.215576 -512.708557,91.884804 -514.558655,94.246437"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:mission-saint-peter id_crm:E90_Symbolic_Object"
+                  points="-654.054321,146.584229 -653.443420,143.286224 -651.049377,145.094147"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:mission-saint-peter id_Saint_Peter&apos;s_ecclesial_mission_on_Earth"
+                  points="536.862366,-273.968964 533.511658,-273.818665 534.731750,-276.559387"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-i id_:lunette-masolino-sinopite-i"
+                  points="415.300476,62.359680 412.218658,63.683430 412.392365,60.688465"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-i id_:lunette-masolino-fresco-i"
+                  points="-67.633789,639.298645 -70.983551,639.127991 -69.507126,636.516418"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-i id_crm:E22_Human-Made_Object"
+                  points="-303.045715,324.213959 -305.347321,326.653778 -306.378510,323.836578"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_:location-bas-relief-de-marchi"
+                  points="-498.972168,189.559326 -499.144623,186.209656 -496.395905,187.411560"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_:basrelief-donatello"
+                  points="475.667633,-2.024638 472.347382,-2.500077 474.055817,-4.966089"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_:int-unit-1"
+                  points="262.819153,585.014648 260.441833,582.648560 263.285645,581.693115"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0" class="id_:int-unit-3 id_3"
+                  points="459.734100,388.320740 456.824310,386.652466 459.322845,384.991943"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_branco:CladdingUnit"
+                  points="-179.813034,-326.232666 -182.546356,-324.288727 -183.008179,-327.252960"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_:add-basrelief"
+                  points="613.465271,-388.423492 610.162170,-387.840942 611.017395,-390.716492"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-3 id_:iconography-bas-relief-pope-hennessy1949"
+                  points="-353.167206,-431.305786 -354.909637,-428.439819 -356.505463,-430.980164"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_branco:location"
+                  points="-509.470856,-20.644379 -509.945740,-17.324066 -512.412048,-19.032108"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_:basrelief-donatello"
+                  points="474.842773,-0.594778 471.489563,-0.517530 472.769043,-3.230999"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_:iconography-bas-relief-pope-hennessy"
+                  points="123.986359,512.063843 121.297562,510.058746 123.977142,508.709747"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_:catalogue-masolino-2024-ita"
+                  points="-562.236145,-47.664387 -562.024048,-44.316998 -564.786743,-45.486286"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_:loc-altar-brancacci"
+                  points="753.103882,35.538536 749.753906,35.373440 751.225952,32.759449"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:location-bas-relief-de-marchi id_branco:Interpretation"
+                  points="12.031992,-752.576721 9.937627,-749.956909 8.679490,-752.680298"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_:catalogue-masolino-2024-ita"
+                  points="-551.479126,-64.150131 -550.512756,-67.362015 -548.329773,-65.304199"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_branco:Interpretation"
+                  points="12.731583,-762.229492 9.399179,-762.610413 11.036871,-765.123962"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_:lunette-masolino-i"
+                  points="-543.074829,692.252625 -542.320435,688.984436 -540.007690,690.895203"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_:rooster-saint-peter-lun-i"
+                  points="635.816711,154.083099 633.608398,151.558533 636.511353,150.801727"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_branco:iconography"
+                  points="-519.066040,263.835968 -518.324341,260.564880 -516.004150,262.466675"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconography-de-marchi-lun-i id_:repentance-saint-peter"
+                  points="-385.512329,-499.069885 -386.151825,-502.362457 -383.261993,-501.557037"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_:apse-branc-chapel"
+                  points="-318.493988,334.695801 -315.363586,333.491394 -315.652222,336.477478"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_:lunette-masolino-fresco-i"
+                  points="-50.019569,639.678162 -48.028133,636.979248 -46.665569,639.651978"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_crm:E80_Part_Removal"
+                  points="359.931549,244.072006 359.540344,240.740799 362.361816,241.760330"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_crm:E79_Part_Addition"
+                  points="-574.854614,165.923157 -571.503845,165.773743 -572.724670,168.514130"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_:vault-lunette-meucci"
+                  points="479.893524,-542.424866 478.144653,-539.562805 476.554565,-542.106750"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:decoration-meucci id_:lunette-masolino-fresco-ii"
+                  points="44.217552,-269.441284 46.097084,-266.663269 43.122856,-266.270874"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:apse-branc-chapel id_crm:E22_Human-Made_Object"
+                  points="-303.626709,320.023956 -306.731079,321.293915 -306.505310,318.302399"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+                  points="-549.176147,-52.867142 -545.826477,-53.039574 -547.028381,-50.290871"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_:masolino"
+                  points="-168.295990,-123.630463 -164.952621,-123.898476 -166.075546,-121.116570"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_branco:author"
+                  points="569.188782,135.172531 568.900452,131.830856 571.689148,132.936844"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_:authorship-de-marchi-lun-i"
+                  points="482.954071,-614.588379 482.101440,-611.344421 479.847351,-613.324158"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_branco:Interpretation"
+                  points="22.269083,-746.837891 24.106668,-744.031921 21.126886,-743.684265"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-ii id_:lunette-masolino-i"
+                  points="-539.539856,698.580627 -536.775818,696.680603 -536.361389,699.651794"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:iconography-de-marchi-lun-ii"
+                  points="129.463150,-410.614563 127.043312,-408.291962 126.153175,-411.156891"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_branco:CladdingUnit"
+                  points="-177.313690,-321.025696 -178.516174,-317.894562 -180.540100,-320.108978"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:int-unit-1"
+                  points="263.813538,584.736816 261.692841,582.138184 264.619965,581.481079"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:decoration-lunette-ii"
+                  points="533.231262,-250.334030 529.997253,-249.444565 530.579285,-252.387558"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:iconology-de-marchi-lun-ii"
+                  points="645.407471,214.365875 642.173889,213.475021 644.179993,211.244461"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_2"
+                  points="-49.086639,-42.589851 -52.021042,-40.965263 -52.146950,-43.962624"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:authorship-de-marchi-lun-ii"
+                  points="445.928864,-288.778198 442.785431,-287.608246 443.106842,-290.590973"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-ii id_:lunette-masolino-ii"
+                  points="-47.165455,560.485046 -48.134193,557.273865 -45.177773,557.783386"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:tears-saint-peter id_Sain_Peter_in_Tears"
+                  points="-389.746979,-283.992828 -386.776276,-282.435608 -389.210358,-280.681946"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:tears-saint-peter id_vir:IC9_Representation"
+                  points="-514.954285,89.582756 -511.600281,89.606003 -512.960510,92.279922"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:basrelief-donatello id_:v-and-a"
+                  points="-76.162544,-161.207397 -73.161690,-159.709106 -75.560661,-157.907745"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:basrelief-donatello id_crm:E22_Human-Made_Object"
+                  points="-283.958496,323.221313 -280.682831,322.500214 -281.416229,325.409210"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:basrelief-donatello id_:add-basrelief"
+                  points="614.812866,-379.903259 613.192078,-376.966766 611.491150,-379.438019"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:basrelief-donatello id_:remove-basrelief"
+                  points="-141.222107,620.878418 -138.456192,618.981140 -138.044724,621.952820"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-digital id_crmdig:D1_Digital_Object"
+                  points="-651.576843,660.555359 -648.952026,658.467285 -648.331421,661.402344"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-digital id_fabio:ComputerFile"
+                  points="-146.443695,622.637390 -144.469330,619.925964 -143.089935,622.590027"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-digital id_https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960"
+                  points="-528.188782,-543.223267 -524.868286,-542.749451 -526.575562,-540.282654"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_:copy-call-saint-peter"
+                  points="76.197784,-33.700424 79.539139,-33.992538 78.436295,-31.202606"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_branco:author"
+                  points="570.916016,136.060425 571.278992,132.726028 573.801331,134.350174"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_:fatti-di-masaccio-masolino-ita"
+                  points="59.293381,50.749439 62.558163,49.980553 61.867359,52.899933"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_:masolino"
+                  points="-169.234970,-121.846954 -165.905762,-121.439072 -167.563751,-118.938858"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_branco:Interpretation"
+                  points="22.051863,-746.814941 23.827724,-743.969543 20.841057,-743.687073"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:interpretation-call-longhi id_:fresco-call-saint-peter"
+                  points="468.117249,424.315491 469.165863,421.129517 471.295197,423.242798"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:copy-call-saint-peter id_crm:E22_Human-Made_Object"
+                  points="-283.773254,319.243622 -281.038666,317.301453 -280.578766,320.265991"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:fatti-di-masaccio-masolino id_:fatti-di-masaccio-masolino-ita"
+                  points="54.458305,57.166122 57.235069,59.047501 54.619263,60.516357"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:fatti-di-masaccio-masolino id_fabio:Essay"
+                  points="-626.850220,-620.694275 -624.559204,-618.244507 -627.435425,-617.391602"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-1 id_branco:StructuralUnit"
+                  points="290.565338,34.803040 289.831757,38.075932 287.506866,36.179905"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0" class="id_:int-unit-1 id_1"
+                  points="7.162058,-156.725830 7.677327,-153.411545 4.819789,-154.325058"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-1 id_:construction-branc-apse"
+                  points="-7.294747,-272.163330 -6.867908,-268.836517 -9.700109,-269.825775"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_branco:CladdingUnit"
+                  points="-167.120438,-318.175537 -164.837402,-315.718353 -167.716370,-314.874786"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:iconography-de-marchi-lun-i"
+                  points="-473.070831,-721.898438 -471.210999,-719.107178 -474.187927,-718.735840"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:lunette-masolino-i"
+                  points="-539.693176,697.743530 -537.100647,695.615356 -536.435120,698.540649"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:authorship-de-marchi-lun-i"
+                  points="480.148956,-618.701477 477.837799,-616.270752 476.817657,-619.091919"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_2"
+                  points="-29.612408,-39.835926 -26.291451,-40.306297 -27.243538,-37.461388"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:intepretation-lunette-i-christiansen1991"
+                  points="-284.386017,-75.318947 -281.062927,-74.863853 -282.756226,-72.387428"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:lunette-masolino-ii"
+                  points="-41.033337,564.119995 -39.617191,561.079529 -37.751263,563.428650"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:decoration-lunette-i"
+                  points="304.964355,208.448654 303.824585,205.294144 306.804077,205.644150"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:intepretation-lunette-i-joannides1993"
+                  points="-260.431763,679.613586 -258.404785,676.941223 -257.077698,679.631775"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:intepretation-lunette-i-baldini1990"
+                  points="-77.650475,-536.750427 -76.771790,-533.513489 -79.712830,-534.105286"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-2-i id_:int-unit-1"
+                  points="270.265503,585.447449 270.187012,582.094299 272.900940,583.372742"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-i id_crm:E22_Human-Made_Object"
+                  points="-284.069611,323.625977 -280.766571,323.042969 -281.621368,325.918579"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-i id_crmsci:S11_Amount_of_Matter"
+                  points="-536.101074,-11.853483 -532.855957,-11.005391 -534.832520,-8.748540"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-i id_:drapery-saint-peter-lun-i"
+                  points="-556.428284,-370.182678 -553.648132,-368.306335 -556.261292,-366.832703"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-i id_:rooster-saint-peter-lun-i"
+                  points="633.384460,155.073547 630.595093,153.210953 633.200928,151.724472"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-christiansen1991 id_:masolino"
+                  points="-187.375137,-129.333176 -190.610901,-128.450134 -190.023041,-131.391968"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-christiansen1991 id_branco:author"
+                  points="559.220459,136.687363 556.168884,135.295364 558.503113,133.410873"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-christiansen1991 id_:intepretation-lunette-i-baldini1990"
+                  points="-84.422623,-541.703552 -86.318542,-538.936646 -87.773651,-541.560181"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-christiansen1991 id_branco:Interpretation"
+                  points="12.349252,-751.948975 10.444230,-749.188354 8.997762,-751.816650"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-christiansen1991 id_:lunette-masolino-i"
+                  points="-541.299805,694.159119 -539.726990,691.196655 -537.986145,693.639893"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-fresco-i id_crm:E22_Human-Made_Object"
+                  points="-293.617157,330.776550 -292.105774,333.770844 -295.105774,333.782196"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-4 id_:remove-basrelief"
+                  points="-142.488953,627.287170 -139.141754,627.502563 -140.652924,630.094116"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-4 id_:provenance-bas-relief-de-marchi"
+                  points="531.379822,-201.988831 528.904175,-199.725876 528.084106,-202.611618"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-4 id_:basrelief-donatello"
+                  points="474.052643,5.479101 471.373444,7.497032 470.830780,4.546523"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0" class="id_:int-unit-4 id_4"
+                  points="725.702759,352.697479 722.381409,353.165497 723.335510,350.321259"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-4 id_branco:CladdingUnit"
+                  points="-175.255737,-319.306854 -175.582993,-315.968750 -178.122574,-317.565796"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-4 id_:int-unit-1"
+                  points="257.433990,589.340698 254.090012,589.080200 255.636002,586.509277"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:v-and-a id_crm:E74_Group"
+                  points="-228.270645,338.291718 -226.791367,335.281464 -224.974869,337.668976"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:v-and-a id_viaf:128776887"
+                  points="-147.931564,176.469315 -146.741394,173.333466 -144.708801,175.539948"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:v-and-a id_Victoria_and_Albert_Museum"
+                  points="-196.941498,275.299316 -195.547470,272.248596 -193.664536,274.584106"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:medici-family id_:creation-libro-inventario-medici"
+                  points="-4.199579,-561.501404 -4.373538,-558.151855 -6.983624,-559.630859"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:medici-family id_Medici_Family"
+                  points="-712.264893,-258.301483 -709.013611,-257.477234 -710.973572,-255.205933"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:medici-family id_viaf:13102402"
+                  points="-18.533018,369.942352 -17.612640,366.717010 -15.400509,368.743439"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:medici-family id_crm:E74_Group"
+                  points="-227.332672,339.780151 -225.348724,337.075714 -223.978760,339.744659"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:longhi id_:fatti-di-masaccio-masolino"
+                  points="618.365845,300.844604 615.732117,298.767731 618.447083,297.491486"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:longhi id_foaf:Person"
+                  points="651.807678,-639.116089 648.469299,-638.791870 649.545227,-641.592285"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:longhi id_crm:E21_Person"
+                  points="646.605896,-296.161163 643.310730,-296.787262 645.129700,-299.172943"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:longhi id_viaf:39380437"
+                  points="-558.498596,-208.727798 -556.882507,-211.666901 -555.177673,-209.198395"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_branco:author"
+                  points="570.597290,135.863541 570.835144,132.517883 573.416565,134.046417"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_:interpretation-call-longhi"
+                  points="556.142761,-170.656631 556.241577,-174.009277 558.884155,-172.589172"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_:drapery-saint-peter-lun-i"
+                  points="-552.164490,-374.917633 -548.815491,-375.101379 -550.008118,-372.348633"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_branco:Interpretation"
+                  points="27.267832,-748.891296 30.297037,-747.451172 27.933264,-745.603882"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_:lunette-masolino-i"
+                  points="-539.795288,697.334595 -537.294800,695.099060 -536.506592,697.993713"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_:catalogue-masolino-2024-ita"
+                  points="-548.439575,-55.455494 -545.257141,-56.514923 -545.682556,-53.545242"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:authorship-de-marchi-lun-i id_:masolino"
+                  points="-167.569092,-127.413437 -164.575104,-128.925385 -164.563141,-125.925407"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-analog id_crm:E24_Physical_Human-Made_Thing"
+                  points="219.147949,237.359680 216.911987,234.859589 219.806458,234.070862"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-analog id_fabio:AnalogItem"
+                  points="548.485168,323.164795 545.935791,320.985229 548.699219,319.817505"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici-analog id_:asf"
+                  points="-227.347763,-419.997040 -229.123123,-417.151306 -230.689560,-419.709900"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:drapery-saint-peter-lun-i id_crm:E26_Physical_Feature"
+                  points="-457.856110,488.097900 -457.658325,484.749634 -455.058838,486.247131"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-ii id_crm:E22_Human-Made_Object"
+                  points="-293.889343,310.779358 -295.459229,307.815338 -292.460022,307.745026"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-ii id_crmsci:S11_Amount_of_Matter"
+                  points="-544.569275,-28.397083 -546.346191,-31.241838 -543.359619,-31.525457"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:lunette-masolino-sinopite-ii id_:sheep-saint-peter-lun-ii"
+                  points="610.501282,10.038183 607.310486,9.004354 609.413879,6.865247"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-6 id_:lunette-masolino-sinopite-ii"
+                  points="-660.216858,-153.993408 -657.557495,-151.949463 -660.256348,-150.639557"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-6 id_::restoration-1984"
+                  points="-312.587067,176.566330 -309.232971,176.574921 -310.581482,179.254761"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-6 id_:lunette-masolino-sinopite-i"
+                  points="416.426483,58.296593 413.072998,58.232513 414.465637,55.575356"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0" class="id_:int-unit-6 id_6"
+                  points="347.367981,-579.343933 345.133911,-576.842163 344.026123,-579.630127"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-6 id_branco:CladdingUnit"
+                  points="-174.432220,-318.841797 -174.442688,-315.487732 -177.121765,-316.837708"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici id_:creation-libro-inventario-medici"
+                  points="4.395827,-560.897705 6.891050,-558.656311 4.099843,-557.556702"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici id_:libro-inventario-medici-analog"
+                  points="-314.013489,-180.286682 -310.701263,-179.758347 -312.448822,-177.319901"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici id_:libro-inventario-medici-digital"
+                  points="432.548248,-568.430115 433.302338,-565.161926 430.386139,-565.865906"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici id_crm:E31_Document"
+                  points="-375.972290,136.913651 -372.658752,136.393494 -373.568054,139.252380"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:libro-inventario-medici id_fabio:ArchivalDocument"
+                  points="-313.173767,517.894958 -310.217468,516.310608 -310.132507,519.309387"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_:lunette-masolino-i"
+                  points="-541.024597,694.566223 -539.308167,691.684631 -537.689392,694.210388"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_:tears-saint-peter"
+                  points="331.317719,-66.496078 329.633026,-69.396400 332.627167,-69.584007"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_branco:iconography"
+                  points="-516.328308,267.373657 -514.234680,264.753235 -512.975769,267.476318"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_:masaccio"
+                  points="634.761597,4.258341 632.516235,1.766659 635.407715,0.967065"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_branco:author"
+                  points="564.376770,134.531677 562.548706,131.719543 565.529663,131.381927"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:intepretation-lunette-i-baldini1990 id_branco:Interpretation"
+                  points="12.479612,-751.719299 10.648144,-748.909424 9.132784,-751.498535"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:construction-branc-apse id_:apse-branc-chapel"
+                  points="-319.457458,329.354492 -317.417297,326.692230 -316.103516,329.389252"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:construction-branc-apse id_crm:E12_Production"
+                  points="-465.916107,223.871155 -463.252411,221.832840 -462.687225,224.779129"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:meucci-fresco id_crm:E22_Human-Made_Object"
+                  points="-286.577118,313.712402 -285.513397,310.531464 -283.394135,312.654816"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconology-de-marchi-lun-ii id_:iconology"
+                  points="-382.707642,358.322327 -379.357178,358.477722 -380.821655,361.095947"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconology-de-marchi-lun-ii id_:mission-saint-peter"
+                  points="-644.851013,3.056550 -641.694397,4.190640 -643.864319,6.262248"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconology-de-marchi-lun-ii id_:lunette-masolino-ii"
+                  points="-39.010727,572.048279 -35.798561,571.082825 -36.311104,574.038757"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:iconology-de-marchi-lun-ii id_branco:Interpretation"
+                  points="20.478521,-746.790466 21.786053,-743.701721 18.792042,-743.891174"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:iconology-de-marchi-lun-ii id_:catalogue-masolino-2024-ita"
+                  points="-551.835266,-49.276966 -548.744812,-47.973476 -551.023743,-46.022511"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_:basrelief-donatello"
+                  points="491.562347,-2.740683 492.903107,-5.815145 494.826385,-3.512739"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_:libro-inventario-medici"
+                  points="581.925049,-203.894806 578.611755,-204.416214 580.354187,-206.858322"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_:catalogue-masolino-2024-ita"
+                  points="-549.576050,-52.054890 -546.224548,-51.923664 -547.670105,-49.294926"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_:medici-family"
+                  points="47.952988,-199.067276 51.261681,-198.517242 49.498177,-196.090302"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_branco:provenance"
+                  points="245.249512,213.359451 247.636856,211.003479 248.566696,213.855743"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:provenance-bas-relief-de-marchi id_branco:Interpretation"
+                  points="22.328979,-746.845093 24.183456,-744.050293 21.205826,-743.684570"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:vault-lunette-meucci id_crm:E22_Human-Made_Object"
+                  points="-283.856201,318.780945 -281.215912,316.712433 -280.617218,319.652069"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:vault-lunette-meucci id_:meucci-sinopite"
+                  points="-474.505341,-229.188492 -471.184723,-229.661209 -472.134796,-226.815628"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:vault-lunette-meucci id_:meucci-fresco"
+                  points="-231.102798,10.035435 -228.130188,8.481886 -228.076385,11.481403"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:sheep-saint-peter-lun-ii id_crm:E26_Physical_Feature"
+                  points="-453.086792,498.936096 -449.832520,498.123932 -450.484497,501.052216"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:catalogue-masolino-2024 id_:catalogue-masolino-2024-ita"
+                  points="-548.679016,-59.460945 -546.169312,-61.686085 -545.393066,-58.788242"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:catalogue-masolino-2024 id_fabio:Catalog"
+                  points="596.635986,401.718170 594.890015,398.854309 597.879517,398.603088"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:repentance-saint-peter id_vir:IC9_Representation"
+                  points="-516.274597,78.541039 -514.972961,75.449821 -513.020691,77.727638"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:repentance-saint-peter id_Repentance_of_Sain_Peter"
+                  points="-507.431915,654.786316 -506.498169,651.564758 -504.294495,653.600403"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:meucci-sinopite id_crm:E22_Human-Made_Object"
+                  points="-290.711761,311.219574 -291.262360,307.910950 -288.395233,308.793945"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:meucci-sinopite id_crmsci:S11_Amount_of_Matter"
+                  points="-535.914978,-24.811533 -534.557739,-27.878769 -532.646851,-25.566093"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:lunette-masolino-fresco-ii id_crm:E22_Human-Made_Object"
+                  points="-284.555084,316.630463 -282.447021,314.021606 -281.203186,316.751587"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:int-unit-5 id_branco:CladdingUnit"
+                  points="-170.031006,-317.772583 -168.560715,-314.757935 -171.560562,-314.787537"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-5 id_:decoration-meucci"
+                  points="272.286713,-19.601624 271.431183,-16.358471 269.178864,-18.340172"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0" class="id_:int-unit-5 id_5"
+                  points="57.031067,160.754364 59.740715,162.731186 57.075401,164.108170"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:int-unit-5 id_:vault-lunette-meucci"
+                  points="480.393921,-541.697815 478.904236,-538.692688 477.096008,-541.086487"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:rooster-saint-peter-lun-i id_crm:E26_Physical_Feature"
+                  points="-453.430511,500.126648 -450.100769,499.723175 -451.109863,502.548370"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:restoration-1984 id_:vault-lunette-meucci"
+                  points="478.800354,-544.834045 476.362152,-542.530762 475.494781,-545.402588"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:restoration-1984 id_crmsci:S1_Matter_Removal"
+                  points="371.935669,-83.124390 368.756836,-84.194443 370.884399,-86.309494"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:restoration-1984 id_:lunette-masolino-sinopite-ii"
+                  points="-656.878906,-156.614563 -653.611328,-155.857651 -655.523926,-153.546341"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:restoration-1984 id_:lunette-masolino-sinopite-i"
+                  points="421.786713,53.570160 419.332306,51.284119 422.142914,50.235023"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:decoration-meucci-ii id_crm:E79_Part_Addition"
+                  points="-577.966370,169.836700 -574.962097,171.328079 -577.356873,173.134964"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:asf id_viaf:140812626"
+                  points="-306.126709,-191.980896 -304.428741,-194.873459 -302.793854,-192.358078"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:asf id_Archivio_di_Stato_di_Firenze"
+                  points="-479.750458,-136.022949 -477.103790,-138.083374 -476.514130,-135.141907"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:asf id_crm:E74_Group"
+                  points="-230.129700,336.422241 -229.488541,333.130005 -227.111191,334.959839"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:fresco-call-saint-peter id_crm:E22_Human-Made_Object"
+                  points="-286.537689,327.801086 -283.348816,328.840820 -285.456177,330.976013"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:fire-1771 id_crm:E5_Event"
+                  points="265.365356,334.350647 265.150787,331.003418 267.914398,332.170654"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:massaccio id_crm:E21_Person"
+                  points="653.166504,-300.000763 651.263611,-302.762848 654.234436,-303.180328"
+                  stroke="none"/>
+        <polyline fill="#999999" fill-opacity="1.0"
+                  class="id_:massaccio id_viaf:7368513"
+                  points="252.181244,-365.412415 253.723862,-368.390717 255.489456,-365.965302"
+                  stroke="none"/>
+        <polyline fill="#b09f7f" fill-opacity="1.0"
+                  class="id_:altar-brancacci id_crm:E22_Human-Made_Object"
+                  points="-291.629669,310.983856 -292.490967,307.742249 -289.553162,308.349854"
+                  stroke="none"/>
+        <polyline fill="#626262" fill-opacity="1.0"
+                  class="id_:altar-brancacci id_:loc-altar-brancacci"
+                  points="754.057068,34.138351 750.782959,33.410225 752.675049,31.082184"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="303.7977"
+                class="id_:decoration-lunette-i" cy="218.38037" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="543.04126"
+                class="id_:decoration-lunette-ii" cy="-248.3939"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-177.56902"
+                class="id_:masolino" cy="-127.37359" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-246.16786"
+                class="id_viaf:14747968" cy="441.40277" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-269.40018"
+                class="id_:intepretation-lunette-i-joannides1993" cy="684.0371"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="21.110106"
+                class="id_branco:Interpretation" cy="-756.7705" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-48.8637"
+                class="id_:lunette-masolino-ii" cy="570.3398" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-293.65506"
+                class="id_crm:E22_Human-Made_Object" cy="320.7766"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="139.01282"
+                class="id_:iconography-de-marchi-lun-ii" cy="-413.58167"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-344.69934"
+                class="id_:iconography-bas-relief-pope-hennessy1949"
+                cy="-436.62512" stroke="#444444" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="156.91383"
+                class="id_:ascension-traditio-clavium" cy="250.21696"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="417.41907"
+                class="id_:de-marchi" cy="-58.883423" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="654.55817"
+                class="id_crm:E21_Person" cy="-290.09808" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="581.21826"
+                class="id_:pasce-oves-meas" cy="116.083824" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-651.75635"
+                class="id_:mission-saint-peter" cy="-4.1764326" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-549.444"
+                class="id_:lunette-masolino-i" cy="699.962" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-533.7183"
+                class="id_:int-unit-3" cy="34.17117" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-502.9785"
+                class="id_:location-bas-relief-de-marchi" cy="198.72171"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-474.3087"
+                class="id_:iconography-de-marchi-lun-i" cy="-731.82153"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-558.3385"
+                class="id_:catalogue-masolino-2024-ita" cy="-56.873543"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="278.8924"
+                class="id_:decoration-meucci" cy="-27.109293" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-328.4476"
+                class="id_:apse-branc-chapel" cy="333.73367" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="455.8713"
+                class="id_:authorship-de-marchi-lun-ii" cy="-287.70685"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-264.65836"
+                class="id_:int-unit-2-ii" cy="131.37312" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="331.94308"
+                class="id_:tears-saint-peter" cy="-56.515648" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-395.59253"
+                class="id_Sain_Peter_in_Tears" cy="-292.10638" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="483.88766"
+                class="id_:basrelief-donatello" cy="3.670179" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-169.93224"
+                class="id_branco:CladdingUnit" cy="-327.7721" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="434.89496"
+                class="id_:libro-inventario-medici-digital" cy="-578.1509"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-661.36053"
+                class="id_crmdig:D1_Digital_Object" cy="662.624"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="551.4091"
+                class="id_:interpretation-call-longhi" cy="-161.84798"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="66.89801"
+                class="id_:copy-call-saint-peter" cy="-37.37659"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="622.62"
+                class="id_:fatti-di-masaccio-masolino" cy="309.8946"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="49.562107"
+                class="id_:fatti-di-masaccio-masolino-ita" cy="48.446762"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="266.00394"
+                class="id_:int-unit-1" cy="594.49396" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="296.88544"
+                class="id_branco:StructuralUnit" cy="27.053434" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="132.52403"
+                class="id_:int-unit-2-i" cy="-91.76943" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="425.2837"
+                class="id_:lunette-masolino-sinopite-i" cy="62.938786"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-292.64078"
+                class="id_:intepretation-lunette-i-christiansen1991"
+                cy="-80.9633" stroke="#444444" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-543.6239"
+                class="id_crmsci:S11_Amount_of_Matter" cy="-18.441874"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-58.92863"
+                class="id_:lunette-masolino-fresco-i" cy="644.22003"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-525.4053"
+                class="id_branco:iconography" cy="271.56992" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-583.98926"
+                class="id_crm:E79_Part_Addition" cy="161.85393" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-99.40829"
+                class="id_:int-unit-4" cy="624.0968" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-151.12761"
+                class="id_:remove-basrelief" cy="622.24994" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-82.16708"
+                class="id_:v-and-a" cy="-169.204" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="10.207059"
+                class="id_1" cy="-166.25096" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="39.863186"
+                class="id_:medici-family" cy="-204.94563" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="0.7304285"
+                class="id_:creation-libro-inventario-medici" cy="-570.2017"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-523.64734"
+                class="id_:longhi" cy="-307.2175" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="356.5331"
+                class="id_crm:E80_Part_Removal" cy="253.47682" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="489.553"
+                class="id_:authorship-de-marchi-lun-i" cy="-622.102"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="565.50214"
+                class="id_branco:author" cy="144.46815" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-503.77737"
+                class="id_branco:location" cy="-28.865349" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-660.0807"
+                class="id_crm:E90_Symbolic_Object" cy="154.56436"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="661.14233"
+                class="id_foaf:Person" cy="-635.5295" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-322.14166"
+                class="id_:libro-inventario-medici-analog" cy="-186.11188"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="221.77704"
+                class="id_crm:E24_Physical_Human-Made_Thing" cy="247.00789"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-561.34033"
+                class="id_:drapery-saint-peter-lun-i" cy="-378.89313"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-462.8478"
+                class="id_crm:E26_Physical_Feature" cy="496.76294"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-664.58325"
+                class="id_:lunette-masolino-sinopite-ii" cy="-162.98978"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-94.434875"
+                class="id_:int-unit-6" cy="139.3078" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="590.06537"
+                class="id_:libro-inventario-medici" cy="-198.08662"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-321.51987"
+                class="id_::restoration-1984" cy="172.0713" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-75.67768"
+                class="id_:intepretation-lunette-i-baldini1990" cy="-546.5539"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-719.8359"
+                class="id_Medici_Family" cy="-264.83447" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="552.3775"
+                class="id_fabio:AnalogItem" cy="332.3762" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-3.9972084"
+                class="id_:construction-branc-apse" cy="-281.604"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-241.1012"
+                class="id_:meucci-fresco" cy="10.214734" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="652.8427"
+                class="id_:iconology-de-marchi-lun-ii" cy="221.053"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-391.43515"
+                class="id_:iconology" cy="353.44064" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="356.6612"
+                class="id_6" cy="-583.0366" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="540.99896"
+                class="id_:provenance-bas-relief-de-marchi" cy="-204.72246"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="488.37326"
+                class="id_:vault-lunette-meucci" cy="-547.7253" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="617.63165"
+                class="id_:sheep-saint-peter-lun-ii" cy="17.04946"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-25.287832"
+                class="id_viaf:13102402" cy="377.31613" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-155.32391"
+                class="id_fabio:ComputerFile" cy="627.2354" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-201.97188"
+                class="id_:catalogue-masolino-2024" cy="-498.1657"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="128.48305"
+                class="id_:iconography-bas-relief-pope-hennessy" cy="520.9958"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-236.22911"
+                class="id_crm:E74_Group" cy="344.3467" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-388.1971"
+                class="id_:repentance-saint-peter" cy="-489.43704"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-523.8674"
+                class="id_vir:IC9_Representation" cy="85.048744"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-483.99063"
+                class="id_:meucci-sinopite" cy="-232.35544" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="465.2691"
+                class="id_3" cy="396.64923" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-475.73706"
+                class="id_crm:E12_Production" cy="225.75502" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="637.4269"
+                class="id_:masaccio" cy="13.896604" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="42.909492"
+                class="id_:lunette-masolino-fresco-ii" cy="-279.35538"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="248.95448"
+                class="id_:int-unit-5" cy="255.56476" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="638.3394"
+                class="id_:rooster-saint-peter-lun-i" cy="163.75966"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-155.28647"
+                class="id_viaf:128776887" cy="183.24467" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="623.05035"
+                class="id_:add-basrelief" cy="-385.5728" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="161.05637"
+                class="id_:restoration-1984" cy="-115.70507" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="386.9256"
+                class="id_Pasce_Oves_Meas" cy="-485.9258" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-39.09545"
+                class="id_2" cy="-43.00955" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="761.8172"
+                class="id_:loc-altar-brancacci" cy="40.445503" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="235.74197"
+                class="id_branco:provenance" cy="216.45892" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="735.18353"
+                class="id_4" cy="355.87778" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="739.5796"
+                class="id_:decoration-meucci-ii" cy="551.89984" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-218.81917"
+                class="id_:asf" cy="-425.21844" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-314.51132"
+                class="id_viaf:140812626" cy="-186.5313" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-204.72647"
+                class="id_Victoria_and_Albert_Museum" cy="281.57578"
+                stroke="#929292" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="597.4734"
+                class="id_fabio:Catalog" cy="411.68304" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="461.073"
+                class="id_:fresco-call-saint-peter" cy="431.41327"
+                stroke="#444444" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="545.99805"
+                class="id_Saint_Peter&apos;s_ecclesial_mission_on_Earth"
+                cy="-269.90207" stroke="#929292" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-514.2173"
+                class="id_Repentance_of_Sain_Peter" cy="662.13196"
+                stroke="#929292" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-489.55536"
+                class="id_Archivio_di_Stato_di_Firenze" cy="-134.05733"
+                stroke="#929292" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-566.7269"
+                class="id_viaf:39380437" cy="-203.04497" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="111.27495"
+                class="id_:fire-1771" cy="-292.38113" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="261.47458"
+                class="id_crm:E5_Event" cy="343.56268" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-185.71458"
+                class="id_The_Ascension_of_Jesus_and_Traditio_Clavium"
+                cy="-234.14789" stroke="#929292" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="333.42737"
+                class="id_:massaccio" cy="-623.75146" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-385.5019"
+                class="id_crm:E31_Document" cy="133.88269" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="378.9858"
+                class="id_crmsci:S1_Matter_Removal" cy="-76.03246"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="-442.61145"
+                class="id_:altar-brancacci" cy="-14.325119" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-323.16977"
+                class="id_fabio:ArchivalDocument" cy="518.17816"
+                stroke="#b29a6d" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#ffdd9d" r="9.2" cx="-629.6934"
+                class="id_fabio:Essay" cy="-630.28156" stroke="#b29a6d"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="244.0965"
+                class="id_viaf:7368513" cy="-359.5271" stroke="#929292"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#626262" r="9.2" cx="597.10223"
+                class="id_:lunette-sinopite-ii" cy="-400.41156" stroke="#444444"
+                stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="-536.4116"
+                class="id_https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=147960"
+                cy="-548.91406" stroke="#929292" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#d1d1d1" r="9.2" cx="52.441086"
+                class="id_5" cy="151.87" stroke="#929292" stroke-opacity="1.0"
+                stroke-width="1.5999999"/>
+    </g>
+</svg>
