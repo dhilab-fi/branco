@@ -76,7 +76,6 @@
     branco:hasChronologicalOrder "2"^^xsd:integer ;
     branco:models :decoration-lunette-i ;
     branco:involves :lunette-masolino-i ;
-    branco:involves :lunette-masolino-ii ;
     branco:covers :int-unit-1 ;
     cito:cites :intepretation-lunette-i-baldini1990 ;
     cito:cites :intepretation-lunette-i-christiansen1991 ;
