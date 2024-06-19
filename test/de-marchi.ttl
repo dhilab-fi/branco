@@ -133,6 +133,7 @@
     crm:P140_assigned_attribute_to :fresco-call-saint-peter ;
     crm:P177_assigned_property_of_type branco:author ;
     branco:providesComparisonWith :copy-call-saint-peter ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masolino .
 
 :intepretation-lunette-i-baldini1990 a branco:Interpretation ;      # Baldini 1990 - Right Lunette (AUTH / ICON) 
@@ -140,18 +141,21 @@
     crm:P177_assigned_property_of_type branco:iconography ;
     crm:P141_assigned :tears-saint-peter ;
     crm:P177_assigned_property_of_type branco:author ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masaccio . 
 
 :intepretation-lunette-i-christiansen1991 a branco:Interpretation ; # Christiansen 1991 - Right Lunette (AUTH)
     crm:P140_assigned_attribute_to :lunette-masolino-i ;
     crm:P177_assigned_property_of_type branco:author ;
     cito:disagreesWith :intepretation-lunette-i-baldini1990 ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masolino .
 
 :intepretation-lunette-i-joannides1993 a branco:Interpretation ;    # Joannides 1993 - Right Lunette (AUTH)
     crm:P140_assigned_attribute_to :lunette-masolino-i ;
     crm:P177_assigned_property_of_type branco:author ;
     cito:disagreesWith :intepretation-lunette-i-baldini1990 ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masolino .
 
 :iconography-bas-relief-pope-hennessy1949 a branco:Interpretation ; # Pope-Hennessy 1949 - Bas-relief (ICON)
@@ -166,6 +170,7 @@
     crm:P177_assigned_property_of_type branco:author ;
     cito:citesAsEvidence :drapery-saint-peter-lun-i ;
     cito:cites :interpretation-call-longhi ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masolino .
 
 :iconography-de-marchi-lun-i a branco:Interpretation ;              # Right Lunette (ICON)
@@ -180,6 +185,7 @@
     crm:P140_assigned_attribute_to :lunette-masolino-i ;
     crm:P177_assigned_property_of_type branco:author ;
     cito:usesConclusionsFrom :authorship-de-marchi-lun-i ;
+    cito:citesAsSourceDocument :vasari-vite ;
     crm:P141_assigned :masolino .
 
 :iconography-de-marchi-lun-ii a branco:Interpretation ;             # Left Lunette (ICONOGRAPHY)
@@ -187,13 +193,16 @@
     crm:P140_assigned_attribute_to :lunette-masolino-ii ;
     crm:P177_assigned_property_of_type branco:iconography ;
     cito:citesAsEvidence :sheep-saint-peter-lun-ii ;
+    cito:extends :vasari-vite;
     crm:P141_assigned :pasce-oves-meas .
 
 :iconology-de-marchi-lun-ii a branco:Interpretation ;               # Left Lunette (ICONOLOGY)
     hico:isExtractedFrom :catalogue-masolino-2024-ita ;
     crm:P140_assigned_attribute_to :lunette-masolino-ii ;
     crm:P177_assigned_property_of_type :iconology ;
-    crm:P141_assigned :mission-saint-peter .
+    crm:P141_assigned :mission-saint-peter ;
+    crm:P141_assigned :loyalty-to-rome ;
+    crm:P141_assigned :pulvichese-homage.
 
 :location-bas-relief-de-marchi a branco:Interpretation ;            # Bas-relief (ORIG. LOCATION)
     hico:isExtractedFrom :catalogue-masolino-2024-ita ;
@@ -270,6 +279,12 @@
 :mission-saint-peter a crm:E90_Symbolic_Object ;
     rdfs:label "Saint Peter's ecclesial mission on Earth"^^xsd:string .
 
+:loyalty-to-rome a crm:E90_Symbolic_Object ;
+    rdfs:label "Loyalty to the Church of Roma and the Pope Martino V"^^xsd:string .
+
+:pulvichese-homage a crm:E90_Symbolic_Object ;
+    rdfs:label "Homage to Piero del Pulvichese, ancestor of Felice Brancacci"^^xsd:string .
+
 # ===================
 # ===================
 
@@ -297,6 +312,9 @@
 :fatti-di-masaccio-masolino a fabio:Essay ;
     frbr:realization :fatti-di-masaccio-masolino-ita .
 
+:vasari-vite a fabio:Biography ;
+    rdfs:label "Vasari, Le vite de’ più eccellenti pittori, scultori ed architetti"^^xsd:string .
+
 # ===================
 # ===================
 
@@ -313,6 +331,7 @@
     crm:P46_is_composed_of :lunette-masolino-fresco-i .
 
 :lunette-masolino-sinopite-i a crm:E22_Human-Made_Object ;
+    rdfs:label "Sinopite of the right lunette by Masolino"^^xsd:string ;
     a crmsci:S11_Amount_of_Matter ;
     crm:P56_bears_feature :drapery-saint-peter-lun-i ;
     crm:P56_bears_feature :rooster-saint-peter-lun-i .
@@ -328,6 +347,7 @@
     crm:P46_is_composed_of :lunette-masolino-fresco-ii .
 
 :lunette-masolino-sinopite-ii a crm:E22_Human-Made_Object ;
+    rdfs:label "Sinopite of the left lunette by Masolino"^^xsd:string ;
     a crmsci:S11_Amount_of_Matter ;
     crm:P56_bears_feature :sheep-saint-peter-lun-ii .
 
