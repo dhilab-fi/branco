@@ -17,6 +17,11 @@ The onotlogy has been developed at the CNR ISPC - DHILab, Florence by Ivana Cera
 
 For any issue, you can write an email to manuele.veggi@uniroma1.it.
 
+## Publication
+- M. Veggi, I. Cerato, «Stratigraphic Units beyond Archaeological Contexts. A Proposal to Enhance Knowledge Management of Heterogeneous Data of Cultural Heritage Sites» in M. Corsini, D. Ferdani, A. Kuijper, H. Kutlu (eds.), GCH2024 - Eurographics Workshop on Graphics and Cultural Heritage 2024, 2024, DOI: [10.2312/gch.20241263](https://diglib.eg.org/items/a7265440-9482-4174-b97e-1d49ced06814)
+
+- M. Veggi, I. Cerato, «Brancacci Chapel Ontology», slides of the presentation the Extended Matrix Community, 17th Oct. 2024, DOI: [10.5281/zenodo.13946394](https://zenodo.org/records/13946394).
+
 ## License
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
