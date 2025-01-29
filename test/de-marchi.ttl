@@ -1,4 +1,4 @@
-@prefix : <http://w3id.org/cnr-ispc/brancacci/example> .
+@prefix : <http://w3id.org/cnr-ispc/brancacci/example#> .
 @prefix branco: <https://w3id.org/cnr-ispc/ontology/branco#> .
 
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
